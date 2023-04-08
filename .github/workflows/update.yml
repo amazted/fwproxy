@@ -18,7 +18,7 @@ jobs:
       - name: Update Links & Combine Configs
         # Condition to prevent unintended automatic workflow
         # Change or comment out this line for automatic workflow on forks
-        if: github.repository == 'williamstar007/clashx-v2ray-topfreeproxy'
+        if: github.repository == 'amazted/fwproxy'
         run: |          
           echo "$(date '+%Y-%m-%d %H:%M:%S')" > combine/.timestamp
           python .github/workflows/update.py
