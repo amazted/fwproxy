@@ -15,7 +15,7 @@ jobs:
     steps:
       # Checks-out the repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v3
-      - with:
+        with:
           persist-credentials: false
       - name: Update Links & Combine Configs
         # Condition to prevent unintended automatic workflow
