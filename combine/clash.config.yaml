@@ -896,25 +896,15 @@ proxies:
   cipher: auto
   name: 伯利兹 001_3@1
   network: ws
-  port: 80
-  server: 203.30.191.2
-  skip-cert-verify: true
-  type: vmess
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 伯利兹 002_3@2
-  network: ws
   port: 8880
-  server: 203.30.189.2
+  server: 203.30.190.2
   skip-cert-verify: true
   type: vmess
   uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 001_3@3
+  name: 俄罗斯 001_3@2
   network: ws
   port: 443
   server: 185.143.220.25
@@ -927,7 +917,7 @@ proxies:
     path: /6e9EtZ2dL
 - alterId: 0
   cipher: auto
-  name: 印度 002_3@5
+  name: 印度 002_3@4
   network: ws
   port: 443
   server: free-id.ajunstores.me
@@ -941,7 +931,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 印度 003_3@6
+  name: 印度 003_3@5
   network: ws
   port: 80
   server: free-id.ajunstores.me
@@ -953,7 +943,7 @@ proxies:
     headers:
       host: free-id.ajunstores.me
     path: /vmess
-- name: 印度 004_3@7
+- name: 印度 004_3@6
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsin2-data.amazon-azure.com
@@ -964,17 +954,7 @@ proxies:
   uuid: 032ce154-696f-443e-798b-5197e72d7727
 - alterId: 0
   cipher: auto
-  name: 哥斯达黎加 001_3@8
-  network: ws
-  port: 8880
-  server: 190.93.246.3
-  skip-cert-verify: true
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 土耳其 001_3@9
+  name: 土耳其 001_3@7
   network: ws
   port: 8443
   server: 45.89.52.41
@@ -986,17 +966,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 塞浦路斯 001_3@10
-  network: ws
-  port: 8880
-  server: 203.24.108.100
-  skip-cert-verify: true
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡 001_3@11
+  name: 新加坡 001_3@8
   network: tcp
   port: 2087
   server: 13.251.81.120
@@ -1006,7 +976,7 @@ proxies:
   uuid: 55329786-3769-3d15-a552-ba42e4d8bae6
 - alterId: 0
   cipher: auto
-  name: 新加坡 002_3@12
+  name: 新加坡 002_3@9
   network: ws
   port: 10000
   server: 15.235.140.54
@@ -1018,7 +988,7 @@ proxies:
     path: /vpnjantit
 - alterId: 64
   cipher: auto
-  name: 新加坡 003_3@13
+  name: 新加坡 003_3@10
   network: ws
   port: 55414
   server: 43.134.227.81
@@ -1030,7 +1000,7 @@ proxies:
     path: /sg6/getData
 - alterId: 0
   cipher: auto
-  name: 新加坡 004_3@14
+  name: 新加坡 004_3@11
   network: ws
   port: 80
   server: 139.162.63.139
@@ -1042,7 +1012,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 005_3@15
+  name: 新加坡 005_3@12
   network: ws
   port: 443
   server: sg.musekidan.com
@@ -1057,7 +1027,7 @@ proxies:
     path: /sg
 - alterId: 0
   cipher: auto
-  name: 新加坡 006_3@16
+  name: 新加坡 006_3@13
   network: ws
   port: 10000
   server: 139.99.88.161
@@ -1068,7 +1038,7 @@ proxies:
   uuid: 7a877fa0-d965-11ed-ad71-7331bd5f599c
   ws-opts:
     path: /vpnjantit
-- name: 新加坡 007_3@17
+- name: 新加坡 007_3@14
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg4-tg-data.amazonwebservicess.com
@@ -1077,7 +1047,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 397fa142-549c-25bc-cfae-68bc8c22cae8
-- name: 新加坡 008_3@18
+- name: 新加坡 008_3@15
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg1-tg-data.amazonwebservicess.com
@@ -1086,7 +1056,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 5ce95360-ebe8-cb6c-0c99-2bd4450bfe22
-- name: 新加坡 009_3@19
+- name: 新加坡 009_3@16
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg2-tg-data.amazonwebservicess.com
@@ -1095,7 +1065,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 02f32a89-a49c-4a6f-2cf5-1e84da3880ac
-- name: 新加坡 010_3@20
+- name: 新加坡 010_3@17
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg13-tg-data.amazonwebservicess.com
@@ -1106,7 +1076,7 @@ proxies:
   uuid: 82b90143-0fb5-4af7-b825-731d178785f7
 - alterId: 0
   cipher: auto
-  name: 新加坡 011_3@21
+  name: 新加坡 011_3@18
   port: 2087
   server: 103.47.100.218
   skip-cert-verify: false
@@ -1114,9 +1084,23 @@ proxies:
   type: vmess
   udp: true
   uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02
+- alterId: 0
+  cipher: auto
+  name: 新加坡 012_3@19
+  network: ws
+  port: 443
+  server: vsg1.0bad.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vsg1.0bad.com
+    path: /chat
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 新加坡 012_3@22
+  name: 新加坡 013_3@20
   password: tg@herhero6
   plugin: v2ray-plugin
   plugin-opts:
@@ -1134,7 +1118,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 新加坡 013_3@23
+  name: 新加坡 014_3@21
   port: 32253
   server: natsg1.bytevirt.net
   skip-cert-verify: false
@@ -1144,7 +1128,7 @@ proxies:
   uuid: 1751669b-e73b-45a6-96b1-dafc2894c13e
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 新加坡 014_3@24
+  name: 新加坡 015_3@22
   password: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3
   port: 9306
   server: wj-sg-02.wujie.bio
@@ -1153,37 +1137,17 @@ proxies:
   uuid: 64e6c3e0-c7d5-fe94-4264-ae79cf07afe8
 - alterId: 0
   cipher: auto
-  name: 新加坡 015_3@25
+  name: 新加坡 016_3@23
   network: ws
   port: 31361
   server: 146.190.89.189
   skip-cert-verify: true
   type: vmess
   uuid: 0f2311e2-93a9-4f6e-b6a0-633edaca90dc
-  ws-path: ''
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 016_3@26
-  network: ws
-  port: 16627
-  server: sg.musekidan.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 88b08b5d-4890-47a5-a15f-1da9c60a02ca
-  ws-path: /sg
-- alterId: 0
-  cipher: auto
-  name: 新加坡 017_3@27
-  network: ws
-  port: 443
-  server: sg1.netflix6.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 070354da-37b8-34f2-b398-b416cc840be6
-  ws-path: /hls/us8.m3u8
-- alterId: 0
-  cipher: auto
-  name: 日本 001_3@28
+  name: 日本 001_3@24
   network: tcp
   port: 446
   server: jp04-vm0.entry.srthdw.art
@@ -1192,49 +1156,49 @@ proxies:
   type: vmess
   uuid: b2a2c706-12e0-3335-8a62-31925219a712
 - cipher: chacha20-ietf-poly1305
-  name: 日本 002_3@29
+  name: 日本 002_3@25
   password: G!yBwPWH3Vao
   port: 806
   server: 185.172.113.182
   type: ss
   uuid: 5010ebb9-f0f8-a160-efea-2760b6aca1e2
 - cipher: chacha20-ietf-poly1305
-  name: 日本 003_3@30
+  name: 日本 003_3@26
   password: G!yBwPWH3Vao
   port: 811
   server: 185.172.113.182
   type: ss
   uuid: 3f4148ac-c920-f0ad-568d-72665ab56c92
 - cipher: chacha20-ietf-poly1305
-  name: 日本 004_3@31
+  name: 日本 004_3@27
   password: G!yBwPWH3Vao
   port: 812
   server: 185.172.113.182
   type: ss
   uuid: 46bf9ae2-1174-3d25-ff87-bb5a1fbc3c1b
 - cipher: chacha20-ietf-poly1305
-  name: 日本 005_3@32
+  name: 日本 005_3@28
   password: G!yBwPWH3Vao
   port: 800
   server: 185.172.113.182
   type: ss
   uuid: 7580a9cd-2d9e-400d-5f38-fad77e2183d9
 - cipher: chacha20-ietf-poly1305
-  name: 日本 006_3@33
+  name: 日本 006_3@29
   password: G!yBwPWH3Vao
   port: 804
   server: 185.172.113.182
   type: ss
   uuid: 645f5589-192b-d0c1-1c08-fdb9d2590160
 - cipher: chacha20-ietf-poly1305
-  name: 日本 007_3@34
+  name: 日本 007_3@30
   password: G!yBwPWH3Vao
   port: 809
   server: 185.172.113.182
   type: ss
   uuid: 41f57501-ea59-bac3-05c5-9ab95e4647ef
 - cipher: chacha20-ietf-poly1305
-  name: 日本 008_3@35
+  name: 日本 008_3@31
   password: G!yBwPWH3Vao
   port: 810
   server: 185.172.113.182
@@ -1242,7 +1206,7 @@ proxies:
   uuid: 8703f8e6-63ae-6ee6-ef5f-0419bc196818
 - alterId: 2
   cipher: auto
-  name: 日本 009_3@36
+  name: 日本 009_3@32
   network: ws
   port: 80
   server: dcbbe37e-rtixs0-xn6w.jp.p5pv.com
@@ -1257,7 +1221,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本 010_3@37
+  name: 日本 010_3@33
   network: ws
   port: 443
   server: bgpus4.amazon-azure.com
@@ -1272,7 +1236,7 @@ proxies:
     path: /aws-china-media/Y699Gjx2rNw.mp4
 - alterId: 0
   cipher: auto
-  name: 日本 011_3@38
+  name: 日本 011_3@34
   network: ws
   port: 443
   server: bgpus6.amazon-azure.com
@@ -1287,7 +1251,7 @@ proxies:
     path: /aws-china-media/Y699Gjx2rNw.mp4
 - alterId: 0
   cipher: auto
-  name: 日本 012_3@39
+  name: 日本 012_3@35
   network: ws
   port: 80
   server: cloud.cluster.download.cloudsys.buzz
@@ -1302,7 +1266,7 @@ proxies:
     path: /ac9c9cf8-d1c3-4eb7-aa66-5052edaf9a94.ts
 - alterId: 0
   cipher: auto
-  name: 日本 013_3@40
+  name: 日本 013_3@36
   network: ws
   port: 20960
   server: tk-002-002.xiaoxiaobujidao.xyz
@@ -1317,7 +1281,7 @@ proxies:
     path: /xiaodao?ed=2048
 - alterId: 0
   cipher: auto
-  name: 日本 014_3@41
+  name: 日本 014_3@37
   network: ws
   port: 20960
   server: tk-002.xiaoxiaobujidao.xyz
@@ -1332,7 +1296,7 @@ proxies:
     path: /xiaodao?ed=2048
 - alterId: 0
   cipher: auto
-  name: 日本 015_3@42
+  name: 日本 015_3@38
   network: ws
   port: 443
   server: bgpjp1.data.amazon-azure.com
@@ -1347,7 +1311,7 @@ proxies:
     path: /aws-china-media/Y699Gjx2rNw.mp4
 - alterId: 64
   cipher: auto
-  name: 日本 016_3@43
+  name: 日本 016_3@39
   port: 50002
   server: 107.148.5.80
   skip-cert-verify: true
@@ -1357,7 +1321,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: 日本 017_3@44
+  name: 日本 017_3@40
   network: ws
   port: 30866
   server: v6.heduian.online
@@ -1371,7 +1335,7 @@ proxies:
       Host: v6.heduian.online
     path: /oooo
 - cipher: aes-256-gcm
-  name: 日本 018_3@45
+  name: 日本 018_3@41
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 85.208.108.21
@@ -1379,7 +1343,7 @@ proxies:
   udp: true
   uuid: f414c020-d798-c2aa-1477-4d901744539c
 - cipher: aes-256-gcm
-  name: 日本 019_3@46
+  name: 日本 019_3@42
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 85.208.108.21
@@ -1387,7 +1351,7 @@ proxies:
   udp: true
   uuid: d461f253-e624-24a4-4e06-b197fa5be298
 - cipher: aes-256-gcm
-  name: 日本 020_3@47
+  name: 日本 020_3@43
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 85.208.108.21
@@ -1395,7 +1359,7 @@ proxies:
   udp: true
   uuid: 518e54f5-adf2-2423-9bd3-6da1b04b7f35
 - cipher: aes-256-gcm
-  name: 日本 021_3@48
+  name: 日本 021_3@44
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 85.208.108.21
@@ -1403,7 +1367,7 @@ proxies:
   udp: true
   uuid: 6b963547-6f24-4d96-02c1-f84fd2beafdf
 - cipher: aes-256-gcm
-  name: 日本 022_3@49
+  name: 日本 022_3@45
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 85.208.108.21
@@ -1411,7 +1375,7 @@ proxies:
   udp: true
   uuid: 6f7061cc-96b3-2d88-80f5-16bcdf18350f
 - cipher: aes-256-gcm
-  name: 日本 023_3@50
+  name: 日本 023_3@46
   password: faBAoD54k87UJG7
   port: 2375
   server: 85.208.108.21
@@ -1419,7 +1383,7 @@ proxies:
   udp: true
   uuid: e3074d98-de64-f2e7-362a-e8737f900f9c
 - cipher: aes-256-gcm
-  name: 日本 024_3@51
+  name: 日本 024_3@47
   password: KixLvKzwjekG00rm
   port: 8000
   server: 85.208.108.21
@@ -1427,7 +1391,7 @@ proxies:
   udp: true
   uuid: 855eaa06-9cb8-cdf1-66f8-48ef41038f5c
 - cipher: aes-256-gcm
-  name: 日本 025_3@52
+  name: 日本 025_3@48
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 85.208.108.21
@@ -1435,7 +1399,7 @@ proxies:
   udp: true
   uuid: e7100e47-df90-4c1f-3ee2-b1f98c419052
 - cipher: aes-256-gcm
-  name: 日本 026_3@53
+  name: 日本 026_3@49
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 85.208.108.21
@@ -1443,7 +1407,7 @@ proxies:
   udp: true
   uuid: 0d8428f0-506d-5b81-8744-fdea84105927
 - cipher: aes-256-gcm
-  name: 日本 027_3@54
+  name: 日本 027_3@50
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.21
@@ -1451,7 +1415,7 @@ proxies:
   udp: true
   uuid: b3907346-523e-5662-a79d-c1431f822beb
 - cipher: aes-256-gcm
-  name: 日本 028_3@55
+  name: 日本 028_3@51
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 85.208.108.21
@@ -1459,7 +1423,7 @@ proxies:
   udp: true
   uuid: 9282edaa-da34-7fdd-fc86-bfde65e8ea18
 - cipher: aes-256-gcm
-  name: 日本 029_3@56
+  name: 日本 029_3@52
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 85.208.108.21
@@ -1467,7 +1431,7 @@ proxies:
   udp: true
   uuid: 4ea7762b-04a5-437a-a14e-2f8e61971f74
 - cipher: aes-256-gcm
-  name: 日本 030_3@57
+  name: 日本 030_3@53
   password: KixLvKzwjekG00rm
   port: 8080
   server: 85.208.108.21
@@ -1475,14 +1439,14 @@ proxies:
   udp: true
   uuid: fd830268-12c0-3e1e-3ae9-46797de7ce19
 - cipher: aes-256-gcm
-  name: 日本 031_3@58
+  name: 日本 031_3@54
   password: XKFKl2rULjIp74
   port: 8008
   server: 85.208.108.21
   type: ss
   udp: true
   uuid: ccc98cb9-fd83-44df-8c15-c31287705c0c
-- name: 日本 032_3@59
+- name: 日本 032_3@55
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp5-data.amazon-azure.com
@@ -1491,7 +1455,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 4065dfed-6083-1cec-2b7c-35a0f161fc4f
-- name: 日本 033_3@60
+- name: 日本 033_3@56
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp16-data.amazon-azure.com
@@ -1500,7 +1464,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 77eac356-70c7-6c2e-af11-8a3b63afbc19
-- name: 日本 034_3@61
+- name: 日本 034_3@57
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp4-data.amazon-azure.com
@@ -1509,7 +1473,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 3df25e0f-c3a9-6bc9-092f-da93b88accd4
-- name: 日本 035_3@62
+- name: 日本 035_3@58
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp17-data.amazon-azure.com
@@ -1518,7 +1482,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 9c1bffb6-912b-4fb2-2f79-57036849fa7f
-- name: 日本 036_3@63
+- name: 日本 036_3@59
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp2-data.amazon-azure.com
@@ -1527,7 +1491,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 4f84b27b-25a7-d341-260e-ebba2634dfc4
-- name: 日本 037_3@64
+- name: 日本 037_3@60
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp18-data.amazon-azure.com
@@ -1536,7 +1500,7 @@ proxies:
   type: trojan
   udp: true
   uuid: a43cfb27-380e-8e0f-04c3-72cf1060ce52
-- name: 日本 038_3@65
+- name: 日本 038_3@61
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp1-data.amazon-azure.com
@@ -1545,7 +1509,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 22541ca3-acce-dbe3-ba3e-8b707f17fed7
-- name: 日本 039_3@66
+- name: 日本 039_3@62
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp20-data.amazon-azure.com
@@ -1554,7 +1518,7 @@ proxies:
   type: trojan
   udp: true
   uuid: c8518bd4-183c-5d54-9722-a9a1351ad955
-- name: 日本 040_3@67
+- name: 日本 040_3@63
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp3-data.amazon-azure.com
@@ -1563,7 +1527,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 3f084053-8e3d-4f90-a336-d3a6132afd76
-- name: 日本 041_3@68
+- name: 日本 041_3@64
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp12-data.amazon-azure.com
@@ -1572,7 +1536,7 @@ proxies:
   type: trojan
   udp: true
   uuid: d7d32098-a1ad-eafc-a801-8a65ac360e18
-- name: 日本 042_3@69
+- name: 日本 042_3@65
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp11-data.amazon-azure.com
@@ -1581,7 +1545,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 7c124470-aa45-012f-d68b-b6fb162f9e4e
-- name: 日本 043_3@70
+- name: 日本 043_3@66
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp13-data.amazon-azure.com
@@ -1590,7 +1554,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 272cf17c-c68b-ca47-9aa1-0e2fa5d2207a
-- name: 日本 044_3@71
+- name: 日本 044_3@67
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp15-data.amazon-azure.com
@@ -1599,7 +1563,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 46370b13-09f1-e118-5019-54fe10c64188
-- name: 日本 045_3@72
+- name: 日本 045_3@68
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp19-data.amazon-azure.com
@@ -1608,7 +1572,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 3f9dff85-7ceb-9d38-a94c-f873067c0127
-- name: 日本 046_3@73
+- name: 日本 046_3@69
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: 43.206.138.232
@@ -1617,7 +1581,7 @@ proxies:
   type: trojan
   udp: true
   uuid: e33b1bb6-b5f9-79cc-5a78-d3bb32359d82
-- name: 日本 047_3@74
+- name: 日本 047_3@70
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsjp14-data.amazon-azure.com
@@ -1626,7 +1590,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 4745fafb-faf7-802b-0d0a-ed8e74f9a423
-- name: 日本 048_3@75
+- name: 日本 048_3@71
   password: AAQpJnbNDs
   port: 1231
   server: tr.jp.tlz.asia
@@ -1636,7 +1600,7 @@ proxies:
   uuid: 90621e07-2b07-4d36-b2dc-c840a8a4c993
 - alterId: 1
   cipher: auto
-  name: 日本 049_3@76
+  name: 日本 049_3@72
   port: 444
   server: jp02-vm0.entry.srthdw.art
   skip-cert-verify: false
@@ -1646,16 +1610,7 @@ proxies:
   uuid: 21c670ff-c739-3072-9286-7d2a1d300fcb
 - alterId: 0
   cipher: auto
-  name: 日本 050_3@77
-  port: 41545
-  server: 141.147.153.244
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
-- alterId: 0
-  cipher: auto
-  name: 日本 051_3@78
+  name: 日本 050_3@73
   port: 26297
   server: 131.186.41.192
   skip-cert-verify: false
@@ -1664,7 +1619,16 @@ proxies:
   uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91
 - alterId: 0
   cipher: auto
-  name: 日本 052_3@79
+  name: 日本 051_3@74
+  port: 41545
+  server: 141.147.153.244
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
+- alterId: 0
+  cipher: auto
+  name: 日本 052_3@75
   network: ws
   port: 443
   server: vjp1.0bad.com
@@ -1675,9 +1639,19 @@ proxies:
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   ws-opts:
     path: /chat
+- alterId: 0
+  cipher: auto
+  name: 日本 053_3@76
+  network: ws
+  port: 9039
+  server: wj-jp-01.wujie.bio
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2f1831cc-4c25-4adc-b340-e3e5de09a7d3
+  ws-path: /
 - alterId: 64
   cipher: auto
-  name: 日本 053_3@80
+  name: 日本 054_3@77
   network: ''
   port: 46002
   server: 45.88.43.237
@@ -1687,27 +1661,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 日本 054_3@81
-  network: ''
-  port: 50801
-  server: 45.88.43.136
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: ''
-- alterId: 64
-  cipher: auto
-  name: 日本 055_3@82
-  network: tcp
-  port: 46002
-  server: 45.88.43.235
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: /je5x3pBN1vez3NQudNkB
-- alterId: 64
-  cipher: auto
-  name: 日本 056_3@83
+  name: 日本 055_3@78
   network: ''
   port: 50801
   server: 45.88.43.133
@@ -1717,17 +1671,47 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 日本 057_3@84
-  network: tcp
-  port: 50002
-  server: 107.148.5.81
+  name: 日本 056_3@79
+  network: ''
+  port: 46002
+  server: 45.88.43.239
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: ''
+- alterId: 0
+  cipher: auto
+  name: 日本 057_3@80
+  network: ws
+  port: 80
+  server: 172.105.217.55
+  skip-cert-verify: true
+  type: vmess
+  uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c
+  ws-path: /fuzzyng?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 日本 058_3@81
+  network: ''
+  port: 50801
+  server: 45.88.43.136
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 日本 058_3@85
+  name: 日本 059_3@82
+  network: tcp
+  port: 46002
+  server: 45.88.43.235
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: ''
+- alterId: 64
+  cipher: auto
+  name: 日本 060_3@83
   network: tcp
   port: 53002
   server: 107.148.5.161
@@ -1735,79 +1719,89 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: ''
+- alterId: 64
+  cipher: auto
+  name: 日本 061_3@84
+  network: tcp
+  port: 50002
+  server: 107.148.5.81
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 日本 059_3@86
+  name: 日本 062_3@85
   network: tcp
   port: 31311
   server: 2d1t5w06.mcfront.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: 45d1d96a-07fa-4c87-871d-020b299b682f
+  uuid: eaf52edf-350d-46cd-baf9-426fe695c407
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 日本 060_3@87
+  name: 日本 063_3@86
   network: tcp
   port: 31801
   server: 1a4p0h04.mcfront.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: 45d1d96a-07fa-4c87-871d-020b299b682f
+  uuid: eaf52edf-350d-46cd-baf9-426fe695c407
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 日本 061_3@88
+  name: 日本 064_3@87
   network: tcp
   port: 31831
   server: 6q3i1n04.mcfront.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: 45d1d96a-07fa-4c87-871d-020b299b682f
+  uuid: eaf52edf-350d-46cd-baf9-426fe695c407
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 日本 062_3@89
+  name: 日本 065_3@88
   network: tcp
   port: 31821
   server: 4o5a3u04.mcfront.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: 45d1d96a-07fa-4c87-871d-020b299b682f
+  uuid: eaf52edf-350d-46cd-baf9-426fe695c407
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 日本 063_3@90
+  name: 日本 066_3@89
   network: tcp
   port: 31811
   server: 3a4u0k04.mcfront.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: 45d1d96a-07fa-4c87-871d-020b299b682f
+  uuid: eaf52edf-350d-46cd-baf9-426fe695c407
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 日本 064_3@91
+  name: 日本 067_3@90
   network: tcp
   port: 31841
   server: 9t1d5e04.mcfront.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: 45d1d96a-07fa-4c87-871d-020b299b682f
+  uuid: eaf52edf-350d-46cd-baf9-426fe695c407
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 日本 065_3@92
+  name: 日本 068_3@91
   network: tcp
   port: 31701
   server: 3d1c4a04.mcfront.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: 45d1d96a-07fa-4c87-871d-020b299b682f
+  uuid: eaf52edf-350d-46cd-baf9-426fe695c407
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 法国 001_3@93
+  name: 法国 001_3@92
   network: ws
   port: 443
   server: 173.245.49.40
@@ -1820,29 +1814,21 @@ proxies:
     headers:
       Host: uyaa.vtcss.top
     path: /qwer07
-- alterId: 64
-  cipher: auto
-  name: 法国 003_3@95
-  network: tcp
-  port: 30335
-  server: 156.249.18.36
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 法国 004_3@96
+  name: 法国 002_3@93
   network: ws
   port: 80
   server: 188.165.170.83
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tls: false
   type: vmess
   uuid: 860a862a-2798-4037-8513-b060e310e7fc
-  ws-path: /
+  ws-opts:
+    path: /
 - alterId: 64
   cipher: auto
-  name: 法国 005_3@97
+  name: 法国 004_3@95
   network: tcp
   port: 47021
   server: 151.80.11.236
@@ -1852,7 +1838,17 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 波兰 001_3@98
+  name: 法国 005_3@96
+  network: ws
+  port: 2095
+  server: 173.245.49.20
+  skip-cert-verify: true
+  type: vmess
+  uuid: 19350d64-6868-4a64-e501-9c0df903d788
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 波兰 001_3@97
   network: ws
   port: 443
   server: pl2-vmess.greenssh.xyz
@@ -1866,20 +1862,20 @@ proxies:
       Host: pl2-vmess.greenssh.xyz
     path: /vmess
 - cipher: aes-256-gcm
-  name: 波兰 002_3@99
+  name: 波兰 002_3@98
   password: KixLvKzwjekG00rm
   port: 8000
   server: 54.36.174.181
   type: ss
   uuid: 88695fe6-b356-f75e-f970-daca0d97735c
 - cipher: aes-256-gcm
-  name: 波兰 003_3@100
+  name: 波兰 003_3@99
   password: Y6R9pAtvxxzmGC
   port: 5600
   server: 54.36.174.181
   type: ss
   uuid: a01529ce-d800-e831-3516-de30dae15af7
-- name: 澳大利亚 001_3@101
+- name: 澳大利亚 001_3@100
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk4-tg-data.amazonwebservicess.com
@@ -1890,34 +1886,25 @@ proxies:
   uuid: f59a1573-876c-fe59-70e4-7b14cdd066c0
 - alterId: 64
   cipher: auto
-  name: 澳大利亚 002_3@102
-  port: 33505
-  server: 139.99.180.115
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6c04a273-7302-4e09-9ced-aedaaa7461af
-- alterId: 64
-  cipher: auto
-  name: 澳大利亚 003_3@103
-  port: 50002
-  server: 139.99.245.165
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 澳大利亚 004_3@104
+  name: 澳大利亚 002_3@101
   port: 24445
   server: 140.83.63.38
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- alterId: 64
+  cipher: auto
+  name: 澳大利亚 003_3@102
+  port: 50002
+  server: 139.99.245.165
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 澳大利亚 005_3@105
+  name: 澳大利亚 004_3@103
   port: 23183
   server: 43.154.34.49
   skip-cert-verify: false
@@ -1926,7 +1913,16 @@ proxies:
   uuid: b402a4af-285a-463e-c3a7-53f91efdec78
 - alterId: 64
   cipher: auto
-  name: 澳大利亚 006_3@106
+  name: 澳大利亚 005_3@104
+  port: 33505
+  server: 139.99.180.115
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 6c04a273-7302-4e09-9ced-aedaaa7461af
+- alterId: 64
+  cipher: auto
+  name: 澳大利亚 006_3@105
   network: ws
   port: 28056
   server: 47.74.89.109
@@ -1936,19 +1932,9 @@ proxies:
   uuid: e2111758-b370-4c0e-8061-0269741a39ef
   ws-opts:
     path: /aus/getData
-- alterId: 64
-  cipher: auto
-  name: 澳大利亚 007_3@107
-  network: tcp
-  port: 50002
-  server: 139.99.162.120
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 澳大利亚 008_3@108
+  name: 澳大利亚 007_3@106
   network: ws
   port: 1235
   server: 152.67.116.24
@@ -1958,15 +1944,15 @@ proxies:
   ws-path: /gcore
 - alterId: 64
   cipher: auto
-  name: 澳大利亚 009_3@109
-  network: ws
-  port: 22531
-  server: 47.74.89.109
+  name: 澳大利亚 008_3@107
+  network: tcp
+  port: 50002
+  server: 139.99.162.120
   skip-cert-verify: true
   type: vmess
-  uuid: e2111758-b370-4c0e-8061-0269741a39ef
-  ws-path: /aus/getData
-- name: 瑞士 001_3@110
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: ''
+- name: 瑞士 001_3@108
   password: '4478'
   port: 443
   server: 195.15.243.26
@@ -1976,7 +1962,7 @@ proxies:
   uuid: c1ad8120-c64b-b048-fac3-bf24f86a947a
 - alterId: 64
   cipher: auto
-  name: 美国 001_3@111
+  name: 美国 001_3@109
   network: tcp
   port: 56662
   server: 23.225.33.170
@@ -1986,7 +1972,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 美国 004_3@114
+  name: 美国 004_3@112
   network: ws
   port: 443
   server: 141.101.113.6
@@ -2000,7 +1986,7 @@ proxies:
     path: /qwer
 - alterId: 0
   cipher: auto
-  name: 美国 005_3@115
+  name: 美国 005_3@113
   network: ws
   port: 8080
   server: cf-lt.sharecentre.online
@@ -2014,7 +2000,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 美国 006_3@116
+  name: 美国 006_3@114
   network: ws
   port: 443
   server: cdnjs.com
@@ -2028,7 +2014,7 @@ proxies:
     path: /speedtest
 - alterId: 64
   cipher: auto
-  name: 美国 007_3@117
+  name: 美国 007_3@115
   port: 56002
   server: 23.225.33.168
   skip-cert-verify: true
@@ -2038,7 +2024,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 美国 008_3@118
+  name: 美国 008_3@116
   network: ws
   port: 80
   server: 172.67.217.222
@@ -2053,7 +2039,7 @@ proxies:
     path: /shirker
 - alterId: 64
   cipher: auto
-  name: 美国 009_3@119
+  name: 美国 009_3@117
   port: 53302
   server: 172.247.148.82
   skip-cert-verify: true
@@ -2063,7 +2049,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 美国 010_3@120
+  name: 美国 010_3@118
   port: 50015
   server: 142.0.132.41
   skip-cert-verify: true
@@ -2072,7 +2058,7 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - country: 🇨🇳 CN
-  name: 美国 011_3@121
+  name: 美国 011_3@119
   password: 56510968-0185-434a-b7d4-ce0315129ec5
   port: 31004
   server: client.asucaeva.net
@@ -2081,7 +2067,7 @@ proxies:
   udp: true
   uuid: 5d56a406-4f1c-9fea-54a9-6929fa972b5c
 - country: 🇨🇳 CN
-  name: 美国 012_3@122
+  name: 美国 012_3@120
   password: 56510968-0185-434a-b7d4-ce0315129ec5
   port: 31001
   server: client.asucaeva.net
@@ -2091,7 +2077,7 @@ proxies:
   uuid: 81135280-00e6-5d06-a622-7c73ab6f1b2c
 - cipher: chacha20-ietf-poly1305
   country: 🇭🇰 HK
-  name: 美国 013_3@123
+  name: 美国 013_3@121
   password: 56510968-0185-434a-b7d4-ce0315129ec5
   port: 40002
   server: clientss.asucaeva.net
@@ -2099,14 +2085,14 @@ proxies:
   uuid: 7fff5fdb-206e-2895-74f8-c0e6b2ff7efd
 - cipher: chacha20-ietf-poly1305
   country: 🇭🇰 HK
-  name: 美国 014_3@124
+  name: 美国 014_3@122
   password: 56510968-0185-434a-b7d4-ce0315129ec5
   port: 40001
   server: clientss.asucaeva.net
   type: ss
   uuid: 2e565c5a-9503-407b-8d37-77a5939b42bb
 - country: 🇸🇬 SG
-  name: 美国 015_3@125
+  name: 美国 015_3@123
   password: 56510968-0185-434a-b7d4-ce0315129ec5
   port: 33005
   server: client.asucaeva.net
@@ -2116,7 +2102,7 @@ proxies:
   uuid: a2a10edd-5c9a-9ffc-bedd-b449dc679ad6
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸 US
-  name: 美国 016_3@126
+  name: 美国 016_3@124
   password: 56510968-0185-434a-b7d4-ce0315129ec5
   port: 41002
   server: clientss.asucaeva.net
@@ -2124,7 +2110,7 @@ proxies:
   uuid: c8e7d89e-26a6-3cb6-974a-05ebef2e8337
 - alterId: 0
   cipher: auto
-  name: 美国 017_3@127
+  name: 美国 017_3@125
   network: ws
   port: 443
   server: medieval-distribute-failed-arrivals.trycloudflare.com
@@ -2139,7 +2125,7 @@ proxies:
     path: /vmess?ed=2048
 - alterId: 0
   cipher: auto
-  name: 美国 018_3@128
+  name: 美国 018_3@126
   network: ws
   port: 8443
   server: els200.jslist.tk
@@ -2154,7 +2140,7 @@ proxies:
     path: /wo.php
 - alterId: 0
   cipher: auto
-  name: 美国 020_3@130
+  name: 美国 020_3@128
   network: ws
   port: 80
   server: 162.159.135.42
@@ -2169,7 +2155,7 @@ proxies:
     path: /shares
 - alterId: 0
   cipher: auto
-  name: 美国 021_3@131
+  name: 美国 021_3@129
   network: ws
   port: 80
   server: awsus1-data.amazon-azure.com
@@ -2184,7 +2170,7 @@ proxies:
     path: /aws-china-media/Y699Gjx2rNw.mp4
 - alterId: 0
   cipher: auto
-  name: 美国 022_3@132
+  name: 美国 022_3@130
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -2199,7 +2185,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 美国 023_3@133
+  name: 美国 023_3@131
   network: ws
   port: 80
   server: ping.pe
@@ -2214,7 +2200,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 美国 024_3@134
+  name: 美国 024_3@132
   network: ws
   port: 80
   server: awsus2-data.amazon-azure.com
@@ -2229,7 +2215,7 @@ proxies:
     path: /aws-china-media/Y699Gjx2rNw.mp4
 - alterId: 0
   cipher: auto
-  name: 美国 025_3@135
+  name: 美国 025_3@133
   network: ws
   port: 80
   server: microsoftdebug.com
@@ -2244,7 +2230,7 @@ proxies:
     path: /secx
 - alterId: 0
   cipher: auto
-  name: 美国 026_3@136
+  name: 美国 026_3@134
   network: ws
   port: 443
   server: husain12121.alihusainsorath.repl.co
@@ -2259,7 +2245,7 @@ proxies:
     path: /13f64498-354e-447b-b963-d105d9865cd1-vm
 - alterId: 0
   cipher: auto
-  name: 美国 027_3@137
+  name: 美国 027_3@135
   network: ws
   port: 443
   server: nl1.baf1.sbs
@@ -2274,7 +2260,7 @@ proxies:
     path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
 - alterId: 0
   cipher: auto
-  name: 美国 028_3@138
+  name: 美国 028_3@136
   network: ws
   port: 80
   server: 172.64.173.160
@@ -2289,7 +2275,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 美国 029_3@139
+  name: 美国 029_3@137
   network: ws
   port: 8080
   server: cf.515188.xyz
@@ -2304,7 +2290,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 美国 030_3@140
+  name: 美国 030_3@138
   network: ws
   port: 443
   server: bgpjp7.data.amazon-azure.com
@@ -2319,7 +2305,7 @@ proxies:
     path: /aws-china-media/Y699Gjx2rNw.mp4
 - alterId: 0
   cipher: auto
-  name: 美国 031_3@141
+  name: 美国 031_3@139
   network: ws
   port: 443
   server: lin.musekidan.com
@@ -2334,7 +2320,7 @@ proxies:
     path: /lin
 - alterId: 0
   cipher: auto
-  name: 美国 032_3@142
+  name: 美国 032_3@140
   network: ws
   port: 443
   server: bgpjp3.data.amazon-azure.com
@@ -2349,7 +2335,7 @@ proxies:
     path: /aws-china-media/Y699Gjx2rNw.mp4
 - alterId: 0
   cipher: auto
-  name: 美国 033_3@143
+  name: 美国 033_3@141
   network: ws
   port: 443
   server: bgpjp2.data.amazon-azure.com
@@ -2364,7 +2350,7 @@ proxies:
     path: /aws-china-media/Y699Gjx2rNw.mp4
 - alterId: 64
   cipher: auto
-  name: 美国 034_3@144
+  name: 美国 034_3@142
   port: 56882
   server: 140.99.149.43
   skip-cert-verify: true
@@ -2374,7 +2360,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 美国 035_3@145
+  name: 美国 035_3@143
   network: ws
   port: 80
   server: fr2.cachexy.ga
@@ -2389,7 +2375,7 @@ proxies:
     path: /g5D0hFMY/
 - alterId: 64
   cipher: auto
-  name: 美国 036_3@146
+  name: 美国 036_3@144
   port: 44667
   server: 192.74.242.150
   skip-cert-verify: true
@@ -2399,7 +2385,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 美国 037_3@147
+  name: 美国 037_3@145
   port: 20
   server: f-us1.wvvvv.eu.org
   skip-cert-verify: true
@@ -2408,14 +2394,14 @@ proxies:
   udp: true
   uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0
 - cipher: aes-256-gcm
-  name: 美国 038_3@148
+  name: 美国 038_3@146
   password: Trdm4IPLAn
   port: 45265
   server: 45.131.248.199
   type: ss
   udp: true
   uuid: a225c95b-25df-50a2-435a-b5c0291a9b32
-- name: 美国 039_3@149
+- name: 美国 039_3@147
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk5-tg-data.amazonwebservicess.com
@@ -2424,7 +2410,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 032c94cf-cb53-cc5a-836f-f3733a0821cf
-- name: 美国 040_3@150
+- name: 美国 040_3@148
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg3-data.amazon-azure.com
@@ -2433,7 +2419,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 70bf47c3-8f64-326a-dd8b-02340093dd6c
-- name: 美国 041_3@151
+- name: 美国 041_3@149
   password: 2e31a75e-ce52-4d2c-95e1-41c8acdbc80c
   port: 443
   server: fschk.fscloud123456789.com
@@ -2441,7 +2427,7 @@ proxies:
   type: trojan
   udp: true
   uuid: f50a6326-f4a4-22af-75d5-ada68a6a2dee
-- name: 美国 042_3@152
+- name: 美国 042_3@150
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg14-data.amazon-azure.com
@@ -2450,7 +2436,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 71c73789-26cd-eb56-c0c2-66263b5991e4
-- name: 美国 043_3@153
+- name: 美国 043_3@151
   password: SbCfIK4dKM
   port: 20532
   server: aws.blowm1k.club
@@ -2458,7 +2444,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 080170da-f0e7-3980-eedf-ac295234aa0e
-- name: 美国 044_3@154
+- name: 美国 044_3@152
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsin1-tg-data.amazon-azure.com
@@ -2467,7 +2453,7 @@ proxies:
   type: trojan
   udp: true
   uuid: cd3880ae-7f79-2d57-787a-e1e8e265dd21
-- name: 美国 045_3@155
+- name: 美国 045_3@153
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: 18.102.64.163
@@ -2476,7 +2462,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 1f5c41f8-8e56-14e2-a111-cfb39a342fd0
-- name: 美国 046_3@156
+- name: 美国 046_3@154
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsus5-data.amazon-azure.com
@@ -2485,7 +2471,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 3155da0c-4190-320a-c748-b2ef966d316c
-- name: 美国 047_3@157
+- name: 美国 047_3@155
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: 18.102.62.12
@@ -2494,7 +2480,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 156df9d7-84df-d7fb-9c08-3e0db345e4ec
-- name: 美国 048_3@158
+- name: 美国 048_3@156
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg15-data.amazon-azure.com
@@ -2503,7 +2489,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 24dbc5b5-55f8-deb5-12d7-e00af4aeea22
-- name: 美国 049_3@159
+- name: 美国 049_3@157
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg16-data.amazon-azure.com
@@ -2512,7 +2498,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 117cddbc-24da-b201-5689-60dfb8c63443
-- name: 美国 050_3@160
+- name: 美国 050_3@158
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsae1-data.amazon-azure.com
@@ -2521,7 +2507,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 89420719-a3be-a015-a789-e82f2550c6ae
-- name: 美国 051_3@161
+- name: 美国 051_3@159
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg17-data.amazon-azure.com
@@ -2530,7 +2516,7 @@ proxies:
   type: trojan
   udp: true
   uuid: df9d7df8-66dd-6e4b-407f-39ffe717440e
-- name: 美国 052_3@162
+- name: 美国 052_3@160
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: azsg2-tg-data.amazonwebservicess.com
@@ -2539,7 +2525,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 0d129d82-79b5-7dd8-330a-a756dfaa4ed7
-- name: 美国 053_3@163
+- name: 美国 053_3@161
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg12-tg-data.amazonwebservicess.com
@@ -2548,7 +2534,7 @@ proxies:
   type: trojan
   udp: true
   uuid: b57d5fab-51ab-1270-7279-fc75fd946a7f
-- name: 美国 054_3@164
+- name: 美国 054_3@162
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg19-data.amazon-azure.com
@@ -2557,7 +2543,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 60d1b3a3-590a-2e36-08fc-f1c8b3299998
-- name: 美国 055_3@165
+- name: 美国 055_3@163
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awsin3-data.amazon-azure.com
@@ -2566,7 +2552,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 14bf37bc-a110-8f0d-0e40-1829c6be2018
-- name: 美国 056_3@166
+- name: 美国 056_3@164
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg18-data.amazon-azure.com
@@ -2575,7 +2561,7 @@ proxies:
   type: trojan
   udp: true
   uuid: b12a08a9-dda3-9e77-e95f-eec39a83eb6b
-- name: 美国 057_3@167
+- name: 美国 057_3@165
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg20-data.amazon-azure.com
@@ -2584,7 +2570,7 @@ proxies:
   type: trojan
   udp: true
   uuid: d20e7d68-eebf-3740-5304-340a636055cb
-- name: 美国 058_3@168
+- name: 美国 058_3@166
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awssg11-data.amazon-azure.com
@@ -2593,7 +2579,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 1d165513-c0d2-381b-eb61-7f1bb2320192
-- name: 美国 059_3@169
+- name: 美国 059_3@167
   password: 7dc3a0b7-0930-42da-a6be-2a8623cdcfb4
   port: 443
   server: fscjp.fscloud123456789.com
@@ -2601,7 +2587,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 33524784-606a-20d4-a743-32a058640b04
-- name: 美国 060_3@170
+- name: 美国 060_3@168
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: 13.215.209.200
@@ -2612,7 +2598,7 @@ proxies:
   uuid: 304b87bc-1acc-07dd-8979-0008f5ff1178
 - alterId: 64
   cipher: auto
-  name: 美国 061_3@171
+  name: 美国 061_3@169
   port: 58895
   server: 156.225.67.6
   skip-cert-verify: false
@@ -2622,7 +2608,7 @@ proxies:
   uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
 - alterId: 0
   cipher: auto
-  name: 美国 062_3@172
+  name: 美国 062_3@170
   network: ws
   port: 16627
   server: mgx.musekidan.com
@@ -2638,7 +2624,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 美国 063_3@173
+  name: 美国 063_3@171
   port: 56120
   server: 154.85.0.234
   skip-cert-verify: false
@@ -2648,7 +2634,7 @@ proxies:
   uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
 - alterId: 0
   cipher: auto
-  name: 美国 065_3@175
+  name: 美国 065_3@173
   network: ws
   port: 80
   server: 172.67.13.13
@@ -2663,7 +2649,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 067_3@177
+  name: 美国 067_3@175
   network: ws
   port: 443
   server: 170.187.200.114
@@ -2676,25 +2662,39 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 美国 068_3@178
+  name: 美国 068_3@176
   port: 39182
   server: 45.86.11.147
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 美国 069_3@177
+  network: ws
+  port: 443
+  server: vus3.0bad.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vus3.0bad.com
+    path: /chat
 - alterId: 64
   cipher: auto
-  name: 美国 069_3@179
-  port: 53392
-  server: 198.16.45.166
+  name: 美国 071_3@179
+  port: 50002
+  server: 23.224.15.180
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 美国 071_3@181
+  name: 美国 072_3@180
   network: ws
   port: 443
   server: 67.21.72.44
@@ -2708,7 +2708,7 @@ proxies:
     path: /path/120208301422
 - alterId: 64
   cipher: auto
-  name: 美国 072_3@182
+  name: 美国 073_3@181
   port: 48659
   server: 64.32.24.210
   skip-cert-verify: false
@@ -2717,25 +2717,7 @@ proxies:
   uuid: cff9d860-7330-4ee1-b072-7142ddf1571d
 - alterId: 64
   cipher: auto
-  name: 美国 073_3@183
-  port: 42217
-  server: 67.21.90.30
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2
-- alterId: 0
-  cipher: auto
-  name: 美国 075_3@185
-  port: 1069
-  server: 152.69.197.60
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 64
-  cipher: auto
-  name: 美国 076_3@186
+  name: 美国 074_3@182
   port: 47140
   server: 67.21.77.72
   skip-cert-verify: false
@@ -2744,7 +2726,25 @@ proxies:
   uuid: fabb30e8-3a2c-4149-9651-2758f7712481
 - alterId: 64
   cipher: auto
-  name: 美国 077_3@187
+  name: 美国 075_3@183
+  port: 47002
+  server: 38.63.0.93
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 美国 076_3@184
+  port: 42940
+  server: 172.247.67.22
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 美国 077_3@185
   port: 30983
   server: 67.21.91.136
   skip-cert-verify: false
@@ -2753,16 +2753,7 @@ proxies:
   uuid: ec186cad-56ac-42b3-8309-184d0e748b04
 - alterId: 64
   cipher: auto
-  name: 美国 078_3@188
-  port: 41654
-  server: 107.167.7.19
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bdee202c-8fae-441f-a588-7bc4d3887019
-- alterId: 64
-  cipher: auto
-  name: 美国 079_3@189
+  name: 美国 078_3@186
   network: ws
   port: 443
   server: 67.21.72.41
@@ -2776,7 +2767,25 @@ proxies:
     path: /path/173418141123
 - alterId: 64
   cipher: auto
-  name: 美国 080_3@190
+  name: 美国 079_3@187
+  port: 41654
+  server: 107.167.7.19
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bdee202c-8fae-441f-a588-7bc4d3887019
+- alterId: 64
+  cipher: auto
+  name: 美国 080_3@188
+  port: 44920
+  server: 137.175.69.228
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 美国 081_3@189
   port: 34888
   server: 23.234.198.86
   skip-cert-verify: false
@@ -2785,7 +2794,7 @@ proxies:
   uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583
 - alterId: 64
   cipher: auto
-  name: 美国 081_3@191
+  name: 美国 082_3@190
   network: ws
   port: 443
   server: 23.224.110.184
@@ -2797,7 +2806,7 @@ proxies:
     path: /path/080712342310
 - alterId: 64
   cipher: auto
-  name: 美国 082_3@192
+  name: 美国 083_3@191
   port: 45689
   server: 107.167.16.85
   skip-cert-verify: false
@@ -2806,7 +2815,7 @@ proxies:
   uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f
 - alterId: 64
   cipher: auto
-  name: 美国 083_3@193
+  name: 美国 084_3@192
   port: 43339
   server: 64.32.20.95
   skip-cert-verify: false
@@ -2815,7 +2824,25 @@ proxies:
   uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a
 - alterId: 64
   cipher: auto
-  name: 美国 084_3@194
+  name: 美国 085_3@193
+  port: 50015
+  server: 142.0.132.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 美国 086_3@194
+  port: 50044
+  server: 192.74.234.248
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 美国 087_3@195
   port: 51140
   server: 45.58.186.81
   skip-cert-verify: false
@@ -2824,34 +2851,25 @@ proxies:
   uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307
 - alterId: 64
   cipher: auto
-  name: 美国 085_3@195
-  port: 54082
-  server: 107.148.242.216
+  name: 美国 088_3@196
+  port: 34412
+  server: 173.82.55.92
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: dcca1294-7097-44b7-bd49-5f51c73f532f
+  uuid: 82620a6e-dbfd-4d57-8a59-9004a4bb9e92
 - alterId: 64
   cipher: auto
-  name: 美国 086_3@196
-  port: 50034
-  server: 23.225.28.186
+  name: 美国 089_3@197
+  port: 34888
+  server: 23.234.198.83
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 2278efe4-ad0c-47ce-9480-068608368d76
+  uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583
 - alterId: 64
   cipher: auto
-  name: 美国 087_3@197
-  port: 43166
-  server: 64.32.4.35
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
-- alterId: 64
-  cipher: auto
-  name: 美国 088_3@198
+  name: 美国 090_3@198
   port: 20081
   server: 138.2.44.211
   skip-cert-verify: false
@@ -2860,34 +2878,43 @@ proxies:
   uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 64
   cipher: auto
-  name: 美国 089_3@199
-  port: 43166
-  server: 64.32.4.34
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
-- alterId: 64
-  cipher: auto
-  name: 美国 090_3@200
-  port: 57102
-  server: 140.99.48.24
+  name: 美国 091_3@199
+  port: 49202
+  server: 192.74.231.174
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 美国 091_3@201
-  port: 56102
-  server: 140.99.48.38
+  name: 美国 092_3@200
+  port: 54082
+  server: 107.148.242.216
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: dcca1294-7097-44b7-bd49-5f51c73f532f
+- alterId: 64
+  cipher: auto
+  name: 美国 093_3@201
+  port: 50034
+  server: 23.225.28.186
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2278efe4-ad0c-47ce-9480-068608368d76
+- alterId: 64
+  cipher: auto
+  name: 美国 094_3@202
+  port: 42857
+  server: 192.74.228.174
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e
 - alterId: 0
   cipher: auto
-  name: 美国 092_3@202
+  name: 美国 095_3@203
   port: 32586
   server: 129.159.41.233
   skip-cert-verify: false
@@ -2896,84 +2923,55 @@ proxies:
   uuid: 341a9182-c423-499c-c46e-d17838b29037
 - alterId: 64
   cipher: auto
-  name: 美国 093_3@203
-  port: 40002
-  server: 45.83.117.170
+  name: 美国 096_3@204
+  port: 46766
+  server: 107.167.4.122
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9838c1b4-c3fd-49b5-8a59-2ff05385f17c
+- alterId: 64
+  cipher: auto
+  name: 美国 097_3@205
+  port: 43166
+  server: 64.32.4.35
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
+- alterId: 64
+  cipher: auto
+  name: 美国 098_3@206
+  port: 49206
+  server: 192.74.243.41
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 美国 094_3@204
-  port: 43379
-  server: 142.4.99.78
+  name: 美国 099_3@207
+  port: 57402
+  server: 142.4.118.248
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
-- alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
   cipher: auto
-  name: 美国 095_3@205
+  name: 美国 100_3@208
   network: ws
   port: 443
-  server: vus2.0bad.com
+  server: 23.224.110.183
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    headers:
-      Host: vus2.0bad.com
-    path: /chat
-- alterId: 64
-  cipher: auto
-  name: 美国 096_3@206
-  port: 50702
-  server: 38.63.17.164
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 美国 097_3@207
-  port: 30406
-  server: 198.2.205.74
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 美国 098_3@208
-  port: 43379
-  server: 142.4.99.77
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
-- alterId: 64
-  cipher: auto
-  name: 美国 099_3@209
-  port: 49202
-  server: 192.74.231.172
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 美国 100_3@210
-  port: 31002
-  server: 142.4.126.71
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    path: /path/080712342310
 - alterId: 0
   cipher: auto
-  name: 英国 001_3@211
+  name: 英国 001_3@209
   network: ws
   port: 443
   server: 141.101.120.92
@@ -2987,7 +2985,7 @@ proxies:
     path: /qwer
 - alterId: 0
   cipher: auto
-  name: 英国 002_3@212
+  name: 英国 002_3@210
   port: 443
   server: 194.146.49.64
   skip-cert-verify: true
@@ -2997,7 +2995,7 @@ proxies:
   uuid: 9c91143c-7cea-4135-89d8-da851515de55
 - alterId: 0
   cipher: auto
-  name: 英国 003_3@213
+  name: 英国 003_3@211
   network: ws
   port: 443
   server: lond.inbarayeman.xyz
@@ -3012,7 +3010,7 @@ proxies:
     path: /tukovws
 - alterId: 64
   cipher: auto
-  name: 英国 004_3@214
+  name: 英国 004_3@212
   network: ws
   port: 443
   server: 83.142.225.32
@@ -3024,7 +3022,7 @@ proxies:
   ws-opts:
     path: /path/220128071100
 - cipher: aes-128-gcm
-  name: 英国 005_3@215
+  name: 英国 005_3@213
   password: shadowsocks
   port: 443
   server: 212.102.53.79
@@ -3033,7 +3031,7 @@ proxies:
   uuid: c32f698a-88d6-0622-3b06-fe58e1f9b701
 - alterId: 0
   cipher: auto
-  name: 英国 006_3@216
+  name: 英国 006_3@214
   network: ws
   port: 443
   server: 45.85.119.1
@@ -3048,26 +3046,7 @@ proxies:
     path: /8701b594-d144-11ed-8e14-5ad705867cff
 - alterId: 0
   cipher: auto
-  name: 英国 007_3@217
-  port: 16833
-  server: 144.24.88.101
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
-- alterId: 0
-  cipher: auto
-  name: 英国 008_3@218
-  network: ws
-  port: 8880
-  server: 185.162.228.229
-  skip-cert-verify: true
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 009_3@219
+  name: 英国 007_3@215
   network: ws
   port: 80
   server: 178.239.171.103
@@ -3077,7 +3056,17 @@ proxies:
   ws-path: /T5t5p1DPeSIooUZfEmkFAYfTxZ
 - alterId: 0
   cipher: auto
-  name: 英属维尔京群岛 001_3@220
+  name: 英国 008_3@216
+  network: tcp
+  port: 5
+  server: 109.169.2.185
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8fb191c-1c90-41d3-ed47-e3f9d35e1652
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 英属维尔京群岛 001_3@217
   network: ws
   port: 2087
   server: cf6.biger.club
@@ -3092,7 +3081,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 荷兰 001_3@221
+  name: 荷兰 001_3@218
   network: ws
   port: 443
   server: 188.114.99.218
@@ -3106,7 +3095,7 @@ proxies:
     path: /qwer
 - alterId: 0
   cipher: auto
-  name: 荷兰 002_3@222
+  name: 荷兰 002_3@219
   network: ws
   port: 443
   server: 188.114.96.22
@@ -3120,7 +3109,7 @@ proxies:
     path: /qwer
 - alterId: 64
   cipher: auto
-  name: 荷兰 003_3@223
+  name: 荷兰 003_3@220
   port: 49920
   server: 154.84.1.50
   skip-cert-verify: false
@@ -3130,7 +3119,7 @@ proxies:
   uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
 - alterId: 64
   cipher: auto
-  name: 荷兰 004_3@224
+  name: 荷兰 004_3@221
   port: 47622
   server: 156.245.8.126
   skip-cert-verify: false
@@ -3140,7 +3129,7 @@ proxies:
   uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
 - alterId: 64
   cipher: auto
-  name: 荷兰 005_3@225
+  name: 荷兰 005_3@222
   port: 50309
   server: 156.245.8.187
   skip-cert-verify: false
@@ -3149,7 +3138,7 @@ proxies:
   uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
 - alterId: 64
   cipher: auto
-  name: 荷兰 006_3@226
+  name: 荷兰 006_3@223
   port: 49920
   server: 154.84.1.47
   skip-cert-verify: false
@@ -3157,14 +3146,14 @@ proxies:
   type: vmess
   uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
 - cipher: aes-256-gcm
-  name: 荷兰 007_3@227
+  name: 荷兰 007_3@224
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
   uuid: 694ead71-6f1b-51c7-adde-baff8832700b
 - cipher: aes-256-gcm
-  name: 荷兰 008_3@228
+  name: 荷兰 008_3@225
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
@@ -3172,7 +3161,7 @@ proxies:
   uuid: c865e7c8-7bf4-dfc1-9c38-bcc497e7b1a7
 - alterId: 0
   cipher: auto
-  name: 荷兰 009_3@229
+  name: 荷兰 009_3@226
   network: ''
   port: 26369
   server: 132.226.5.189
@@ -3182,37 +3171,7 @@ proxies:
   ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 荷兰 010_3@230
-  network: ws
-  port: 443
-  server: prs.ircf.space
-  skip-cert-verify: true
-  type: vmess
-  uuid: F0259D88-2331-4109-A540-B240DFA251F2
-  ws-path: /speedtest/Amsterdam.kotick.site
-- alterId: 64
-  cipher: auto
-  name: 荷兰 011_3@231
-  network: ''
-  port: 41154
-  server: 154.84.1.201
-  skip-cert-verify: true
-  type: vmess
-  uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa
-  ws-path: ''
-- alterId: 64
-  cipher: auto
-  name: 荷兰 012_3@232
-  network: ws
-  port: 443
-  server: 154.84.1.50
-  skip-cert-verify: true
-  type: vmess
-  uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
-  ws-path: /path/1683281995070
-- alterId: 0
-  cipher: auto
-  name: 荷兰 013_3@233
+  name: 荷兰 010_3@227
   network: ws
   port: 80
   server: 158.101.208.7
@@ -3220,9 +3179,39 @@ proxies:
   type: vmess
   uuid: 1f1f6fc6-cadf-49d4-b3f1-7aaf1f3ea6d3
   ws-path: /LvoWs2LEe0LcO2QfWOrmTQgP4zMXn
+- alterId: 64
+  cipher: auto
+  name: 荷兰 011_3@228
+  network: ''
+  port: 41154
+  server: 154.84.1.201
+  skip-cert-verify: true
+  type: vmess
+  uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa
+  ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 越南 001_3@234
+  name: 荷兰 012_3@229
+  network: ws
+  port: 2054
+  server: 185.162.235.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6f117af4-cd52-40f8-9236-7c5e3f357cc8
+  ws-path: /socket.io
+- alterId: 64
+  cipher: auto
+  name: 荷兰 015_3@232
+  network: ws
+  port: 443
+  server: 156.245.8.126
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
+  ws-path: /path/1683346065217
+- alterId: 0
+  cipher: auto
+  name: 越南 001_3@233
   port: 20
   server: f-as1.wvvvv.eu.org
   skip-cert-verify: true
@@ -3232,27 +3221,17 @@ proxies:
   uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0
 - alterId: 0
   cipher: auto
-  name: 越南 002_3@235
+  name: 越南 002_3@234
   network: ws
   port: 80
   server: 103.179.189.89
   skip-cert-verify: true
   type: vmess
-  uuid: 37b5e4ac-2b89-4ae6-82d0-63e884c72a8a
+  uuid: bb0e4c40-7a25-45ef-a00e-cdf179ef3149
   ws-path: /nrowibu.site
 - alterId: 0
   cipher: auto
-  name: 越南 003_3@236
-  network: ws
-  port: 80
-  server: hn2.fuzzyng.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c
-  ws-path: /fuzzyng?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 韩国 001_3@237
+  name: 韩国 001_3@235
   network: ws
   port: 8890
   server: kr-3.vuex.eu.org
@@ -3264,7 +3243,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 002_3@238
+  name: 韩国 002_3@236
   port: 1
   server: f-as2.wvvvv.eu.org
   skip-cert-verify: true
@@ -3272,7 +3251,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0
-- name: 韩国 003_3@239
+- name: 韩国 003_3@237
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awskr3-data.amazon-azure.com
@@ -3281,7 +3260,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 59559ba1-1b4f-3c1d-36b1-054d68581f36
-- name: 韩国 004_3@240
+- name: 韩国 004_3@238
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awskr2-data.amazon-azure.com
@@ -3290,7 +3269,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 0913f2ab-0320-0a51-346f-256c20d6aae1
-- name: 韩国 005_3@241
+- name: 韩国 005_3@239
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awskr5-data.amazon-azure.com
@@ -3299,7 +3278,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 1d9f0543-3092-c7c4-90f5-59aa40e0f46a
-- name: 韩国 006_3@242
+- name: 韩国 006_3@240
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awskr4-data.amazon-azure.com
@@ -3308,7 +3287,7 @@ proxies:
   type: trojan
   udp: true
   uuid: f0da5fc9-02f9-701f-fe06-c2cf19f38d41
-- name: 韩国 007_3@243
+- name: 韩国 007_3@241
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awskr1-data.amazon-azure.com
@@ -3319,19 +3298,7 @@ proxies:
   uuid: 1f012610-8b5d-539b-dccc-d7593a3e25e1
 - alterId: 64
   cipher: auto
-  name: 韩国 008_3@244
-  network: ws
-  port: 443
-  server: 202.79.171.155
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 7f37da61-c734-41b4-a8c2-eccfd6ca48f0
-  ws-opts:
-    path: /path/080712342310
-- alterId: 64
-  cipher: auto
-  name: 韩国 009_3@245
+  name: 韩国 008_3@242
   port: 55264
   server: 202.79.174.157
   skip-cert-verify: false
@@ -3340,7 +3307,7 @@ proxies:
   uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
 - alterId: 0
   cipher: auto
-  name: 韩国 010_3@246
+  name: 韩国 009_3@243
   port: 53173
   server: 118.193.69.158
   skip-cert-verify: false
@@ -3348,7 +3315,7 @@ proxies:
   type: vmess
   uuid: 3b76d1a8-55fd-465e-aa04-68c39a506175
 - cipher: aes-256-cfb
-  name: 韩国 011_3@247
+  name: 韩国 010_3@244
   obfs: plain
   obfs-param: ab93117422.jd.hk
   password: vyunme
@@ -3360,37 +3327,7 @@ proxies:
   uuid: 9f8a012b-5c78-525a-fcab-0e611a80765f
 - alterId: 0
   cipher: auto
-  name: 韩国 012_3@248
-  network: ws
-  port: 9898
-  server: 146.56.129.52
-  skip-cert-verify: true
-  type: vmess
-  uuid: 24573cbb-0bd3-44cd-b363-29d515331ae8
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 013_3@249
-  network: ws
-  port: 9898
-  server: 193.122.110.10
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7a2a1d50-6fcc-4a05-a815-61b8bc72e6d2
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 014_3@250
-  network: ws
-  port: 8890
-  server: 130.162.137.134
-  skip-cert-verify: true
-  type: vmess
-  uuid: e0bd6841-f42d-446c-a124-e4d17bcc342e
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 015_3@251
+  name: 韩国 011_3@245
   network: ws
   port: 8888
   server: 140.238.29.153
@@ -3400,7 +3337,37 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 香港 001_3@252
+  name: 韩国 012_3@246
+  network: ws
+  port: 9898
+  server: kr-1.vuex.eu.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6c19cc40-0c8c-400a-a350-ae2d71b87d9a
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 013_3@247
+  network: ws
+  port: 80
+  server: 140.238.1.117
+  skip-cert-verify: true
+  type: vmess
+  uuid: c4a6952e-138a-3fe9-803b-8f2d2dd0254b
+  ws-path: /4gmp
+- alterId: 0
+  cipher: auto
+  name: 韩国 014_3@248
+  network: ws
+  port: 8890
+  server: 130.162.137.134
+  skip-cert-verify: true
+  type: vmess
+  uuid: b7e04997-9360-4bc0-bdca-2f0afe7b41b7
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 香港 001_3@249
   network: ws
   port: 443
   server: hk6.af49c4e4c2ef.sanfen004.me
@@ -3414,7 +3381,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 香港 002_3@253
+  name: 香港 002_3@250
   network: ws
   port: 443
   server: hk2.c2bfe79372be.sanfen004.me
@@ -3428,7 +3395,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 香港 003_3@254
+  name: 香港 003_3@251
   network: ws
   port: 443
   server: hk4.af49c4e4c2ef.sanfen004.me
@@ -3442,7 +3409,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 香港 005_3@256
+  name: 香港 005_3@253
   network: ws
   port: 80
   server: 185.244.208.115
@@ -3455,7 +3422,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 香港 006_3@257
+  name: 香港 006_3@254
   network: ws
   port: 443
   server: hk3.af49c4e4c2ef.sanfen001.pics
@@ -3470,7 +3437,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 香港 007_3@258
+  name: 香港 007_3@255
   network: ws
   port: 443
   server: hk2.c2bfe79372be.sanfen001.pics
@@ -3485,7 +3452,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 香港 008_3@259
+  name: 香港 008_3@256
   network: ws
   port: 443
   server: hk5.af49c4e4c2ef.sanfen001.pics
@@ -3498,7 +3465,7 @@ proxies:
     headers:
       Host: hk5.af49c4e4c2ef.sanfen001.pics
     path: /zh-cn
-- name: 香港 009_3@260
+- name: 香港 009_3@257
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk17-data.amazon-azure.com
@@ -3507,7 +3474,7 @@ proxies:
   type: trojan
   udp: true
   uuid: be86dce4-5717-5e6d-4ab1-7548c0da8dd2
-- name: 香港 010_3@261
+- name: 香港 010_3@258
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk1-data.amazon-azure.com
@@ -3516,7 +3483,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 4a6b2d1e-47e2-71c2-a49b-e8cb33862761
-- name: 香港 011_3@262
+- name: 香港 011_3@259
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk11-data.amazon-azure.com
@@ -3525,7 +3492,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 834d9c74-7f54-a78f-fedc-ec110838804e
-- name: 香港 012_3@263
+- name: 香港 012_3@260
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk19-data.amazon-azure.com
@@ -3534,7 +3501,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 2111663e-d92e-1727-1a61-e861ac0762c7
-- name: 香港 013_3@264
+- name: 香港 013_3@261
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk3-data.amazon-azure.com
@@ -3543,7 +3510,7 @@ proxies:
   type: trojan
   udp: true
   uuid: dd613024-7692-74d2-9034-183d9030aa1b
-- name: 香港 014_3@265
+- name: 香港 014_3@262
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk12-data.amazon-azure.com
@@ -3552,7 +3519,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 8053f382-86ae-ec8e-cb50-30c1b0173df9
-- name: 香港 015_3@266
+- name: 香港 015_3@263
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk20-data.amazon-azure.com
@@ -3561,7 +3528,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 60cc68c6-be9c-8827-0eaf-ffef12f937ad
-- name: 香港 016_3@267
+- name: 香港 016_3@264
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: 16.163.194.6
@@ -3570,7 +3537,7 @@ proxies:
   type: trojan
   udp: true
   uuid: e3f31aad-0884-30e2-8c75-2a74b285aa83
-- name: 香港 017_3@268
+- name: 香港 017_3@265
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: udhk2-tg-data.amazonwebservicess.com
@@ -3579,7 +3546,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 38f35398-0ba3-72b6-8b20-1b2cd7994fc4
-- name: 香港 018_3@269
+- name: 香港 018_3@266
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk2-data.amazon-azure.com
@@ -3588,7 +3555,7 @@ proxies:
   type: trojan
   udp: true
   uuid: d244696c-52b5-a41a-e950-9baaa4bac740
-- name: 香港 019_3@270
+- name: 香港 019_3@267
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: 16.163.16.82
@@ -3597,7 +3564,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 941404b6-3fbc-838b-628f-c02cfff22750
-- name: 香港 020_3@271
+- name: 香港 020_3@268
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk13-data.amazon-azure.com
@@ -3606,7 +3573,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 20b86b75-de9d-7b2d-962e-eee79757a028
-- name: 香港 021_3@272
+- name: 香港 021_3@269
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk16-data.amazon-azure.com
@@ -3615,7 +3582,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 2c7b30bd-b22f-ad1a-761b-75216790d3f4
-- name: 香港 022_3@273
+- name: 香港 022_3@270
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk14-data.amazon-azure.com
@@ -3624,7 +3591,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 5e331eb7-4ab7-0509-ea40-72d3792bf0da
-- name: 香港 023_3@274
+- name: 香港 023_3@271
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk15-data.amazon-azure.com
@@ -3633,7 +3600,7 @@ proxies:
   type: trojan
   udp: true
   uuid: e0e019ca-36ca-7061-6ba8-ed34d1a83bb4
-- name: 香港 024_3@275
+- name: 香港 024_3@272
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk18-data.amazon-azure.com
@@ -3642,7 +3609,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 62a974f9-c259-0033-d4fd-b16c7d8d0540
-- name: 香港 025_3@276
+- name: 香港 025_3@273
   password: 03c13693-e3d1-429f-918e-9207e2ffe098
   port: 443
   server: awshk1-zj.amazon-azure.com
@@ -3653,7 +3620,7 @@ proxies:
   uuid: dd7a9b12-263d-6738-698f-c7cf0c2136b8
 - alterId: 0
   cipher: auto
-  name: 香港 026_3@277
+  name: 香港 026_3@274
   network: ws
   port: 443
   server: hk3.af49c4e4c2ef.sanfen004.me
@@ -3669,7 +3636,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 香港 027_3@278
+  name: 香港 027_3@275
   network: ws
   port: 48336
   server: 43.154.76.92
@@ -3680,7 +3647,7 @@ proxies:
   ws-opts:
     path: /hk15/getData
 - client-fingerprint: chrome
-  name: 香港 028_3@279
+  name: 香港 028_3@276
   password: 1f5fb0cc-ae7a-422a-813f-c6b1007e9076
   port: 443
   server: microsoft-hk.85413.xyz
@@ -3691,7 +3658,7 @@ proxies:
   uuid: 3b4538ba-2351-fe40-531a-cf5d10315758
 - alterId: 64
   cipher: auto
-  name: 香港 030_3@281
+  name: 香港 030_3@278
   network: tcp
   port: 50002
   server: 27.124.47.64
@@ -3701,17 +3668,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 香港 031_3@282
-  network: tcp
-  port: 50002
-  server: 180.215.208.17
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: ''
-- alterId: 64
-  cipher: auto
-  name: 香港 032_3@283
+  name: 香港 032_3@280
   network: tcp
   port: 55211
   server: 45.58.180.174
@@ -3721,7 +3678,7 @@ proxies:
   ws-path: ''
 - alterId: 64
   cipher: auto
-  name: 香港 034_3@285
+  name: 香港 033_3@281
   network: ''
   port: 55211
   server: 45.58.180.143
@@ -3729,26 +3686,16 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: ''
-- alterId: 64
-  cipher: auto
-  name: 香港 035_3@286
-  network: tcp
-  port: 44002
-  server: 45.58.180.86
-  skip-cert-verify: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: ''
 - alterId: 0
   cipher: auto
-  name: 香港 036_3@287
-  network: ws
-  port: 80
-  server: 91.199.84.125
+  name: 香港 034_3@282
+  network: tcp
+  port: 28323
+  server: 155.254.195.186
   skip-cert-verify: true
   type: vmess
-  uuid: 2cfc4c58-88cb-4e00-9977-ef0a37559a22
-  ws-path: /
+  uuid: 75938ad9-6b3b-4ecb-cc40-3364e74f08ed
+  ws-path: ''
 - name: 英国(欢迎订阅Youtube破解资源君)_4@0
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
@@ -4338,19 +4285,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_6@20
-  network: ws
-  port: 443
-  server: vus3.0bad.com
-  servername: vus3.0bad.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    path: /chat
 - cipher: aes-256-cfb
   name: 🇫🇷_FR_法国->🇦🇹_AT_奥地利_6@21
   password: f8f7aCzcPKbsF8p3
@@ -5612,6 +5546,19 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 🇺🇸_US_美国_8_2@38_8@110
+  network: ws
+  port: 443
+  server: vus2.0bad.com
+  servername: vus2.0bad.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_9_2@42_8@111
   network: ws
   port: 443
@@ -6325,19 +6272,6 @@ proxies:
   uuid: 823c31da-701f-483d-b36e-896e5cf0987a
   ws-opts:
     path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_18_5@35_8@190
-  network: ws
-  port: 443
-  server: vsg1.0bad.com
-  servername: vsg1.0bad.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    path: /chat
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇱🇹_LT_立陶宛_5@37_8@191
@@ -10781,280 +10715,274 @@ proxy-groups:
   - 🇺🇸 _US_美国 29_1@48
   - 伊朗 001_3@0
   - 伯利兹 001_3@1
-  - 伯利兹 002_3@2
-  - 俄罗斯 001_3@3
-  - 印度 002_3@5
-  - 印度 003_3@6
-  - 印度 004_3@7
-  - 哥斯达黎加 001_3@8
-  - 土耳其 001_3@9
-  - 塞浦路斯 001_3@10
-  - 新加坡 001_3@11
-  - 新加坡 002_3@12
-  - 新加坡 003_3@13
-  - 新加坡 004_3@14
-  - 新加坡 005_3@15
-  - 新加坡 006_3@16
-  - 新加坡 007_3@17
-  - 新加坡 008_3@18
-  - 新加坡 009_3@19
-  - 新加坡 010_3@20
-  - 新加坡 011_3@21
-  - 新加坡 012_3@22
-  - 新加坡 013_3@23
-  - 新加坡 014_3@24
-  - 新加坡 015_3@25
-  - 新加坡 016_3@26
-  - 新加坡 017_3@27
-  - 日本 001_3@28
-  - 日本 002_3@29
-  - 日本 003_3@30
-  - 日本 004_3@31
-  - 日本 005_3@32
-  - 日本 006_3@33
-  - 日本 007_3@34
-  - 日本 008_3@35
-  - 日本 009_3@36
-  - 日本 010_3@37
-  - 日本 011_3@38
-  - 日本 012_3@39
-  - 日本 013_3@40
-  - 日本 014_3@41
-  - 日本 015_3@42
-  - 日本 016_3@43
-  - 日本 017_3@44
-  - 日本 018_3@45
-  - 日本 019_3@46
-  - 日本 020_3@47
-  - 日本 021_3@48
-  - 日本 022_3@49
-  - 日本 023_3@50
-  - 日本 024_3@51
-  - 日本 025_3@52
-  - 日本 026_3@53
-  - 日本 027_3@54
-  - 日本 028_3@55
-  - 日本 029_3@56
-  - 日本 030_3@57
-  - 日本 031_3@58
-  - 日本 032_3@59
-  - 日本 033_3@60
-  - 日本 034_3@61
-  - 日本 035_3@62
-  - 日本 036_3@63
-  - 日本 037_3@64
-  - 日本 038_3@65
-  - 日本 039_3@66
-  - 日本 040_3@67
-  - 日本 041_3@68
-  - 日本 042_3@69
-  - 日本 043_3@70
-  - 日本 044_3@71
-  - 日本 045_3@72
-  - 日本 046_3@73
-  - 日本 047_3@74
-  - 日本 048_3@75
-  - 日本 049_3@76
-  - 日本 050_3@77
-  - 日本 051_3@78
-  - 日本 052_3@79
-  - 日本 053_3@80
-  - 日本 054_3@81
-  - 日本 055_3@82
-  - 日本 056_3@83
-  - 日本 057_3@84
-  - 日本 058_3@85
-  - 日本 059_3@86
-  - 日本 060_3@87
-  - 日本 061_3@88
-  - 日本 062_3@89
-  - 日本 063_3@90
-  - 日本 064_3@91
-  - 日本 065_3@92
-  - 法国 001_3@93
-  - 法国 003_3@95
-  - 法国 004_3@96
-  - 法国 005_3@97
-  - 波兰 001_3@98
-  - 波兰 002_3@99
-  - 波兰 003_3@100
-  - 澳大利亚 001_3@101
-  - 澳大利亚 002_3@102
-  - 澳大利亚 003_3@103
-  - 澳大利亚 004_3@104
-  - 澳大利亚 005_3@105
-  - 澳大利亚 006_3@106
-  - 澳大利亚 007_3@107
-  - 澳大利亚 008_3@108
-  - 澳大利亚 009_3@109
-  - 瑞士 001_3@110
-  - 美国 001_3@111
-  - 美国 004_3@114
-  - 美国 005_3@115
-  - 美国 006_3@116
-  - 美国 007_3@117
-  - 美国 008_3@118
-  - 美国 009_3@119
-  - 美国 010_3@120
-  - 美国 011_3@121
-  - 美国 012_3@122
-  - 美国 013_3@123
-  - 美国 014_3@124
-  - 美国 015_3@125
-  - 美国 016_3@126
-  - 美国 017_3@127
-  - 美国 018_3@128
-  - 美国 020_3@130
-  - 美国 021_3@131
-  - 美国 022_3@132
-  - 美国 023_3@133
-  - 美国 024_3@134
-  - 美国 025_3@135
-  - 美国 026_3@136
-  - 美国 027_3@137
-  - 美国 028_3@138
-  - 美国 029_3@139
-  - 美国 030_3@140
-  - 美国 031_3@141
-  - 美国 032_3@142
-  - 美国 033_3@143
-  - 美国 034_3@144
-  - 美国 035_3@145
-  - 美国 036_3@146
-  - 美国 037_3@147
-  - 美国 038_3@148
-  - 美国 039_3@149
-  - 美国 040_3@150
-  - 美国 041_3@151
-  - 美国 042_3@152
-  - 美国 043_3@153
-  - 美国 044_3@154
-  - 美国 045_3@155
-  - 美国 046_3@156
-  - 美国 047_3@157
-  - 美国 048_3@158
-  - 美国 049_3@159
-  - 美国 050_3@160
-  - 美国 051_3@161
-  - 美国 052_3@162
-  - 美国 053_3@163
-  - 美国 054_3@164
-  - 美国 055_3@165
-  - 美国 056_3@166
-  - 美国 057_3@167
-  - 美国 058_3@168
-  - 美国 059_3@169
-  - 美国 060_3@170
-  - 美国 061_3@171
-  - 美国 062_3@172
-  - 美国 063_3@173
-  - 美国 065_3@175
-  - 美国 067_3@177
-  - 美国 068_3@178
-  - 美国 069_3@179
-  - 美国 071_3@181
-  - 美国 072_3@182
-  - 美国 073_3@183
-  - 美国 075_3@185
-  - 美国 076_3@186
-  - 美国 077_3@187
-  - 美国 078_3@188
-  - 美国 079_3@189
-  - 美国 080_3@190
-  - 美国 081_3@191
-  - 美国 082_3@192
-  - 美国 083_3@193
-  - 美国 084_3@194
-  - 美国 085_3@195
-  - 美国 086_3@196
-  - 美国 087_3@197
-  - 美国 088_3@198
-  - 美国 089_3@199
-  - 美国 090_3@200
-  - 美国 091_3@201
-  - 美国 092_3@202
-  - 美国 093_3@203
-  - 美国 094_3@204
-  - 美国 095_3@205
-  - 美国 096_3@206
-  - 美国 097_3@207
-  - 美国 098_3@208
-  - 美国 099_3@209
-  - 美国 100_3@210
-  - 英国 001_3@211
-  - 英国 002_3@212
-  - 英国 003_3@213
-  - 英国 004_3@214
-  - 英国 005_3@215
-  - 英国 006_3@216
-  - 英国 007_3@217
-  - 英国 008_3@218
-  - 英国 009_3@219
-  - 英属维尔京群岛 001_3@220
-  - 荷兰 001_3@221
-  - 荷兰 002_3@222
-  - 荷兰 003_3@223
-  - 荷兰 004_3@224
-  - 荷兰 005_3@225
-  - 荷兰 006_3@226
-  - 荷兰 007_3@227
-  - 荷兰 008_3@228
-  - 荷兰 009_3@229
-  - 荷兰 010_3@230
-  - 荷兰 011_3@231
-  - 荷兰 012_3@232
-  - 荷兰 013_3@233
-  - 越南 001_3@234
-  - 越南 002_3@235
-  - 越南 003_3@236
-  - 韩国 001_3@237
-  - 韩国 002_3@238
-  - 韩国 003_3@239
-  - 韩国 004_3@240
-  - 韩国 005_3@241
-  - 韩国 006_3@242
-  - 韩国 007_3@243
-  - 韩国 008_3@244
-  - 韩国 009_3@245
-  - 韩国 010_3@246
-  - 韩国 011_3@247
-  - 韩国 012_3@248
-  - 韩国 013_3@249
-  - 韩国 014_3@250
-  - 韩国 015_3@251
-  - 香港 001_3@252
-  - 香港 002_3@253
-  - 香港 003_3@254
-  - 香港 005_3@256
-  - 香港 006_3@257
-  - 香港 007_3@258
-  - 香港 008_3@259
-  - 香港 009_3@260
-  - 香港 010_3@261
-  - 香港 011_3@262
-  - 香港 012_3@263
-  - 香港 013_3@264
-  - 香港 014_3@265
-  - 香港 015_3@266
-  - 香港 016_3@267
-  - 香港 017_3@268
-  - 香港 018_3@269
-  - 香港 019_3@270
-  - 香港 020_3@271
-  - 香港 021_3@272
-  - 香港 022_3@273
-  - 香港 023_3@274
-  - 香港 024_3@275
-  - 香港 025_3@276
-  - 香港 026_3@277
-  - 香港 027_3@278
-  - 香港 028_3@279
-  - 香港 030_3@281
-  - 香港 031_3@282
-  - 香港 032_3@283
-  - 香港 034_3@285
-  - 香港 035_3@286
-  - 香港 036_3@287
+  - 俄罗斯 001_3@2
+  - 印度 002_3@4
+  - 印度 003_3@5
+  - 印度 004_3@6
+  - 土耳其 001_3@7
+  - 新加坡 001_3@8
+  - 新加坡 002_3@9
+  - 新加坡 003_3@10
+  - 新加坡 004_3@11
+  - 新加坡 005_3@12
+  - 新加坡 006_3@13
+  - 新加坡 007_3@14
+  - 新加坡 008_3@15
+  - 新加坡 009_3@16
+  - 新加坡 010_3@17
+  - 新加坡 011_3@18
+  - 新加坡 012_3@19
+  - 新加坡 013_3@20
+  - 新加坡 014_3@21
+  - 新加坡 015_3@22
+  - 新加坡 016_3@23
+  - 日本 001_3@24
+  - 日本 002_3@25
+  - 日本 003_3@26
+  - 日本 004_3@27
+  - 日本 005_3@28
+  - 日本 006_3@29
+  - 日本 007_3@30
+  - 日本 008_3@31
+  - 日本 009_3@32
+  - 日本 010_3@33
+  - 日本 011_3@34
+  - 日本 012_3@35
+  - 日本 013_3@36
+  - 日本 014_3@37
+  - 日本 015_3@38
+  - 日本 016_3@39
+  - 日本 017_3@40
+  - 日本 018_3@41
+  - 日本 019_3@42
+  - 日本 020_3@43
+  - 日本 021_3@44
+  - 日本 022_3@45
+  - 日本 023_3@46
+  - 日本 024_3@47
+  - 日本 025_3@48
+  - 日本 026_3@49
+  - 日本 027_3@50
+  - 日本 028_3@51
+  - 日本 029_3@52
+  - 日本 030_3@53
+  - 日本 031_3@54
+  - 日本 032_3@55
+  - 日本 033_3@56
+  - 日本 034_3@57
+  - 日本 035_3@58
+  - 日本 036_3@59
+  - 日本 037_3@60
+  - 日本 038_3@61
+  - 日本 039_3@62
+  - 日本 040_3@63
+  - 日本 041_3@64
+  - 日本 042_3@65
+  - 日本 043_3@66
+  - 日本 044_3@67
+  - 日本 045_3@68
+  - 日本 046_3@69
+  - 日本 047_3@70
+  - 日本 048_3@71
+  - 日本 049_3@72
+  - 日本 050_3@73
+  - 日本 051_3@74
+  - 日本 052_3@75
+  - 日本 053_3@76
+  - 日本 054_3@77
+  - 日本 055_3@78
+  - 日本 056_3@79
+  - 日本 057_3@80
+  - 日本 058_3@81
+  - 日本 059_3@82
+  - 日本 060_3@83
+  - 日本 061_3@84
+  - 日本 062_3@85
+  - 日本 063_3@86
+  - 日本 064_3@87
+  - 日本 065_3@88
+  - 日本 066_3@89
+  - 日本 067_3@90
+  - 日本 068_3@91
+  - 法国 001_3@92
+  - 法国 002_3@93
+  - 法国 004_3@95
+  - 法国 005_3@96
+  - 波兰 001_3@97
+  - 波兰 002_3@98
+  - 波兰 003_3@99
+  - 澳大利亚 001_3@100
+  - 澳大利亚 002_3@101
+  - 澳大利亚 003_3@102
+  - 澳大利亚 004_3@103
+  - 澳大利亚 005_3@104
+  - 澳大利亚 006_3@105
+  - 澳大利亚 007_3@106
+  - 澳大利亚 008_3@107
+  - 瑞士 001_3@108
+  - 美国 001_3@109
+  - 美国 004_3@112
+  - 美国 005_3@113
+  - 美国 006_3@114
+  - 美国 007_3@115
+  - 美国 008_3@116
+  - 美国 009_3@117
+  - 美国 010_3@118
+  - 美国 011_3@119
+  - 美国 012_3@120
+  - 美国 013_3@121
+  - 美国 014_3@122
+  - 美国 015_3@123
+  - 美国 016_3@124
+  - 美国 017_3@125
+  - 美国 018_3@126
+  - 美国 020_3@128
+  - 美国 021_3@129
+  - 美国 022_3@130
+  - 美国 023_3@131
+  - 美国 024_3@132
+  - 美国 025_3@133
+  - 美国 026_3@134
+  - 美国 027_3@135
+  - 美国 028_3@136
+  - 美国 029_3@137
+  - 美国 030_3@138
+  - 美国 031_3@139
+  - 美国 032_3@140
+  - 美国 033_3@141
+  - 美国 034_3@142
+  - 美国 035_3@143
+  - 美国 036_3@144
+  - 美国 037_3@145
+  - 美国 038_3@146
+  - 美国 039_3@147
+  - 美国 040_3@148
+  - 美国 041_3@149
+  - 美国 042_3@150
+  - 美国 043_3@151
+  - 美国 044_3@152
+  - 美国 045_3@153
+  - 美国 046_3@154
+  - 美国 047_3@155
+  - 美国 048_3@156
+  - 美国 049_3@157
+  - 美国 050_3@158
+  - 美国 051_3@159
+  - 美国 052_3@160
+  - 美国 053_3@161
+  - 美国 054_3@162
+  - 美国 055_3@163
+  - 美国 056_3@164
+  - 美国 057_3@165
+  - 美国 058_3@166
+  - 美国 059_3@167
+  - 美国 060_3@168
+  - 美国 061_3@169
+  - 美国 062_3@170
+  - 美国 063_3@171
+  - 美国 065_3@173
+  - 美国 067_3@175
+  - 美国 068_3@176
+  - 美国 069_3@177
+  - 美国 071_3@179
+  - 美国 072_3@180
+  - 美国 073_3@181
+  - 美国 074_3@182
+  - 美国 075_3@183
+  - 美国 076_3@184
+  - 美国 077_3@185
+  - 美国 078_3@186
+  - 美国 079_3@187
+  - 美国 080_3@188
+  - 美国 081_3@189
+  - 美国 082_3@190
+  - 美国 083_3@191
+  - 美国 084_3@192
+  - 美国 085_3@193
+  - 美国 086_3@194
+  - 美国 087_3@195
+  - 美国 088_3@196
+  - 美国 089_3@197
+  - 美国 090_3@198
+  - 美国 091_3@199
+  - 美国 092_3@200
+  - 美国 093_3@201
+  - 美国 094_3@202
+  - 美国 095_3@203
+  - 美国 096_3@204
+  - 美国 097_3@205
+  - 美国 098_3@206
+  - 美国 099_3@207
+  - 美国 100_3@208
+  - 英国 001_3@209
+  - 英国 002_3@210
+  - 英国 003_3@211
+  - 英国 004_3@212
+  - 英国 005_3@213
+  - 英国 006_3@214
+  - 英国 007_3@215
+  - 英国 008_3@216
+  - 英属维尔京群岛 001_3@217
+  - 荷兰 001_3@218
+  - 荷兰 002_3@219
+  - 荷兰 003_3@220
+  - 荷兰 004_3@221
+  - 荷兰 005_3@222
+  - 荷兰 006_3@223
+  - 荷兰 007_3@224
+  - 荷兰 008_3@225
+  - 荷兰 009_3@226
+  - 荷兰 010_3@227
+  - 荷兰 011_3@228
+  - 荷兰 012_3@229
+  - 荷兰 015_3@232
+  - 越南 001_3@233
+  - 越南 002_3@234
+  - 韩国 001_3@235
+  - 韩国 002_3@236
+  - 韩国 003_3@237
+  - 韩国 004_3@238
+  - 韩国 005_3@239
+  - 韩国 006_3@240
+  - 韩国 007_3@241
+  - 韩国 008_3@242
+  - 韩国 009_3@243
+  - 韩国 010_3@244
+  - 韩国 011_3@245
+  - 韩国 012_3@246
+  - 韩国 013_3@247
+  - 韩国 014_3@248
+  - 香港 001_3@249
+  - 香港 002_3@250
+  - 香港 003_3@251
+  - 香港 005_3@253
+  - 香港 006_3@254
+  - 香港 007_3@255
+  - 香港 008_3@256
+  - 香港 009_3@257
+  - 香港 010_3@258
+  - 香港 011_3@259
+  - 香港 012_3@260
+  - 香港 013_3@261
+  - 香港 014_3@262
+  - 香港 015_3@263
+  - 香港 016_3@264
+  - 香港 017_3@265
+  - 香港 018_3@266
+  - 香港 019_3@267
+  - 香港 020_3@268
+  - 香港 021_3@269
+  - 香港 022_3@270
+  - 香港 023_3@271
+  - 香港 024_3@272
+  - 香港 025_3@273
+  - 香港 026_3@274
+  - 香港 027_3@275
+  - 香港 028_3@276
+  - 香港 030_3@278
+  - 香港 032_3@280
+  - 香港 033_3@281
+  - 香港 034_3@282
   - 英国(欢迎订阅Youtube破解资源君)_4@0
   - 印度(欢迎订阅Youtube破解资源君)_4@1
   - 印度(欢迎订阅Youtube破解资源君) 2_4@2
@@ -11124,7 +11052,6 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_1_6@16
   - 🇸🇬_SG_新加坡_2_6@17
   - 🇸🇬_SG_新加坡->🇯🇵_JP_日本_6@18
-  - 🇺🇸_US_美国_2_6@20
   - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_6@21
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
@@ -11273,6 +11200,7 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_2@34_8@106
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_3_2@35_8@107
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_4_2@36_8@108
+  - 🇺🇸_US_美国_8_2@38_8@110
   - 🇺🇸_US_美国_9_2@42_8@111
   - 🇻🇳_VN_越南_2@45_8@112
   - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_3@0_8@113
@@ -11346,7 +11274,6 @@ proxy-groups:
   - 🇺🇸_US_美国_15_5@32_8@187
   - 🇺🇸_US_美国_16_5@33_8@188
   - 🇺🇸_US_美国_17_5@34_8@189
-  - 🇺🇸_US_美国_18_5@35_8@190
   - 🇺🇸_US_美国->🇱🇹_LT_立陶宛_5@37_8@191
   - 🇺🇸_US_美国_1_6@0_8@192
   - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1_6@1_8@193
@@ -11866,280 +11793,274 @@ proxy-groups:
   - 🇺🇸 _US_美国 29_1@48
   - 伊朗 001_3@0
   - 伯利兹 001_3@1
-  - 伯利兹 002_3@2
-  - 俄罗斯 001_3@3
-  - 印度 002_3@5
-  - 印度 003_3@6
-  - 印度 004_3@7
-  - 哥斯达黎加 001_3@8
-  - 土耳其 001_3@9
-  - 塞浦路斯 001_3@10
-  - 新加坡 001_3@11
-  - 新加坡 002_3@12
-  - 新加坡 003_3@13
-  - 新加坡 004_3@14
-  - 新加坡 005_3@15
-  - 新加坡 006_3@16
-  - 新加坡 007_3@17
-  - 新加坡 008_3@18
-  - 新加坡 009_3@19
-  - 新加坡 010_3@20
-  - 新加坡 011_3@21
-  - 新加坡 012_3@22
-  - 新加坡 013_3@23
-  - 新加坡 014_3@24
-  - 新加坡 015_3@25
-  - 新加坡 016_3@26
-  - 新加坡 017_3@27
-  - 日本 001_3@28
-  - 日本 002_3@29
-  - 日本 003_3@30
-  - 日本 004_3@31
-  - 日本 005_3@32
-  - 日本 006_3@33
-  - 日本 007_3@34
-  - 日本 008_3@35
-  - 日本 009_3@36
-  - 日本 010_3@37
-  - 日本 011_3@38
-  - 日本 012_3@39
-  - 日本 013_3@40
-  - 日本 014_3@41
-  - 日本 015_3@42
-  - 日本 016_3@43
-  - 日本 017_3@44
-  - 日本 018_3@45
-  - 日本 019_3@46
-  - 日本 020_3@47
-  - 日本 021_3@48
-  - 日本 022_3@49
-  - 日本 023_3@50
-  - 日本 024_3@51
-  - 日本 025_3@52
-  - 日本 026_3@53
-  - 日本 027_3@54
-  - 日本 028_3@55
-  - 日本 029_3@56
-  - 日本 030_3@57
-  - 日本 031_3@58
-  - 日本 032_3@59
-  - 日本 033_3@60
-  - 日本 034_3@61
-  - 日本 035_3@62
-  - 日本 036_3@63
-  - 日本 037_3@64
-  - 日本 038_3@65
-  - 日本 039_3@66
-  - 日本 040_3@67
-  - 日本 041_3@68
-  - 日本 042_3@69
-  - 日本 043_3@70
-  - 日本 044_3@71
-  - 日本 045_3@72
-  - 日本 046_3@73
-  - 日本 047_3@74
-  - 日本 048_3@75
-  - 日本 049_3@76
-  - 日本 050_3@77
-  - 日本 051_3@78
-  - 日本 052_3@79
-  - 日本 053_3@80
-  - 日本 054_3@81
-  - 日本 055_3@82
-  - 日本 056_3@83
-  - 日本 057_3@84
-  - 日本 058_3@85
-  - 日本 059_3@86
-  - 日本 060_3@87
-  - 日本 061_3@88
-  - 日本 062_3@89
-  - 日本 063_3@90
-  - 日本 064_3@91
-  - 日本 065_3@92
-  - 法国 001_3@93
-  - 法国 003_3@95
-  - 法国 004_3@96
-  - 法国 005_3@97
-  - 波兰 001_3@98
-  - 波兰 002_3@99
-  - 波兰 003_3@100
-  - 澳大利亚 001_3@101
-  - 澳大利亚 002_3@102
-  - 澳大利亚 003_3@103
-  - 澳大利亚 004_3@104
-  - 澳大利亚 005_3@105
-  - 澳大利亚 006_3@106
-  - 澳大利亚 007_3@107
-  - 澳大利亚 008_3@108
-  - 澳大利亚 009_3@109
-  - 瑞士 001_3@110
-  - 美国 001_3@111
-  - 美国 004_3@114
-  - 美国 005_3@115
-  - 美国 006_3@116
-  - 美国 007_3@117
-  - 美国 008_3@118
-  - 美国 009_3@119
-  - 美国 010_3@120
-  - 美国 011_3@121
-  - 美国 012_3@122
-  - 美国 013_3@123
-  - 美国 014_3@124
-  - 美国 015_3@125
-  - 美国 016_3@126
-  - 美国 017_3@127
-  - 美国 018_3@128
-  - 美国 020_3@130
-  - 美国 021_3@131
-  - 美国 022_3@132
-  - 美国 023_3@133
-  - 美国 024_3@134
-  - 美国 025_3@135
-  - 美国 026_3@136
-  - 美国 027_3@137
-  - 美国 028_3@138
-  - 美国 029_3@139
-  - 美国 030_3@140
-  - 美国 031_3@141
-  - 美国 032_3@142
-  - 美国 033_3@143
-  - 美国 034_3@144
-  - 美国 035_3@145
-  - 美国 036_3@146
-  - 美国 037_3@147
-  - 美国 038_3@148
-  - 美国 039_3@149
-  - 美国 040_3@150
-  - 美国 041_3@151
-  - 美国 042_3@152
-  - 美国 043_3@153
-  - 美国 044_3@154
-  - 美国 045_3@155
-  - 美国 046_3@156
-  - 美国 047_3@157
-  - 美国 048_3@158
-  - 美国 049_3@159
-  - 美国 050_3@160
-  - 美国 051_3@161
-  - 美国 052_3@162
-  - 美国 053_3@163
-  - 美国 054_3@164
-  - 美国 055_3@165
-  - 美国 056_3@166
-  - 美国 057_3@167
-  - 美国 058_3@168
-  - 美国 059_3@169
-  - 美国 060_3@170
-  - 美国 061_3@171
-  - 美国 062_3@172
-  - 美国 063_3@173
-  - 美国 065_3@175
-  - 美国 067_3@177
-  - 美国 068_3@178
-  - 美国 069_3@179
-  - 美国 071_3@181
-  - 美国 072_3@182
-  - 美国 073_3@183
-  - 美国 075_3@185
-  - 美国 076_3@186
-  - 美国 077_3@187
-  - 美国 078_3@188
-  - 美国 079_3@189
-  - 美国 080_3@190
-  - 美国 081_3@191
-  - 美国 082_3@192
-  - 美国 083_3@193
-  - 美国 084_3@194
-  - 美国 085_3@195
-  - 美国 086_3@196
-  - 美国 087_3@197
-  - 美国 088_3@198
-  - 美国 089_3@199
-  - 美国 090_3@200
-  - 美国 091_3@201
-  - 美国 092_3@202
-  - 美国 093_3@203
-  - 美国 094_3@204
-  - 美国 095_3@205
-  - 美国 096_3@206
-  - 美国 097_3@207
-  - 美国 098_3@208
-  - 美国 099_3@209
-  - 美国 100_3@210
-  - 英国 001_3@211
-  - 英国 002_3@212
-  - 英国 003_3@213
-  - 英国 004_3@214
-  - 英国 005_3@215
-  - 英国 006_3@216
-  - 英国 007_3@217
-  - 英国 008_3@218
-  - 英国 009_3@219
-  - 英属维尔京群岛 001_3@220
-  - 荷兰 001_3@221
-  - 荷兰 002_3@222
-  - 荷兰 003_3@223
-  - 荷兰 004_3@224
-  - 荷兰 005_3@225
-  - 荷兰 006_3@226
-  - 荷兰 007_3@227
-  - 荷兰 008_3@228
-  - 荷兰 009_3@229
-  - 荷兰 010_3@230
-  - 荷兰 011_3@231
-  - 荷兰 012_3@232
-  - 荷兰 013_3@233
-  - 越南 001_3@234
-  - 越南 002_3@235
-  - 越南 003_3@236
-  - 韩国 001_3@237
-  - 韩国 002_3@238
-  - 韩国 003_3@239
-  - 韩国 004_3@240
-  - 韩国 005_3@241
-  - 韩国 006_3@242
-  - 韩国 007_3@243
-  - 韩国 008_3@244
-  - 韩国 009_3@245
-  - 韩国 010_3@246
-  - 韩国 011_3@247
-  - 韩国 012_3@248
-  - 韩国 013_3@249
-  - 韩国 014_3@250
-  - 韩国 015_3@251
-  - 香港 001_3@252
-  - 香港 002_3@253
-  - 香港 003_3@254
-  - 香港 005_3@256
-  - 香港 006_3@257
-  - 香港 007_3@258
-  - 香港 008_3@259
-  - 香港 009_3@260
-  - 香港 010_3@261
-  - 香港 011_3@262
-  - 香港 012_3@263
-  - 香港 013_3@264
-  - 香港 014_3@265
-  - 香港 015_3@266
-  - 香港 016_3@267
-  - 香港 017_3@268
-  - 香港 018_3@269
-  - 香港 019_3@270
-  - 香港 020_3@271
-  - 香港 021_3@272
-  - 香港 022_3@273
-  - 香港 023_3@274
-  - 香港 024_3@275
-  - 香港 025_3@276
-  - 香港 026_3@277
-  - 香港 027_3@278
-  - 香港 028_3@279
-  - 香港 030_3@281
-  - 香港 031_3@282
-  - 香港 032_3@283
-  - 香港 034_3@285
-  - 香港 035_3@286
-  - 香港 036_3@287
+  - 俄罗斯 001_3@2
+  - 印度 002_3@4
+  - 印度 003_3@5
+  - 印度 004_3@6
+  - 土耳其 001_3@7
+  - 新加坡 001_3@8
+  - 新加坡 002_3@9
+  - 新加坡 003_3@10
+  - 新加坡 004_3@11
+  - 新加坡 005_3@12
+  - 新加坡 006_3@13
+  - 新加坡 007_3@14
+  - 新加坡 008_3@15
+  - 新加坡 009_3@16
+  - 新加坡 010_3@17
+  - 新加坡 011_3@18
+  - 新加坡 012_3@19
+  - 新加坡 013_3@20
+  - 新加坡 014_3@21
+  - 新加坡 015_3@22
+  - 新加坡 016_3@23
+  - 日本 001_3@24
+  - 日本 002_3@25
+  - 日本 003_3@26
+  - 日本 004_3@27
+  - 日本 005_3@28
+  - 日本 006_3@29
+  - 日本 007_3@30
+  - 日本 008_3@31
+  - 日本 009_3@32
+  - 日本 010_3@33
+  - 日本 011_3@34
+  - 日本 012_3@35
+  - 日本 013_3@36
+  - 日本 014_3@37
+  - 日本 015_3@38
+  - 日本 016_3@39
+  - 日本 017_3@40
+  - 日本 018_3@41
+  - 日本 019_3@42
+  - 日本 020_3@43
+  - 日本 021_3@44
+  - 日本 022_3@45
+  - 日本 023_3@46
+  - 日本 024_3@47
+  - 日本 025_3@48
+  - 日本 026_3@49
+  - 日本 027_3@50
+  - 日本 028_3@51
+  - 日本 029_3@52
+  - 日本 030_3@53
+  - 日本 031_3@54
+  - 日本 032_3@55
+  - 日本 033_3@56
+  - 日本 034_3@57
+  - 日本 035_3@58
+  - 日本 036_3@59
+  - 日本 037_3@60
+  - 日本 038_3@61
+  - 日本 039_3@62
+  - 日本 040_3@63
+  - 日本 041_3@64
+  - 日本 042_3@65
+  - 日本 043_3@66
+  - 日本 044_3@67
+  - 日本 045_3@68
+  - 日本 046_3@69
+  - 日本 047_3@70
+  - 日本 048_3@71
+  - 日本 049_3@72
+  - 日本 050_3@73
+  - 日本 051_3@74
+  - 日本 052_3@75
+  - 日本 053_3@76
+  - 日本 054_3@77
+  - 日本 055_3@78
+  - 日本 056_3@79
+  - 日本 057_3@80
+  - 日本 058_3@81
+  - 日本 059_3@82
+  - 日本 060_3@83
+  - 日本 061_3@84
+  - 日本 062_3@85
+  - 日本 063_3@86
+  - 日本 064_3@87
+  - 日本 065_3@88
+  - 日本 066_3@89
+  - 日本 067_3@90
+  - 日本 068_3@91
+  - 法国 001_3@92
+  - 法国 002_3@93
+  - 法国 004_3@95
+  - 法国 005_3@96
+  - 波兰 001_3@97
+  - 波兰 002_3@98
+  - 波兰 003_3@99
+  - 澳大利亚 001_3@100
+  - 澳大利亚 002_3@101
+  - 澳大利亚 003_3@102
+  - 澳大利亚 004_3@103
+  - 澳大利亚 005_3@104
+  - 澳大利亚 006_3@105
+  - 澳大利亚 007_3@106
+  - 澳大利亚 008_3@107
+  - 瑞士 001_3@108
+  - 美国 001_3@109
+  - 美国 004_3@112
+  - 美国 005_3@113
+  - 美国 006_3@114
+  - 美国 007_3@115
+  - 美国 008_3@116
+  - 美国 009_3@117
+  - 美国 010_3@118
+  - 美国 011_3@119
+  - 美国 012_3@120
+  - 美国 013_3@121
+  - 美国 014_3@122
+  - 美国 015_3@123
+  - 美国 016_3@124
+  - 美国 017_3@125
+  - 美国 018_3@126
+  - 美国 020_3@128
+  - 美国 021_3@129
+  - 美国 022_3@130
+  - 美国 023_3@131
+  - 美国 024_3@132
+  - 美国 025_3@133
+  - 美国 026_3@134
+  - 美国 027_3@135
+  - 美国 028_3@136
+  - 美国 029_3@137
+  - 美国 030_3@138
+  - 美国 031_3@139
+  - 美国 032_3@140
+  - 美国 033_3@141
+  - 美国 034_3@142
+  - 美国 035_3@143
+  - 美国 036_3@144
+  - 美国 037_3@145
+  - 美国 038_3@146
+  - 美国 039_3@147
+  - 美国 040_3@148
+  - 美国 041_3@149
+  - 美国 042_3@150
+  - 美国 043_3@151
+  - 美国 044_3@152
+  - 美国 045_3@153
+  - 美国 046_3@154
+  - 美国 047_3@155
+  - 美国 048_3@156
+  - 美国 049_3@157
+  - 美国 050_3@158
+  - 美国 051_3@159
+  - 美国 052_3@160
+  - 美国 053_3@161
+  - 美国 054_3@162
+  - 美国 055_3@163
+  - 美国 056_3@164
+  - 美国 057_3@165
+  - 美国 058_3@166
+  - 美国 059_3@167
+  - 美国 060_3@168
+  - 美国 061_3@169
+  - 美国 062_3@170
+  - 美国 063_3@171
+  - 美国 065_3@173
+  - 美国 067_3@175
+  - 美国 068_3@176
+  - 美国 069_3@177
+  - 美国 071_3@179
+  - 美国 072_3@180
+  - 美国 073_3@181
+  - 美国 074_3@182
+  - 美国 075_3@183
+  - 美国 076_3@184
+  - 美国 077_3@185
+  - 美国 078_3@186
+  - 美国 079_3@187
+  - 美国 080_3@188
+  - 美国 081_3@189
+  - 美国 082_3@190
+  - 美国 083_3@191
+  - 美国 084_3@192
+  - 美国 085_3@193
+  - 美国 086_3@194
+  - 美国 087_3@195
+  - 美国 088_3@196
+  - 美国 089_3@197
+  - 美国 090_3@198
+  - 美国 091_3@199
+  - 美国 092_3@200
+  - 美国 093_3@201
+  - 美国 094_3@202
+  - 美国 095_3@203
+  - 美国 096_3@204
+  - 美国 097_3@205
+  - 美国 098_3@206
+  - 美国 099_3@207
+  - 美国 100_3@208
+  - 英国 001_3@209
+  - 英国 002_3@210
+  - 英国 003_3@211
+  - 英国 004_3@212
+  - 英国 005_3@213
+  - 英国 006_3@214
+  - 英国 007_3@215
+  - 英国 008_3@216
+  - 英属维尔京群岛 001_3@217
+  - 荷兰 001_3@218
+  - 荷兰 002_3@219
+  - 荷兰 003_3@220
+  - 荷兰 004_3@221
+  - 荷兰 005_3@222
+  - 荷兰 006_3@223
+  - 荷兰 007_3@224
+  - 荷兰 008_3@225
+  - 荷兰 009_3@226
+  - 荷兰 010_3@227
+  - 荷兰 011_3@228
+  - 荷兰 012_3@229
+  - 荷兰 015_3@232
+  - 越南 001_3@233
+  - 越南 002_3@234
+  - 韩国 001_3@235
+  - 韩国 002_3@236
+  - 韩国 003_3@237
+  - 韩国 004_3@238
+  - 韩国 005_3@239
+  - 韩国 006_3@240
+  - 韩国 007_3@241
+  - 韩国 008_3@242
+  - 韩国 009_3@243
+  - 韩国 010_3@244
+  - 韩国 011_3@245
+  - 韩国 012_3@246
+  - 韩国 013_3@247
+  - 韩国 014_3@248
+  - 香港 001_3@249
+  - 香港 002_3@250
+  - 香港 003_3@251
+  - 香港 005_3@253
+  - 香港 006_3@254
+  - 香港 007_3@255
+  - 香港 008_3@256
+  - 香港 009_3@257
+  - 香港 010_3@258
+  - 香港 011_3@259
+  - 香港 012_3@260
+  - 香港 013_3@261
+  - 香港 014_3@262
+  - 香港 015_3@263
+  - 香港 016_3@264
+  - 香港 017_3@265
+  - 香港 018_3@266
+  - 香港 019_3@267
+  - 香港 020_3@268
+  - 香港 021_3@269
+  - 香港 022_3@270
+  - 香港 023_3@271
+  - 香港 024_3@272
+  - 香港 025_3@273
+  - 香港 026_3@274
+  - 香港 027_3@275
+  - 香港 028_3@276
+  - 香港 030_3@278
+  - 香港 032_3@280
+  - 香港 033_3@281
+  - 香港 034_3@282
   - 英国(欢迎订阅Youtube破解资源君)_4@0
   - 印度(欢迎订阅Youtube破解资源君)_4@1
   - 印度(欢迎订阅Youtube破解资源君) 2_4@2
@@ -12209,7 +12130,6 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_1_6@16
   - 🇸🇬_SG_新加坡_2_6@17
   - 🇸🇬_SG_新加坡->🇯🇵_JP_日本_6@18
-  - 🇺🇸_US_美国_2_6@20
   - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_6@21
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
@@ -12358,6 +12278,7 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_2@34_8@106
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_3_2@35_8@107
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_4_2@36_8@108
+  - 🇺🇸_US_美国_8_2@38_8@110
   - 🇺🇸_US_美国_9_2@42_8@111
   - 🇻🇳_VN_越南_2@45_8@112
   - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_3@0_8@113
@@ -12431,7 +12352,6 @@ proxy-groups:
   - 🇺🇸_US_美国_15_5@32_8@187
   - 🇺🇸_US_美国_16_5@33_8@188
   - 🇺🇸_US_美国_17_5@34_8@189
-  - 🇺🇸_US_美国_18_5@35_8@190
   - 🇺🇸_US_美国->🇱🇹_LT_立陶宛_5@37_8@191
   - 🇺🇸_US_美国_1_6@0_8@192
   - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1_6@1_8@193
@@ -12955,280 +12875,274 @@ proxy-groups:
   - 🇺🇸 _US_美国 29_1@48
   - 伊朗 001_3@0
   - 伯利兹 001_3@1
-  - 伯利兹 002_3@2
-  - 俄罗斯 001_3@3
-  - 印度 002_3@5
-  - 印度 003_3@6
-  - 印度 004_3@7
-  - 哥斯达黎加 001_3@8
-  - 土耳其 001_3@9
-  - 塞浦路斯 001_3@10
-  - 新加坡 001_3@11
-  - 新加坡 002_3@12
-  - 新加坡 003_3@13
-  - 新加坡 004_3@14
-  - 新加坡 005_3@15
-  - 新加坡 006_3@16
-  - 新加坡 007_3@17
-  - 新加坡 008_3@18
-  - 新加坡 009_3@19
-  - 新加坡 010_3@20
-  - 新加坡 011_3@21
-  - 新加坡 012_3@22
-  - 新加坡 013_3@23
-  - 新加坡 014_3@24
-  - 新加坡 015_3@25
-  - 新加坡 016_3@26
-  - 新加坡 017_3@27
-  - 日本 001_3@28
-  - 日本 002_3@29
-  - 日本 003_3@30
-  - 日本 004_3@31
-  - 日本 005_3@32
-  - 日本 006_3@33
-  - 日本 007_3@34
-  - 日本 008_3@35
-  - 日本 009_3@36
-  - 日本 010_3@37
-  - 日本 011_3@38
-  - 日本 012_3@39
-  - 日本 013_3@40
-  - 日本 014_3@41
-  - 日本 015_3@42
-  - 日本 016_3@43
-  - 日本 017_3@44
-  - 日本 018_3@45
-  - 日本 019_3@46
-  - 日本 020_3@47
-  - 日本 021_3@48
-  - 日本 022_3@49
-  - 日本 023_3@50
-  - 日本 024_3@51
-  - 日本 025_3@52
-  - 日本 026_3@53
-  - 日本 027_3@54
-  - 日本 028_3@55
-  - 日本 029_3@56
-  - 日本 030_3@57
-  - 日本 031_3@58
-  - 日本 032_3@59
-  - 日本 033_3@60
-  - 日本 034_3@61
-  - 日本 035_3@62
-  - 日本 036_3@63
-  - 日本 037_3@64
-  - 日本 038_3@65
-  - 日本 039_3@66
-  - 日本 040_3@67
-  - 日本 041_3@68
-  - 日本 042_3@69
-  - 日本 043_3@70
-  - 日本 044_3@71
-  - 日本 045_3@72
-  - 日本 046_3@73
-  - 日本 047_3@74
-  - 日本 048_3@75
-  - 日本 049_3@76
-  - 日本 050_3@77
-  - 日本 051_3@78
-  - 日本 052_3@79
-  - 日本 053_3@80
-  - 日本 054_3@81
-  - 日本 055_3@82
-  - 日本 056_3@83
-  - 日本 057_3@84
-  - 日本 058_3@85
-  - 日本 059_3@86
-  - 日本 060_3@87
-  - 日本 061_3@88
-  - 日本 062_3@89
-  - 日本 063_3@90
-  - 日本 064_3@91
-  - 日本 065_3@92
-  - 法国 001_3@93
-  - 法国 003_3@95
-  - 法国 004_3@96
-  - 法国 005_3@97
-  - 波兰 001_3@98
-  - 波兰 002_3@99
-  - 波兰 003_3@100
-  - 澳大利亚 001_3@101
-  - 澳大利亚 002_3@102
-  - 澳大利亚 003_3@103
-  - 澳大利亚 004_3@104
-  - 澳大利亚 005_3@105
-  - 澳大利亚 006_3@106
-  - 澳大利亚 007_3@107
-  - 澳大利亚 008_3@108
-  - 澳大利亚 009_3@109
-  - 瑞士 001_3@110
-  - 美国 001_3@111
-  - 美国 004_3@114
-  - 美国 005_3@115
-  - 美国 006_3@116
-  - 美国 007_3@117
-  - 美国 008_3@118
-  - 美国 009_3@119
-  - 美国 010_3@120
-  - 美国 011_3@121
-  - 美国 012_3@122
-  - 美国 013_3@123
-  - 美国 014_3@124
-  - 美国 015_3@125
-  - 美国 016_3@126
-  - 美国 017_3@127
-  - 美国 018_3@128
-  - 美国 020_3@130
-  - 美国 021_3@131
-  - 美国 022_3@132
-  - 美国 023_3@133
-  - 美国 024_3@134
-  - 美国 025_3@135
-  - 美国 026_3@136
-  - 美国 027_3@137
-  - 美国 028_3@138
-  - 美国 029_3@139
-  - 美国 030_3@140
-  - 美国 031_3@141
-  - 美国 032_3@142
-  - 美国 033_3@143
-  - 美国 034_3@144
-  - 美国 035_3@145
-  - 美国 036_3@146
-  - 美国 037_3@147
-  - 美国 038_3@148
-  - 美国 039_3@149
-  - 美国 040_3@150
-  - 美国 041_3@151
-  - 美国 042_3@152
-  - 美国 043_3@153
-  - 美国 044_3@154
-  - 美国 045_3@155
-  - 美国 046_3@156
-  - 美国 047_3@157
-  - 美国 048_3@158
-  - 美国 049_3@159
-  - 美国 050_3@160
-  - 美国 051_3@161
-  - 美国 052_3@162
-  - 美国 053_3@163
-  - 美国 054_3@164
-  - 美国 055_3@165
-  - 美国 056_3@166
-  - 美国 057_3@167
-  - 美国 058_3@168
-  - 美国 059_3@169
-  - 美国 060_3@170
-  - 美国 061_3@171
-  - 美国 062_3@172
-  - 美国 063_3@173
-  - 美国 065_3@175
-  - 美国 067_3@177
-  - 美国 068_3@178
-  - 美国 069_3@179
-  - 美国 071_3@181
-  - 美国 072_3@182
-  - 美国 073_3@183
-  - 美国 075_3@185
-  - 美国 076_3@186
-  - 美国 077_3@187
-  - 美国 078_3@188
-  - 美国 079_3@189
-  - 美国 080_3@190
-  - 美国 081_3@191
-  - 美国 082_3@192
-  - 美国 083_3@193
-  - 美国 084_3@194
-  - 美国 085_3@195
-  - 美国 086_3@196
-  - 美国 087_3@197
-  - 美国 088_3@198
-  - 美国 089_3@199
-  - 美国 090_3@200
-  - 美国 091_3@201
-  - 美国 092_3@202
-  - 美国 093_3@203
-  - 美国 094_3@204
-  - 美国 095_3@205
-  - 美国 096_3@206
-  - 美国 097_3@207
-  - 美国 098_3@208
-  - 美国 099_3@209
-  - 美国 100_3@210
-  - 英国 001_3@211
-  - 英国 002_3@212
-  - 英国 003_3@213
-  - 英国 004_3@214
-  - 英国 005_3@215
-  - 英国 006_3@216
-  - 英国 007_3@217
-  - 英国 008_3@218
-  - 英国 009_3@219
-  - 英属维尔京群岛 001_3@220
-  - 荷兰 001_3@221
-  - 荷兰 002_3@222
-  - 荷兰 003_3@223
-  - 荷兰 004_3@224
-  - 荷兰 005_3@225
-  - 荷兰 006_3@226
-  - 荷兰 007_3@227
-  - 荷兰 008_3@228
-  - 荷兰 009_3@229
-  - 荷兰 010_3@230
-  - 荷兰 011_3@231
-  - 荷兰 012_3@232
-  - 荷兰 013_3@233
-  - 越南 001_3@234
-  - 越南 002_3@235
-  - 越南 003_3@236
-  - 韩国 001_3@237
-  - 韩国 002_3@238
-  - 韩国 003_3@239
-  - 韩国 004_3@240
-  - 韩国 005_3@241
-  - 韩国 006_3@242
-  - 韩国 007_3@243
-  - 韩国 008_3@244
-  - 韩国 009_3@245
-  - 韩国 010_3@246
-  - 韩国 011_3@247
-  - 韩国 012_3@248
-  - 韩国 013_3@249
-  - 韩国 014_3@250
-  - 韩国 015_3@251
-  - 香港 001_3@252
-  - 香港 002_3@253
-  - 香港 003_3@254
-  - 香港 005_3@256
-  - 香港 006_3@257
-  - 香港 007_3@258
-  - 香港 008_3@259
-  - 香港 009_3@260
-  - 香港 010_3@261
-  - 香港 011_3@262
-  - 香港 012_3@263
-  - 香港 013_3@264
-  - 香港 014_3@265
-  - 香港 015_3@266
-  - 香港 016_3@267
-  - 香港 017_3@268
-  - 香港 018_3@269
-  - 香港 019_3@270
-  - 香港 020_3@271
-  - 香港 021_3@272
-  - 香港 022_3@273
-  - 香港 023_3@274
-  - 香港 024_3@275
-  - 香港 025_3@276
-  - 香港 026_3@277
-  - 香港 027_3@278
-  - 香港 028_3@279
-  - 香港 030_3@281
-  - 香港 031_3@282
-  - 香港 032_3@283
-  - 香港 034_3@285
-  - 香港 035_3@286
-  - 香港 036_3@287
+  - 俄罗斯 001_3@2
+  - 印度 002_3@4
+  - 印度 003_3@5
+  - 印度 004_3@6
+  - 土耳其 001_3@7
+  - 新加坡 001_3@8
+  - 新加坡 002_3@9
+  - 新加坡 003_3@10
+  - 新加坡 004_3@11
+  - 新加坡 005_3@12
+  - 新加坡 006_3@13
+  - 新加坡 007_3@14
+  - 新加坡 008_3@15
+  - 新加坡 009_3@16
+  - 新加坡 010_3@17
+  - 新加坡 011_3@18
+  - 新加坡 012_3@19
+  - 新加坡 013_3@20
+  - 新加坡 014_3@21
+  - 新加坡 015_3@22
+  - 新加坡 016_3@23
+  - 日本 001_3@24
+  - 日本 002_3@25
+  - 日本 003_3@26
+  - 日本 004_3@27
+  - 日本 005_3@28
+  - 日本 006_3@29
+  - 日本 007_3@30
+  - 日本 008_3@31
+  - 日本 009_3@32
+  - 日本 010_3@33
+  - 日本 011_3@34
+  - 日本 012_3@35
+  - 日本 013_3@36
+  - 日本 014_3@37
+  - 日本 015_3@38
+  - 日本 016_3@39
+  - 日本 017_3@40
+  - 日本 018_3@41
+  - 日本 019_3@42
+  - 日本 020_3@43
+  - 日本 021_3@44
+  - 日本 022_3@45
+  - 日本 023_3@46
+  - 日本 024_3@47
+  - 日本 025_3@48
+  - 日本 026_3@49
+  - 日本 027_3@50
+  - 日本 028_3@51
+  - 日本 029_3@52
+  - 日本 030_3@53
+  - 日本 031_3@54
+  - 日本 032_3@55
+  - 日本 033_3@56
+  - 日本 034_3@57
+  - 日本 035_3@58
+  - 日本 036_3@59
+  - 日本 037_3@60
+  - 日本 038_3@61
+  - 日本 039_3@62
+  - 日本 040_3@63
+  - 日本 041_3@64
+  - 日本 042_3@65
+  - 日本 043_3@66
+  - 日本 044_3@67
+  - 日本 045_3@68
+  - 日本 046_3@69
+  - 日本 047_3@70
+  - 日本 048_3@71
+  - 日本 049_3@72
+  - 日本 050_3@73
+  - 日本 051_3@74
+  - 日本 052_3@75
+  - 日本 053_3@76
+  - 日本 054_3@77
+  - 日本 055_3@78
+  - 日本 056_3@79
+  - 日本 057_3@80
+  - 日本 058_3@81
+  - 日本 059_3@82
+  - 日本 060_3@83
+  - 日本 061_3@84
+  - 日本 062_3@85
+  - 日本 063_3@86
+  - 日本 064_3@87
+  - 日本 065_3@88
+  - 日本 066_3@89
+  - 日本 067_3@90
+  - 日本 068_3@91
+  - 法国 001_3@92
+  - 法国 002_3@93
+  - 法国 004_3@95
+  - 法国 005_3@96
+  - 波兰 001_3@97
+  - 波兰 002_3@98
+  - 波兰 003_3@99
+  - 澳大利亚 001_3@100
+  - 澳大利亚 002_3@101
+  - 澳大利亚 003_3@102
+  - 澳大利亚 004_3@103
+  - 澳大利亚 005_3@104
+  - 澳大利亚 006_3@105
+  - 澳大利亚 007_3@106
+  - 澳大利亚 008_3@107
+  - 瑞士 001_3@108
+  - 美国 001_3@109
+  - 美国 004_3@112
+  - 美国 005_3@113
+  - 美国 006_3@114
+  - 美国 007_3@115
+  - 美国 008_3@116
+  - 美国 009_3@117
+  - 美国 010_3@118
+  - 美国 011_3@119
+  - 美国 012_3@120
+  - 美国 013_3@121
+  - 美国 014_3@122
+  - 美国 015_3@123
+  - 美国 016_3@124
+  - 美国 017_3@125
+  - 美国 018_3@126
+  - 美国 020_3@128
+  - 美国 021_3@129
+  - 美国 022_3@130
+  - 美国 023_3@131
+  - 美国 024_3@132
+  - 美国 025_3@133
+  - 美国 026_3@134
+  - 美国 027_3@135
+  - 美国 028_3@136
+  - 美国 029_3@137
+  - 美国 030_3@138
+  - 美国 031_3@139
+  - 美国 032_3@140
+  - 美国 033_3@141
+  - 美国 034_3@142
+  - 美国 035_3@143
+  - 美国 036_3@144
+  - 美国 037_3@145
+  - 美国 038_3@146
+  - 美国 039_3@147
+  - 美国 040_3@148
+  - 美国 041_3@149
+  - 美国 042_3@150
+  - 美国 043_3@151
+  - 美国 044_3@152
+  - 美国 045_3@153
+  - 美国 046_3@154
+  - 美国 047_3@155
+  - 美国 048_3@156
+  - 美国 049_3@157
+  - 美国 050_3@158
+  - 美国 051_3@159
+  - 美国 052_3@160
+  - 美国 053_3@161
+  - 美国 054_3@162
+  - 美国 055_3@163
+  - 美国 056_3@164
+  - 美国 057_3@165
+  - 美国 058_3@166
+  - 美国 059_3@167
+  - 美国 060_3@168
+  - 美国 061_3@169
+  - 美国 062_3@170
+  - 美国 063_3@171
+  - 美国 065_3@173
+  - 美国 067_3@175
+  - 美国 068_3@176
+  - 美国 069_3@177
+  - 美国 071_3@179
+  - 美国 072_3@180
+  - 美国 073_3@181
+  - 美国 074_3@182
+  - 美国 075_3@183
+  - 美国 076_3@184
+  - 美国 077_3@185
+  - 美国 078_3@186
+  - 美国 079_3@187
+  - 美国 080_3@188
+  - 美国 081_3@189
+  - 美国 082_3@190
+  - 美国 083_3@191
+  - 美国 084_3@192
+  - 美国 085_3@193
+  - 美国 086_3@194
+  - 美国 087_3@195
+  - 美国 088_3@196
+  - 美国 089_3@197
+  - 美国 090_3@198
+  - 美国 091_3@199
+  - 美国 092_3@200
+  - 美国 093_3@201
+  - 美国 094_3@202
+  - 美国 095_3@203
+  - 美国 096_3@204
+  - 美国 097_3@205
+  - 美国 098_3@206
+  - 美国 099_3@207
+  - 美国 100_3@208
+  - 英国 001_3@209
+  - 英国 002_3@210
+  - 英国 003_3@211
+  - 英国 004_3@212
+  - 英国 005_3@213
+  - 英国 006_3@214
+  - 英国 007_3@215
+  - 英国 008_3@216
+  - 英属维尔京群岛 001_3@217
+  - 荷兰 001_3@218
+  - 荷兰 002_3@219
+  - 荷兰 003_3@220
+  - 荷兰 004_3@221
+  - 荷兰 005_3@222
+  - 荷兰 006_3@223
+  - 荷兰 007_3@224
+  - 荷兰 008_3@225
+  - 荷兰 009_3@226
+  - 荷兰 010_3@227
+  - 荷兰 011_3@228
+  - 荷兰 012_3@229
+  - 荷兰 015_3@232
+  - 越南 001_3@233
+  - 越南 002_3@234
+  - 韩国 001_3@235
+  - 韩国 002_3@236
+  - 韩国 003_3@237
+  - 韩国 004_3@238
+  - 韩国 005_3@239
+  - 韩国 006_3@240
+  - 韩国 007_3@241
+  - 韩国 008_3@242
+  - 韩国 009_3@243
+  - 韩国 010_3@244
+  - 韩国 011_3@245
+  - 韩国 012_3@246
+  - 韩国 013_3@247
+  - 韩国 014_3@248
+  - 香港 001_3@249
+  - 香港 002_3@250
+  - 香港 003_3@251
+  - 香港 005_3@253
+  - 香港 006_3@254
+  - 香港 007_3@255
+  - 香港 008_3@256
+  - 香港 009_3@257
+  - 香港 010_3@258
+  - 香港 011_3@259
+  - 香港 012_3@260
+  - 香港 013_3@261
+  - 香港 014_3@262
+  - 香港 015_3@263
+  - 香港 016_3@264
+  - 香港 017_3@265
+  - 香港 018_3@266
+  - 香港 019_3@267
+  - 香港 020_3@268
+  - 香港 021_3@269
+  - 香港 022_3@270
+  - 香港 023_3@271
+  - 香港 024_3@272
+  - 香港 025_3@273
+  - 香港 026_3@274
+  - 香港 027_3@275
+  - 香港 028_3@276
+  - 香港 030_3@278
+  - 香港 032_3@280
+  - 香港 033_3@281
+  - 香港 034_3@282
   - 英国(欢迎订阅Youtube破解资源君)_4@0
   - 印度(欢迎订阅Youtube破解资源君)_4@1
   - 印度(欢迎订阅Youtube破解资源君) 2_4@2
@@ -13298,7 +13212,6 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_1_6@16
   - 🇸🇬_SG_新加坡_2_6@17
   - 🇸🇬_SG_新加坡->🇯🇵_JP_日本_6@18
-  - 🇺🇸_US_美国_2_6@20
   - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_6@21
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
@@ -13447,6 +13360,7 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_2@34_8@106
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_3_2@35_8@107
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_4_2@36_8@108
+  - 🇺🇸_US_美国_8_2@38_8@110
   - 🇺🇸_US_美国_9_2@42_8@111
   - 🇻🇳_VN_越南_2@45_8@112
   - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_3@0_8@113
@@ -13520,7 +13434,6 @@ proxy-groups:
   - 🇺🇸_US_美国_15_5@32_8@187
   - 🇺🇸_US_美国_16_5@33_8@188
   - 🇺🇸_US_美国_17_5@34_8@189
-  - 🇺🇸_US_美国_18_5@35_8@190
   - 🇺🇸_US_美国->🇱🇹_LT_立陶宛_5@37_8@191
   - 🇺🇸_US_美国_1_6@0_8@192
   - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1_6@1_8@193
@@ -14041,280 +13954,274 @@ proxy-groups:
   - 🇺🇸 _US_美国 29_1@48
   - 伊朗 001_3@0
   - 伯利兹 001_3@1
-  - 伯利兹 002_3@2
-  - 俄罗斯 001_3@3
-  - 印度 002_3@5
-  - 印度 003_3@6
-  - 印度 004_3@7
-  - 哥斯达黎加 001_3@8
-  - 土耳其 001_3@9
-  - 塞浦路斯 001_3@10
-  - 新加坡 001_3@11
-  - 新加坡 002_3@12
-  - 新加坡 003_3@13
-  - 新加坡 004_3@14
-  - 新加坡 005_3@15
-  - 新加坡 006_3@16
-  - 新加坡 007_3@17
-  - 新加坡 008_3@18
-  - 新加坡 009_3@19
-  - 新加坡 010_3@20
-  - 新加坡 011_3@21
-  - 新加坡 012_3@22
-  - 新加坡 013_3@23
-  - 新加坡 014_3@24
-  - 新加坡 015_3@25
-  - 新加坡 016_3@26
-  - 新加坡 017_3@27
-  - 日本 001_3@28
-  - 日本 002_3@29
-  - 日本 003_3@30
-  - 日本 004_3@31
-  - 日本 005_3@32
-  - 日本 006_3@33
-  - 日本 007_3@34
-  - 日本 008_3@35
-  - 日本 009_3@36
-  - 日本 010_3@37
-  - 日本 011_3@38
-  - 日本 012_3@39
-  - 日本 013_3@40
-  - 日本 014_3@41
-  - 日本 015_3@42
-  - 日本 016_3@43
-  - 日本 017_3@44
-  - 日本 018_3@45
-  - 日本 019_3@46
-  - 日本 020_3@47
-  - 日本 021_3@48
-  - 日本 022_3@49
-  - 日本 023_3@50
-  - 日本 024_3@51
-  - 日本 025_3@52
-  - 日本 026_3@53
-  - 日本 027_3@54
-  - 日本 028_3@55
-  - 日本 029_3@56
-  - 日本 030_3@57
-  - 日本 031_3@58
-  - 日本 032_3@59
-  - 日本 033_3@60
-  - 日本 034_3@61
-  - 日本 035_3@62
-  - 日本 036_3@63
-  - 日本 037_3@64
-  - 日本 038_3@65
-  - 日本 039_3@66
-  - 日本 040_3@67
-  - 日本 041_3@68
-  - 日本 042_3@69
-  - 日本 043_3@70
-  - 日本 044_3@71
-  - 日本 045_3@72
-  - 日本 046_3@73
-  - 日本 047_3@74
-  - 日本 048_3@75
-  - 日本 049_3@76
-  - 日本 050_3@77
-  - 日本 051_3@78
-  - 日本 052_3@79
-  - 日本 053_3@80
-  - 日本 054_3@81
-  - 日本 055_3@82
-  - 日本 056_3@83
-  - 日本 057_3@84
-  - 日本 058_3@85
-  - 日本 059_3@86
-  - 日本 060_3@87
-  - 日本 061_3@88
-  - 日本 062_3@89
-  - 日本 063_3@90
-  - 日本 064_3@91
-  - 日本 065_3@92
-  - 法国 001_3@93
-  - 法国 003_3@95
-  - 法国 004_3@96
-  - 法国 005_3@97
-  - 波兰 001_3@98
-  - 波兰 002_3@99
-  - 波兰 003_3@100
-  - 澳大利亚 001_3@101
-  - 澳大利亚 002_3@102
-  - 澳大利亚 003_3@103
-  - 澳大利亚 004_3@104
-  - 澳大利亚 005_3@105
-  - 澳大利亚 006_3@106
-  - 澳大利亚 007_3@107
-  - 澳大利亚 008_3@108
-  - 澳大利亚 009_3@109
-  - 瑞士 001_3@110
-  - 美国 001_3@111
-  - 美国 004_3@114
-  - 美国 005_3@115
-  - 美国 006_3@116
-  - 美国 007_3@117
-  - 美国 008_3@118
-  - 美国 009_3@119
-  - 美国 010_3@120
-  - 美国 011_3@121
-  - 美国 012_3@122
-  - 美国 013_3@123
-  - 美国 014_3@124
-  - 美国 015_3@125
-  - 美国 016_3@126
-  - 美国 017_3@127
-  - 美国 018_3@128
-  - 美国 020_3@130
-  - 美国 021_3@131
-  - 美国 022_3@132
-  - 美国 023_3@133
-  - 美国 024_3@134
-  - 美国 025_3@135
-  - 美国 026_3@136
-  - 美国 027_3@137
-  - 美国 028_3@138
-  - 美国 029_3@139
-  - 美国 030_3@140
-  - 美国 031_3@141
-  - 美国 032_3@142
-  - 美国 033_3@143
-  - 美国 034_3@144
-  - 美国 035_3@145
-  - 美国 036_3@146
-  - 美国 037_3@147
-  - 美国 038_3@148
-  - 美国 039_3@149
-  - 美国 040_3@150
-  - 美国 041_3@151
-  - 美国 042_3@152
-  - 美国 043_3@153
-  - 美国 044_3@154
-  - 美国 045_3@155
-  - 美国 046_3@156
-  - 美国 047_3@157
-  - 美国 048_3@158
-  - 美国 049_3@159
-  - 美国 050_3@160
-  - 美国 051_3@161
-  - 美国 052_3@162
-  - 美国 053_3@163
-  - 美国 054_3@164
-  - 美国 055_3@165
-  - 美国 056_3@166
-  - 美国 057_3@167
-  - 美国 058_3@168
-  - 美国 059_3@169
-  - 美国 060_3@170
-  - 美国 061_3@171
-  - 美国 062_3@172
-  - 美国 063_3@173
-  - 美国 065_3@175
-  - 美国 067_3@177
-  - 美国 068_3@178
-  - 美国 069_3@179
-  - 美国 071_3@181
-  - 美国 072_3@182
-  - 美国 073_3@183
-  - 美国 075_3@185
-  - 美国 076_3@186
-  - 美国 077_3@187
-  - 美国 078_3@188
-  - 美国 079_3@189
-  - 美国 080_3@190
-  - 美国 081_3@191
-  - 美国 082_3@192
-  - 美国 083_3@193
-  - 美国 084_3@194
-  - 美国 085_3@195
-  - 美国 086_3@196
-  - 美国 087_3@197
-  - 美国 088_3@198
-  - 美国 089_3@199
-  - 美国 090_3@200
-  - 美国 091_3@201
-  - 美国 092_3@202
-  - 美国 093_3@203
-  - 美国 094_3@204
-  - 美国 095_3@205
-  - 美国 096_3@206
-  - 美国 097_3@207
-  - 美国 098_3@208
-  - 美国 099_3@209
-  - 美国 100_3@210
-  - 英国 001_3@211
-  - 英国 002_3@212
-  - 英国 003_3@213
-  - 英国 004_3@214
-  - 英国 005_3@215
-  - 英国 006_3@216
-  - 英国 007_3@217
-  - 英国 008_3@218
-  - 英国 009_3@219
-  - 英属维尔京群岛 001_3@220
-  - 荷兰 001_3@221
-  - 荷兰 002_3@222
-  - 荷兰 003_3@223
-  - 荷兰 004_3@224
-  - 荷兰 005_3@225
-  - 荷兰 006_3@226
-  - 荷兰 007_3@227
-  - 荷兰 008_3@228
-  - 荷兰 009_3@229
-  - 荷兰 010_3@230
-  - 荷兰 011_3@231
-  - 荷兰 012_3@232
-  - 荷兰 013_3@233
-  - 越南 001_3@234
-  - 越南 002_3@235
-  - 越南 003_3@236
-  - 韩国 001_3@237
-  - 韩国 002_3@238
-  - 韩国 003_3@239
-  - 韩国 004_3@240
-  - 韩国 005_3@241
-  - 韩国 006_3@242
-  - 韩国 007_3@243
-  - 韩国 008_3@244
-  - 韩国 009_3@245
-  - 韩国 010_3@246
-  - 韩国 011_3@247
-  - 韩国 012_3@248
-  - 韩国 013_3@249
-  - 韩国 014_3@250
-  - 韩国 015_3@251
-  - 香港 001_3@252
-  - 香港 002_3@253
-  - 香港 003_3@254
-  - 香港 005_3@256
-  - 香港 006_3@257
-  - 香港 007_3@258
-  - 香港 008_3@259
-  - 香港 009_3@260
-  - 香港 010_3@261
-  - 香港 011_3@262
-  - 香港 012_3@263
-  - 香港 013_3@264
-  - 香港 014_3@265
-  - 香港 015_3@266
-  - 香港 016_3@267
-  - 香港 017_3@268
-  - 香港 018_3@269
-  - 香港 019_3@270
-  - 香港 020_3@271
-  - 香港 021_3@272
-  - 香港 022_3@273
-  - 香港 023_3@274
-  - 香港 024_3@275
-  - 香港 025_3@276
-  - 香港 026_3@277
-  - 香港 027_3@278
-  - 香港 028_3@279
-  - 香港 030_3@281
-  - 香港 031_3@282
-  - 香港 032_3@283
-  - 香港 034_3@285
-  - 香港 035_3@286
-  - 香港 036_3@287
+  - 俄罗斯 001_3@2
+  - 印度 002_3@4
+  - 印度 003_3@5
+  - 印度 004_3@6
+  - 土耳其 001_3@7
+  - 新加坡 001_3@8
+  - 新加坡 002_3@9
+  - 新加坡 003_3@10
+  - 新加坡 004_3@11
+  - 新加坡 005_3@12
+  - 新加坡 006_3@13
+  - 新加坡 007_3@14
+  - 新加坡 008_3@15
+  - 新加坡 009_3@16
+  - 新加坡 010_3@17
+  - 新加坡 011_3@18
+  - 新加坡 012_3@19
+  - 新加坡 013_3@20
+  - 新加坡 014_3@21
+  - 新加坡 015_3@22
+  - 新加坡 016_3@23
+  - 日本 001_3@24
+  - 日本 002_3@25
+  - 日本 003_3@26
+  - 日本 004_3@27
+  - 日本 005_3@28
+  - 日本 006_3@29
+  - 日本 007_3@30
+  - 日本 008_3@31
+  - 日本 009_3@32
+  - 日本 010_3@33
+  - 日本 011_3@34
+  - 日本 012_3@35
+  - 日本 013_3@36
+  - 日本 014_3@37
+  - 日本 015_3@38
+  - 日本 016_3@39
+  - 日本 017_3@40
+  - 日本 018_3@41
+  - 日本 019_3@42
+  - 日本 020_3@43
+  - 日本 021_3@44
+  - 日本 022_3@45
+  - 日本 023_3@46
+  - 日本 024_3@47
+  - 日本 025_3@48
+  - 日本 026_3@49
+  - 日本 027_3@50
+  - 日本 028_3@51
+  - 日本 029_3@52
+  - 日本 030_3@53
+  - 日本 031_3@54
+  - 日本 032_3@55
+  - 日本 033_3@56
+  - 日本 034_3@57
+  - 日本 035_3@58
+  - 日本 036_3@59
+  - 日本 037_3@60
+  - 日本 038_3@61
+  - 日本 039_3@62
+  - 日本 040_3@63
+  - 日本 041_3@64
+  - 日本 042_3@65
+  - 日本 043_3@66
+  - 日本 044_3@67
+  - 日本 045_3@68
+  - 日本 046_3@69
+  - 日本 047_3@70
+  - 日本 048_3@71
+  - 日本 049_3@72
+  - 日本 050_3@73
+  - 日本 051_3@74
+  - 日本 052_3@75
+  - 日本 053_3@76
+  - 日本 054_3@77
+  - 日本 055_3@78
+  - 日本 056_3@79
+  - 日本 057_3@80
+  - 日本 058_3@81
+  - 日本 059_3@82
+  - 日本 060_3@83
+  - 日本 061_3@84
+  - 日本 062_3@85
+  - 日本 063_3@86
+  - 日本 064_3@87
+  - 日本 065_3@88
+  - 日本 066_3@89
+  - 日本 067_3@90
+  - 日本 068_3@91
+  - 法国 001_3@92
+  - 法国 002_3@93
+  - 法国 004_3@95
+  - 法国 005_3@96
+  - 波兰 001_3@97
+  - 波兰 002_3@98
+  - 波兰 003_3@99
+  - 澳大利亚 001_3@100
+  - 澳大利亚 002_3@101
+  - 澳大利亚 003_3@102
+  - 澳大利亚 004_3@103
+  - 澳大利亚 005_3@104
+  - 澳大利亚 006_3@105
+  - 澳大利亚 007_3@106
+  - 澳大利亚 008_3@107
+  - 瑞士 001_3@108
+  - 美国 001_3@109
+  - 美国 004_3@112
+  - 美国 005_3@113
+  - 美国 006_3@114
+  - 美国 007_3@115
+  - 美国 008_3@116
+  - 美国 009_3@117
+  - 美国 010_3@118
+  - 美国 011_3@119
+  - 美国 012_3@120
+  - 美国 013_3@121
+  - 美国 014_3@122
+  - 美国 015_3@123
+  - 美国 016_3@124
+  - 美国 017_3@125
+  - 美国 018_3@126
+  - 美国 020_3@128
+  - 美国 021_3@129
+  - 美国 022_3@130
+  - 美国 023_3@131
+  - 美国 024_3@132
+  - 美国 025_3@133
+  - 美国 026_3@134
+  - 美国 027_3@135
+  - 美国 028_3@136
+  - 美国 029_3@137
+  - 美国 030_3@138
+  - 美国 031_3@139
+  - 美国 032_3@140
+  - 美国 033_3@141
+  - 美国 034_3@142
+  - 美国 035_3@143
+  - 美国 036_3@144
+  - 美国 037_3@145
+  - 美国 038_3@146
+  - 美国 039_3@147
+  - 美国 040_3@148
+  - 美国 041_3@149
+  - 美国 042_3@150
+  - 美国 043_3@151
+  - 美国 044_3@152
+  - 美国 045_3@153
+  - 美国 046_3@154
+  - 美国 047_3@155
+  - 美国 048_3@156
+  - 美国 049_3@157
+  - 美国 050_3@158
+  - 美国 051_3@159
+  - 美国 052_3@160
+  - 美国 053_3@161
+  - 美国 054_3@162
+  - 美国 055_3@163
+  - 美国 056_3@164
+  - 美国 057_3@165
+  - 美国 058_3@166
+  - 美国 059_3@167
+  - 美国 060_3@168
+  - 美国 061_3@169
+  - 美国 062_3@170
+  - 美国 063_3@171
+  - 美国 065_3@173
+  - 美国 067_3@175
+  - 美国 068_3@176
+  - 美国 069_3@177
+  - 美国 071_3@179
+  - 美国 072_3@180
+  - 美国 073_3@181
+  - 美国 074_3@182
+  - 美国 075_3@183
+  - 美国 076_3@184
+  - 美国 077_3@185
+  - 美国 078_3@186
+  - 美国 079_3@187
+  - 美国 080_3@188
+  - 美国 081_3@189
+  - 美国 082_3@190
+  - 美国 083_3@191
+  - 美国 084_3@192
+  - 美国 085_3@193
+  - 美国 086_3@194
+  - 美国 087_3@195
+  - 美国 088_3@196
+  - 美国 089_3@197
+  - 美国 090_3@198
+  - 美国 091_3@199
+  - 美国 092_3@200
+  - 美国 093_3@201
+  - 美国 094_3@202
+  - 美国 095_3@203
+  - 美国 096_3@204
+  - 美国 097_3@205
+  - 美国 098_3@206
+  - 美国 099_3@207
+  - 美国 100_3@208
+  - 英国 001_3@209
+  - 英国 002_3@210
+  - 英国 003_3@211
+  - 英国 004_3@212
+  - 英国 005_3@213
+  - 英国 006_3@214
+  - 英国 007_3@215
+  - 英国 008_3@216
+  - 英属维尔京群岛 001_3@217
+  - 荷兰 001_3@218
+  - 荷兰 002_3@219
+  - 荷兰 003_3@220
+  - 荷兰 004_3@221
+  - 荷兰 005_3@222
+  - 荷兰 006_3@223
+  - 荷兰 007_3@224
+  - 荷兰 008_3@225
+  - 荷兰 009_3@226
+  - 荷兰 010_3@227
+  - 荷兰 011_3@228
+  - 荷兰 012_3@229
+  - 荷兰 015_3@232
+  - 越南 001_3@233
+  - 越南 002_3@234
+  - 韩国 001_3@235
+  - 韩国 002_3@236
+  - 韩国 003_3@237
+  - 韩国 004_3@238
+  - 韩国 005_3@239
+  - 韩国 006_3@240
+  - 韩国 007_3@241
+  - 韩国 008_3@242
+  - 韩国 009_3@243
+  - 韩国 010_3@244
+  - 韩国 011_3@245
+  - 韩国 012_3@246
+  - 韩国 013_3@247
+  - 韩国 014_3@248
+  - 香港 001_3@249
+  - 香港 002_3@250
+  - 香港 003_3@251
+  - 香港 005_3@253
+  - 香港 006_3@254
+  - 香港 007_3@255
+  - 香港 008_3@256
+  - 香港 009_3@257
+  - 香港 010_3@258
+  - 香港 011_3@259
+  - 香港 012_3@260
+  - 香港 013_3@261
+  - 香港 014_3@262
+  - 香港 015_3@263
+  - 香港 016_3@264
+  - 香港 017_3@265
+  - 香港 018_3@266
+  - 香港 019_3@267
+  - 香港 020_3@268
+  - 香港 021_3@269
+  - 香港 022_3@270
+  - 香港 023_3@271
+  - 香港 024_3@272
+  - 香港 025_3@273
+  - 香港 026_3@274
+  - 香港 027_3@275
+  - 香港 028_3@276
+  - 香港 030_3@278
+  - 香港 032_3@280
+  - 香港 033_3@281
+  - 香港 034_3@282
   - 英国(欢迎订阅Youtube破解资源君)_4@0
   - 印度(欢迎订阅Youtube破解资源君)_4@1
   - 印度(欢迎订阅Youtube破解资源君) 2_4@2
@@ -14384,7 +14291,6 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_1_6@16
   - 🇸🇬_SG_新加坡_2_6@17
   - 🇸🇬_SG_新加坡->🇯🇵_JP_日本_6@18
-  - 🇺🇸_US_美国_2_6@20
   - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_6@21
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
@@ -14533,6 +14439,7 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_2@34_8@106
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_3_2@35_8@107
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_4_2@36_8@108
+  - 🇺🇸_US_美国_8_2@38_8@110
   - 🇺🇸_US_美国_9_2@42_8@111
   - 🇻🇳_VN_越南_2@45_8@112
   - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_3@0_8@113
@@ -14606,7 +14513,6 @@ proxy-groups:
   - 🇺🇸_US_美国_15_5@32_8@187
   - 🇺🇸_US_美国_16_5@33_8@188
   - 🇺🇸_US_美国_17_5@34_8@189
-  - 🇺🇸_US_美国_18_5@35_8@190
   - 🇺🇸_US_美国->🇱🇹_LT_立陶宛_5@37_8@191
   - 🇺🇸_US_美国_1_6@0_8@192
   - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1_6@1_8@193
@@ -15127,280 +15033,274 @@ proxy-groups:
   - 🇺🇸 _US_美国 29_1@48
   - 伊朗 001_3@0
   - 伯利兹 001_3@1
-  - 伯利兹 002_3@2
-  - 俄罗斯 001_3@3
-  - 印度 002_3@5
-  - 印度 003_3@6
-  - 印度 004_3@7
-  - 哥斯达黎加 001_3@8
-  - 土耳其 001_3@9
-  - 塞浦路斯 001_3@10
-  - 新加坡 001_3@11
-  - 新加坡 002_3@12
-  - 新加坡 003_3@13
-  - 新加坡 004_3@14
-  - 新加坡 005_3@15
-  - 新加坡 006_3@16
-  - 新加坡 007_3@17
-  - 新加坡 008_3@18
-  - 新加坡 009_3@19
-  - 新加坡 010_3@20
-  - 新加坡 011_3@21
-  - 新加坡 012_3@22
-  - 新加坡 013_3@23
-  - 新加坡 014_3@24
-  - 新加坡 015_3@25
-  - 新加坡 016_3@26
-  - 新加坡 017_3@27
-  - 日本 001_3@28
-  - 日本 002_3@29
-  - 日本 003_3@30
-  - 日本 004_3@31
-  - 日本 005_3@32
-  - 日本 006_3@33
-  - 日本 007_3@34
-  - 日本 008_3@35
-  - 日本 009_3@36
-  - 日本 010_3@37
-  - 日本 011_3@38
-  - 日本 012_3@39
-  - 日本 013_3@40
-  - 日本 014_3@41
-  - 日本 015_3@42
-  - 日本 016_3@43
-  - 日本 017_3@44
-  - 日本 018_3@45
-  - 日本 019_3@46
-  - 日本 020_3@47
-  - 日本 021_3@48
-  - 日本 022_3@49
-  - 日本 023_3@50
-  - 日本 024_3@51
-  - 日本 025_3@52
-  - 日本 026_3@53
-  - 日本 027_3@54
-  - 日本 028_3@55
-  - 日本 029_3@56
-  - 日本 030_3@57
-  - 日本 031_3@58
-  - 日本 032_3@59
-  - 日本 033_3@60
-  - 日本 034_3@61
-  - 日本 035_3@62
-  - 日本 036_3@63
-  - 日本 037_3@64
-  - 日本 038_3@65
-  - 日本 039_3@66
-  - 日本 040_3@67
-  - 日本 041_3@68
-  - 日本 042_3@69
-  - 日本 043_3@70
-  - 日本 044_3@71
-  - 日本 045_3@72
-  - 日本 046_3@73
-  - 日本 047_3@74
-  - 日本 048_3@75
-  - 日本 049_3@76
-  - 日本 050_3@77
-  - 日本 051_3@78
-  - 日本 052_3@79
-  - 日本 053_3@80
-  - 日本 054_3@81
-  - 日本 055_3@82
-  - 日本 056_3@83
-  - 日本 057_3@84
-  - 日本 058_3@85
-  - 日本 059_3@86
-  - 日本 060_3@87
-  - 日本 061_3@88
-  - 日本 062_3@89
-  - 日本 063_3@90
-  - 日本 064_3@91
-  - 日本 065_3@92
-  - 法国 001_3@93
-  - 法国 003_3@95
-  - 法国 004_3@96
-  - 法国 005_3@97
-  - 波兰 001_3@98
-  - 波兰 002_3@99
-  - 波兰 003_3@100
-  - 澳大利亚 001_3@101
-  - 澳大利亚 002_3@102
-  - 澳大利亚 003_3@103
-  - 澳大利亚 004_3@104
-  - 澳大利亚 005_3@105
-  - 澳大利亚 006_3@106
-  - 澳大利亚 007_3@107
-  - 澳大利亚 008_3@108
-  - 澳大利亚 009_3@109
-  - 瑞士 001_3@110
-  - 美国 001_3@111
-  - 美国 004_3@114
-  - 美国 005_3@115
-  - 美国 006_3@116
-  - 美国 007_3@117
-  - 美国 008_3@118
-  - 美国 009_3@119
-  - 美国 010_3@120
-  - 美国 011_3@121
-  - 美国 012_3@122
-  - 美国 013_3@123
-  - 美国 014_3@124
-  - 美国 015_3@125
-  - 美国 016_3@126
-  - 美国 017_3@127
-  - 美国 018_3@128
-  - 美国 020_3@130
-  - 美国 021_3@131
-  - 美国 022_3@132
-  - 美国 023_3@133
-  - 美国 024_3@134
-  - 美国 025_3@135
-  - 美国 026_3@136
-  - 美国 027_3@137
-  - 美国 028_3@138
-  - 美国 029_3@139
-  - 美国 030_3@140
-  - 美国 031_3@141
-  - 美国 032_3@142
-  - 美国 033_3@143
-  - 美国 034_3@144
-  - 美国 035_3@145
-  - 美国 036_3@146
-  - 美国 037_3@147
-  - 美国 038_3@148
-  - 美国 039_3@149
-  - 美国 040_3@150
-  - 美国 041_3@151
-  - 美国 042_3@152
-  - 美国 043_3@153
-  - 美国 044_3@154
-  - 美国 045_3@155
-  - 美国 046_3@156
-  - 美国 047_3@157
-  - 美国 048_3@158
-  - 美国 049_3@159
-  - 美国 050_3@160
-  - 美国 051_3@161
-  - 美国 052_3@162
-  - 美国 053_3@163
-  - 美国 054_3@164
-  - 美国 055_3@165
-  - 美国 056_3@166
-  - 美国 057_3@167
-  - 美国 058_3@168
-  - 美国 059_3@169
-  - 美国 060_3@170
-  - 美国 061_3@171
-  - 美国 062_3@172
-  - 美国 063_3@173
-  - 美国 065_3@175
-  - 美国 067_3@177
-  - 美国 068_3@178
-  - 美国 069_3@179
-  - 美国 071_3@181
-  - 美国 072_3@182
-  - 美国 073_3@183
-  - 美国 075_3@185
-  - 美国 076_3@186
-  - 美国 077_3@187
-  - 美国 078_3@188
-  - 美国 079_3@189
-  - 美国 080_3@190
-  - 美国 081_3@191
-  - 美国 082_3@192
-  - 美国 083_3@193
-  - 美国 084_3@194
-  - 美国 085_3@195
-  - 美国 086_3@196
-  - 美国 087_3@197
-  - 美国 088_3@198
-  - 美国 089_3@199
-  - 美国 090_3@200
-  - 美国 091_3@201
-  - 美国 092_3@202
-  - 美国 093_3@203
-  - 美国 094_3@204
-  - 美国 095_3@205
-  - 美国 096_3@206
-  - 美国 097_3@207
-  - 美国 098_3@208
-  - 美国 099_3@209
-  - 美国 100_3@210
-  - 英国 001_3@211
-  - 英国 002_3@212
-  - 英国 003_3@213
-  - 英国 004_3@214
-  - 英国 005_3@215
-  - 英国 006_3@216
-  - 英国 007_3@217
-  - 英国 008_3@218
-  - 英国 009_3@219
-  - 英属维尔京群岛 001_3@220
-  - 荷兰 001_3@221
-  - 荷兰 002_3@222
-  - 荷兰 003_3@223
-  - 荷兰 004_3@224
-  - 荷兰 005_3@225
-  - 荷兰 006_3@226
-  - 荷兰 007_3@227
-  - 荷兰 008_3@228
-  - 荷兰 009_3@229
-  - 荷兰 010_3@230
-  - 荷兰 011_3@231
-  - 荷兰 012_3@232
-  - 荷兰 013_3@233
-  - 越南 001_3@234
-  - 越南 002_3@235
-  - 越南 003_3@236
-  - 韩国 001_3@237
-  - 韩国 002_3@238
-  - 韩国 003_3@239
-  - 韩国 004_3@240
-  - 韩国 005_3@241
-  - 韩国 006_3@242
-  - 韩国 007_3@243
-  - 韩国 008_3@244
-  - 韩国 009_3@245
-  - 韩国 010_3@246
-  - 韩国 011_3@247
-  - 韩国 012_3@248
-  - 韩国 013_3@249
-  - 韩国 014_3@250
-  - 韩国 015_3@251
-  - 香港 001_3@252
-  - 香港 002_3@253
-  - 香港 003_3@254
-  - 香港 005_3@256
-  - 香港 006_3@257
-  - 香港 007_3@258
-  - 香港 008_3@259
-  - 香港 009_3@260
-  - 香港 010_3@261
-  - 香港 011_3@262
-  - 香港 012_3@263
-  - 香港 013_3@264
-  - 香港 014_3@265
-  - 香港 015_3@266
-  - 香港 016_3@267
-  - 香港 017_3@268
-  - 香港 018_3@269
-  - 香港 019_3@270
-  - 香港 020_3@271
-  - 香港 021_3@272
-  - 香港 022_3@273
-  - 香港 023_3@274
-  - 香港 024_3@275
-  - 香港 025_3@276
-  - 香港 026_3@277
-  - 香港 027_3@278
-  - 香港 028_3@279
-  - 香港 030_3@281
-  - 香港 031_3@282
-  - 香港 032_3@283
-  - 香港 034_3@285
-  - 香港 035_3@286
-  - 香港 036_3@287
+  - 俄罗斯 001_3@2
+  - 印度 002_3@4
+  - 印度 003_3@5
+  - 印度 004_3@6
+  - 土耳其 001_3@7
+  - 新加坡 001_3@8
+  - 新加坡 002_3@9
+  - 新加坡 003_3@10
+  - 新加坡 004_3@11
+  - 新加坡 005_3@12
+  - 新加坡 006_3@13
+  - 新加坡 007_3@14
+  - 新加坡 008_3@15
+  - 新加坡 009_3@16
+  - 新加坡 010_3@17
+  - 新加坡 011_3@18
+  - 新加坡 012_3@19
+  - 新加坡 013_3@20
+  - 新加坡 014_3@21
+  - 新加坡 015_3@22
+  - 新加坡 016_3@23
+  - 日本 001_3@24
+  - 日本 002_3@25
+  - 日本 003_3@26
+  - 日本 004_3@27
+  - 日本 005_3@28
+  - 日本 006_3@29
+  - 日本 007_3@30
+  - 日本 008_3@31
+  - 日本 009_3@32
+  - 日本 010_3@33
+  - 日本 011_3@34
+  - 日本 012_3@35
+  - 日本 013_3@36
+  - 日本 014_3@37
+  - 日本 015_3@38
+  - 日本 016_3@39
+  - 日本 017_3@40
+  - 日本 018_3@41
+  - 日本 019_3@42
+  - 日本 020_3@43
+  - 日本 021_3@44
+  - 日本 022_3@45
+  - 日本 023_3@46
+  - 日本 024_3@47
+  - 日本 025_3@48
+  - 日本 026_3@49
+  - 日本 027_3@50
+  - 日本 028_3@51
+  - 日本 029_3@52
+  - 日本 030_3@53
+  - 日本 031_3@54
+  - 日本 032_3@55
+  - 日本 033_3@56
+  - 日本 034_3@57
+  - 日本 035_3@58
+  - 日本 036_3@59
+  - 日本 037_3@60
+  - 日本 038_3@61
+  - 日本 039_3@62
+  - 日本 040_3@63
+  - 日本 041_3@64
+  - 日本 042_3@65
+  - 日本 043_3@66
+  - 日本 044_3@67
+  - 日本 045_3@68
+  - 日本 046_3@69
+  - 日本 047_3@70
+  - 日本 048_3@71
+  - 日本 049_3@72
+  - 日本 050_3@73
+  - 日本 051_3@74
+  - 日本 052_3@75
+  - 日本 053_3@76
+  - 日本 054_3@77
+  - 日本 055_3@78
+  - 日本 056_3@79
+  - 日本 057_3@80
+  - 日本 058_3@81
+  - 日本 059_3@82
+  - 日本 060_3@83
+  - 日本 061_3@84
+  - 日本 062_3@85
+  - 日本 063_3@86
+  - 日本 064_3@87
+  - 日本 065_3@88
+  - 日本 066_3@89
+  - 日本 067_3@90
+  - 日本 068_3@91
+  - 法国 001_3@92
+  - 法国 002_3@93
+  - 法国 004_3@95
+  - 法国 005_3@96
+  - 波兰 001_3@97
+  - 波兰 002_3@98
+  - 波兰 003_3@99
+  - 澳大利亚 001_3@100
+  - 澳大利亚 002_3@101
+  - 澳大利亚 003_3@102
+  - 澳大利亚 004_3@103
+  - 澳大利亚 005_3@104
+  - 澳大利亚 006_3@105
+  - 澳大利亚 007_3@106
+  - 澳大利亚 008_3@107
+  - 瑞士 001_3@108
+  - 美国 001_3@109
+  - 美国 004_3@112
+  - 美国 005_3@113
+  - 美国 006_3@114
+  - 美国 007_3@115
+  - 美国 008_3@116
+  - 美国 009_3@117
+  - 美国 010_3@118
+  - 美国 011_3@119
+  - 美国 012_3@120
+  - 美国 013_3@121
+  - 美国 014_3@122
+  - 美国 015_3@123
+  - 美国 016_3@124
+  - 美国 017_3@125
+  - 美国 018_3@126
+  - 美国 020_3@128
+  - 美国 021_3@129
+  - 美国 022_3@130
+  - 美国 023_3@131
+  - 美国 024_3@132
+  - 美国 025_3@133
+  - 美国 026_3@134
+  - 美国 027_3@135
+  - 美国 028_3@136
+  - 美国 029_3@137
+  - 美国 030_3@138
+  - 美国 031_3@139
+  - 美国 032_3@140
+  - 美国 033_3@141
+  - 美国 034_3@142
+  - 美国 035_3@143
+  - 美国 036_3@144
+  - 美国 037_3@145
+  - 美国 038_3@146
+  - 美国 039_3@147
+  - 美国 040_3@148
+  - 美国 041_3@149
+  - 美国 042_3@150
+  - 美国 043_3@151
+  - 美国 044_3@152
+  - 美国 045_3@153
+  - 美国 046_3@154
+  - 美国 047_3@155
+  - 美国 048_3@156
+  - 美国 049_3@157
+  - 美国 050_3@158
+  - 美国 051_3@159
+  - 美国 052_3@160
+  - 美国 053_3@161
+  - 美国 054_3@162
+  - 美国 055_3@163
+  - 美国 056_3@164
+  - 美国 057_3@165
+  - 美国 058_3@166
+  - 美国 059_3@167
+  - 美国 060_3@168
+  - 美国 061_3@169
+  - 美国 062_3@170
+  - 美国 063_3@171
+  - 美国 065_3@173
+  - 美国 067_3@175
+  - 美国 068_3@176
+  - 美国 069_3@177
+  - 美国 071_3@179
+  - 美国 072_3@180
+  - 美国 073_3@181
+  - 美国 074_3@182
+  - 美国 075_3@183
+  - 美国 076_3@184
+  - 美国 077_3@185
+  - 美国 078_3@186
+  - 美国 079_3@187
+  - 美国 080_3@188
+  - 美国 081_3@189
+  - 美国 082_3@190
+  - 美国 083_3@191
+  - 美国 084_3@192
+  - 美国 085_3@193
+  - 美国 086_3@194
+  - 美国 087_3@195
+  - 美国 088_3@196
+  - 美国 089_3@197
+  - 美国 090_3@198
+  - 美国 091_3@199
+  - 美国 092_3@200
+  - 美国 093_3@201
+  - 美国 094_3@202
+  - 美国 095_3@203
+  - 美国 096_3@204
+  - 美国 097_3@205
+  - 美国 098_3@206
+  - 美国 099_3@207
+  - 美国 100_3@208
+  - 英国 001_3@209
+  - 英国 002_3@210
+  - 英国 003_3@211
+  - 英国 004_3@212
+  - 英国 005_3@213
+  - 英国 006_3@214
+  - 英国 007_3@215
+  - 英国 008_3@216
+  - 英属维尔京群岛 001_3@217
+  - 荷兰 001_3@218
+  - 荷兰 002_3@219
+  - 荷兰 003_3@220
+  - 荷兰 004_3@221
+  - 荷兰 005_3@222
+  - 荷兰 006_3@223
+  - 荷兰 007_3@224
+  - 荷兰 008_3@225
+  - 荷兰 009_3@226
+  - 荷兰 010_3@227
+  - 荷兰 011_3@228
+  - 荷兰 012_3@229
+  - 荷兰 015_3@232
+  - 越南 001_3@233
+  - 越南 002_3@234
+  - 韩国 001_3@235
+  - 韩国 002_3@236
+  - 韩国 003_3@237
+  - 韩国 004_3@238
+  - 韩国 005_3@239
+  - 韩国 006_3@240
+  - 韩国 007_3@241
+  - 韩国 008_3@242
+  - 韩国 009_3@243
+  - 韩国 010_3@244
+  - 韩国 011_3@245
+  - 韩国 012_3@246
+  - 韩国 013_3@247
+  - 韩国 014_3@248
+  - 香港 001_3@249
+  - 香港 002_3@250
+  - 香港 003_3@251
+  - 香港 005_3@253
+  - 香港 006_3@254
+  - 香港 007_3@255
+  - 香港 008_3@256
+  - 香港 009_3@257
+  - 香港 010_3@258
+  - 香港 011_3@259
+  - 香港 012_3@260
+  - 香港 013_3@261
+  - 香港 014_3@262
+  - 香港 015_3@263
+  - 香港 016_3@264
+  - 香港 017_3@265
+  - 香港 018_3@266
+  - 香港 019_3@267
+  - 香港 020_3@268
+  - 香港 021_3@269
+  - 香港 022_3@270
+  - 香港 023_3@271
+  - 香港 024_3@272
+  - 香港 025_3@273
+  - 香港 026_3@274
+  - 香港 027_3@275
+  - 香港 028_3@276
+  - 香港 030_3@278
+  - 香港 032_3@280
+  - 香港 033_3@281
+  - 香港 034_3@282
   - 英国(欢迎订阅Youtube破解资源君)_4@0
   - 印度(欢迎订阅Youtube破解资源君)_4@1
   - 印度(欢迎订阅Youtube破解资源君) 2_4@2
@@ -15470,7 +15370,6 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_1_6@16
   - 🇸🇬_SG_新加坡_2_6@17
   - 🇸🇬_SG_新加坡->🇯🇵_JP_日本_6@18
-  - 🇺🇸_US_美国_2_6@20
   - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_6@21
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
@@ -15619,6 +15518,7 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_2@34_8@106
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_3_2@35_8@107
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_4_2@36_8@108
+  - 🇺🇸_US_美国_8_2@38_8@110
   - 🇺🇸_US_美国_9_2@42_8@111
   - 🇻🇳_VN_越南_2@45_8@112
   - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_3@0_8@113
@@ -15692,7 +15592,6 @@ proxy-groups:
   - 🇺🇸_US_美国_15_5@32_8@187
   - 🇺🇸_US_美国_16_5@33_8@188
   - 🇺🇸_US_美国_17_5@34_8@189
-  - 🇺🇸_US_美国_18_5@35_8@190
   - 🇺🇸_US_美国->🇱🇹_LT_立陶宛_5@37_8@191
   - 🇺🇸_US_美国_1_6@0_8@192
   - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1_6@1_8@193
@@ -16213,280 +16112,274 @@ proxy-groups:
   - 🇺🇸 _US_美国 29_1@48
   - 伊朗 001_3@0
   - 伯利兹 001_3@1
-  - 伯利兹 002_3@2
-  - 俄罗斯 001_3@3
-  - 印度 002_3@5
-  - 印度 003_3@6
-  - 印度 004_3@7
-  - 哥斯达黎加 001_3@8
-  - 土耳其 001_3@9
-  - 塞浦路斯 001_3@10
-  - 新加坡 001_3@11
-  - 新加坡 002_3@12
-  - 新加坡 003_3@13
-  - 新加坡 004_3@14
-  - 新加坡 005_3@15
-  - 新加坡 006_3@16
-  - 新加坡 007_3@17
-  - 新加坡 008_3@18
-  - 新加坡 009_3@19
-  - 新加坡 010_3@20
-  - 新加坡 011_3@21
-  - 新加坡 012_3@22
-  - 新加坡 013_3@23
-  - 新加坡 014_3@24
-  - 新加坡 015_3@25
-  - 新加坡 016_3@26
-  - 新加坡 017_3@27
-  - 日本 001_3@28
-  - 日本 002_3@29
-  - 日本 003_3@30
-  - 日本 004_3@31
-  - 日本 005_3@32
-  - 日本 006_3@33
-  - 日本 007_3@34
-  - 日本 008_3@35
-  - 日本 009_3@36
-  - 日本 010_3@37
-  - 日本 011_3@38
-  - 日本 012_3@39
-  - 日本 013_3@40
-  - 日本 014_3@41
-  - 日本 015_3@42
-  - 日本 016_3@43
-  - 日本 017_3@44
-  - 日本 018_3@45
-  - 日本 019_3@46
-  - 日本 020_3@47
-  - 日本 021_3@48
-  - 日本 022_3@49
-  - 日本 023_3@50
-  - 日本 024_3@51
-  - 日本 025_3@52
-  - 日本 026_3@53
-  - 日本 027_3@54
-  - 日本 028_3@55
-  - 日本 029_3@56
-  - 日本 030_3@57
-  - 日本 031_3@58
-  - 日本 032_3@59
-  - 日本 033_3@60
-  - 日本 034_3@61
-  - 日本 035_3@62
-  - 日本 036_3@63
-  - 日本 037_3@64
-  - 日本 038_3@65
-  - 日本 039_3@66
-  - 日本 040_3@67
-  - 日本 041_3@68
-  - 日本 042_3@69
-  - 日本 043_3@70
-  - 日本 044_3@71
-  - 日本 045_3@72
-  - 日本 046_3@73
-  - 日本 047_3@74
-  - 日本 048_3@75
-  - 日本 049_3@76
-  - 日本 050_3@77
-  - 日本 051_3@78
-  - 日本 052_3@79
-  - 日本 053_3@80
-  - 日本 054_3@81
-  - 日本 055_3@82
-  - 日本 056_3@83
-  - 日本 057_3@84
-  - 日本 058_3@85
-  - 日本 059_3@86
-  - 日本 060_3@87
-  - 日本 061_3@88
-  - 日本 062_3@89
-  - 日本 063_3@90
-  - 日本 064_3@91
-  - 日本 065_3@92
-  - 法国 001_3@93
-  - 法国 003_3@95
-  - 法国 004_3@96
-  - 法国 005_3@97
-  - 波兰 001_3@98
-  - 波兰 002_3@99
-  - 波兰 003_3@100
-  - 澳大利亚 001_3@101
-  - 澳大利亚 002_3@102
-  - 澳大利亚 003_3@103
-  - 澳大利亚 004_3@104
-  - 澳大利亚 005_3@105
-  - 澳大利亚 006_3@106
-  - 澳大利亚 007_3@107
-  - 澳大利亚 008_3@108
-  - 澳大利亚 009_3@109
-  - 瑞士 001_3@110
-  - 美国 001_3@111
-  - 美国 004_3@114
-  - 美国 005_3@115
-  - 美国 006_3@116
-  - 美国 007_3@117
-  - 美国 008_3@118
-  - 美国 009_3@119
-  - 美国 010_3@120
-  - 美国 011_3@121
-  - 美国 012_3@122
-  - 美国 013_3@123
-  - 美国 014_3@124
-  - 美国 015_3@125
-  - 美国 016_3@126
-  - 美国 017_3@127
-  - 美国 018_3@128
-  - 美国 020_3@130
-  - 美国 021_3@131
-  - 美国 022_3@132
-  - 美国 023_3@133
-  - 美国 024_3@134
-  - 美国 025_3@135
-  - 美国 026_3@136
-  - 美国 027_3@137
-  - 美国 028_3@138
-  - 美国 029_3@139
-  - 美国 030_3@140
-  - 美国 031_3@141
-  - 美国 032_3@142
-  - 美国 033_3@143
-  - 美国 034_3@144
-  - 美国 035_3@145
-  - 美国 036_3@146
-  - 美国 037_3@147
-  - 美国 038_3@148
-  - 美国 039_3@149
-  - 美国 040_3@150
-  - 美国 041_3@151
-  - 美国 042_3@152
-  - 美国 043_3@153
-  - 美国 044_3@154
-  - 美国 045_3@155
-  - 美国 046_3@156
-  - 美国 047_3@157
-  - 美国 048_3@158
-  - 美国 049_3@159
-  - 美国 050_3@160
-  - 美国 051_3@161
-  - 美国 052_3@162
-  - 美国 053_3@163
-  - 美国 054_3@164
-  - 美国 055_3@165
-  - 美国 056_3@166
-  - 美国 057_3@167
-  - 美国 058_3@168
-  - 美国 059_3@169
-  - 美国 060_3@170
-  - 美国 061_3@171
-  - 美国 062_3@172
-  - 美国 063_3@173
-  - 美国 065_3@175
-  - 美国 067_3@177
-  - 美国 068_3@178
-  - 美国 069_3@179
-  - 美国 071_3@181
-  - 美国 072_3@182
-  - 美国 073_3@183
-  - 美国 075_3@185
-  - 美国 076_3@186
-  - 美国 077_3@187
-  - 美国 078_3@188
-  - 美国 079_3@189
-  - 美国 080_3@190
-  - 美国 081_3@191
-  - 美国 082_3@192
-  - 美国 083_3@193
-  - 美国 084_3@194
-  - 美国 085_3@195
-  - 美国 086_3@196
-  - 美国 087_3@197
-  - 美国 088_3@198
-  - 美国 089_3@199
-  - 美国 090_3@200
-  - 美国 091_3@201
-  - 美国 092_3@202
-  - 美国 093_3@203
-  - 美国 094_3@204
-  - 美国 095_3@205
-  - 美国 096_3@206
-  - 美国 097_3@207
-  - 美国 098_3@208
-  - 美国 099_3@209
-  - 美国 100_3@210
-  - 英国 001_3@211
-  - 英国 002_3@212
-  - 英国 003_3@213
-  - 英国 004_3@214
-  - 英国 005_3@215
-  - 英国 006_3@216
-  - 英国 007_3@217
-  - 英国 008_3@218
-  - 英国 009_3@219
-  - 英属维尔京群岛 001_3@220
-  - 荷兰 001_3@221
-  - 荷兰 002_3@222
-  - 荷兰 003_3@223
-  - 荷兰 004_3@224
-  - 荷兰 005_3@225
-  - 荷兰 006_3@226
-  - 荷兰 007_3@227
-  - 荷兰 008_3@228
-  - 荷兰 009_3@229
-  - 荷兰 010_3@230
-  - 荷兰 011_3@231
-  - 荷兰 012_3@232
-  - 荷兰 013_3@233
-  - 越南 001_3@234
-  - 越南 002_3@235
-  - 越南 003_3@236
-  - 韩国 001_3@237
-  - 韩国 002_3@238
-  - 韩国 003_3@239
-  - 韩国 004_3@240
-  - 韩国 005_3@241
-  - 韩国 006_3@242
-  - 韩国 007_3@243
-  - 韩国 008_3@244
-  - 韩国 009_3@245
-  - 韩国 010_3@246
-  - 韩国 011_3@247
-  - 韩国 012_3@248
-  - 韩国 013_3@249
-  - 韩国 014_3@250
-  - 韩国 015_3@251
-  - 香港 001_3@252
-  - 香港 002_3@253
-  - 香港 003_3@254
-  - 香港 005_3@256
-  - 香港 006_3@257
-  - 香港 007_3@258
-  - 香港 008_3@259
-  - 香港 009_3@260
-  - 香港 010_3@261
-  - 香港 011_3@262
-  - 香港 012_3@263
-  - 香港 013_3@264
-  - 香港 014_3@265
-  - 香港 015_3@266
-  - 香港 016_3@267
-  - 香港 017_3@268
-  - 香港 018_3@269
-  - 香港 019_3@270
-  - 香港 020_3@271
-  - 香港 021_3@272
-  - 香港 022_3@273
-  - 香港 023_3@274
-  - 香港 024_3@275
-  - 香港 025_3@276
-  - 香港 026_3@277
-  - 香港 027_3@278
-  - 香港 028_3@279
-  - 香港 030_3@281
-  - 香港 031_3@282
-  - 香港 032_3@283
-  - 香港 034_3@285
-  - 香港 035_3@286
-  - 香港 036_3@287
+  - 俄罗斯 001_3@2
+  - 印度 002_3@4
+  - 印度 003_3@5
+  - 印度 004_3@6
+  - 土耳其 001_3@7
+  - 新加坡 001_3@8
+  - 新加坡 002_3@9
+  - 新加坡 003_3@10
+  - 新加坡 004_3@11
+  - 新加坡 005_3@12
+  - 新加坡 006_3@13
+  - 新加坡 007_3@14
+  - 新加坡 008_3@15
+  - 新加坡 009_3@16
+  - 新加坡 010_3@17
+  - 新加坡 011_3@18
+  - 新加坡 012_3@19
+  - 新加坡 013_3@20
+  - 新加坡 014_3@21
+  - 新加坡 015_3@22
+  - 新加坡 016_3@23
+  - 日本 001_3@24
+  - 日本 002_3@25
+  - 日本 003_3@26
+  - 日本 004_3@27
+  - 日本 005_3@28
+  - 日本 006_3@29
+  - 日本 007_3@30
+  - 日本 008_3@31
+  - 日本 009_3@32
+  - 日本 010_3@33
+  - 日本 011_3@34
+  - 日本 012_3@35
+  - 日本 013_3@36
+  - 日本 014_3@37
+  - 日本 015_3@38
+  - 日本 016_3@39
+  - 日本 017_3@40
+  - 日本 018_3@41
+  - 日本 019_3@42
+  - 日本 020_3@43
+  - 日本 021_3@44
+  - 日本 022_3@45
+  - 日本 023_3@46
+  - 日本 024_3@47
+  - 日本 025_3@48
+  - 日本 026_3@49
+  - 日本 027_3@50
+  - 日本 028_3@51
+  - 日本 029_3@52
+  - 日本 030_3@53
+  - 日本 031_3@54
+  - 日本 032_3@55
+  - 日本 033_3@56
+  - 日本 034_3@57
+  - 日本 035_3@58
+  - 日本 036_3@59
+  - 日本 037_3@60
+  - 日本 038_3@61
+  - 日本 039_3@62
+  - 日本 040_3@63
+  - 日本 041_3@64
+  - 日本 042_3@65
+  - 日本 043_3@66
+  - 日本 044_3@67
+  - 日本 045_3@68
+  - 日本 046_3@69
+  - 日本 047_3@70
+  - 日本 048_3@71
+  - 日本 049_3@72
+  - 日本 050_3@73
+  - 日本 051_3@74
+  - 日本 052_3@75
+  - 日本 053_3@76
+  - 日本 054_3@77
+  - 日本 055_3@78
+  - 日本 056_3@79
+  - 日本 057_3@80
+  - 日本 058_3@81
+  - 日本 059_3@82
+  - 日本 060_3@83
+  - 日本 061_3@84
+  - 日本 062_3@85
+  - 日本 063_3@86
+  - 日本 064_3@87
+  - 日本 065_3@88
+  - 日本 066_3@89
+  - 日本 067_3@90
+  - 日本 068_3@91
+  - 法国 001_3@92
+  - 法国 002_3@93
+  - 法国 004_3@95
+  - 法国 005_3@96
+  - 波兰 001_3@97
+  - 波兰 002_3@98
+  - 波兰 003_3@99
+  - 澳大利亚 001_3@100
+  - 澳大利亚 002_3@101
+  - 澳大利亚 003_3@102
+  - 澳大利亚 004_3@103
+  - 澳大利亚 005_3@104
+  - 澳大利亚 006_3@105
+  - 澳大利亚 007_3@106
+  - 澳大利亚 008_3@107
+  - 瑞士 001_3@108
+  - 美国 001_3@109
+  - 美国 004_3@112
+  - 美国 005_3@113
+  - 美国 006_3@114
+  - 美国 007_3@115
+  - 美国 008_3@116
+  - 美国 009_3@117
+  - 美国 010_3@118
+  - 美国 011_3@119
+  - 美国 012_3@120
+  - 美国 013_3@121
+  - 美国 014_3@122
+  - 美国 015_3@123
+  - 美国 016_3@124
+  - 美国 017_3@125
+  - 美国 018_3@126
+  - 美国 020_3@128
+  - 美国 021_3@129
+  - 美国 022_3@130
+  - 美国 023_3@131
+  - 美国 024_3@132
+  - 美国 025_3@133
+  - 美国 026_3@134
+  - 美国 027_3@135
+  - 美国 028_3@136
+  - 美国 029_3@137
+  - 美国 030_3@138
+  - 美国 031_3@139
+  - 美国 032_3@140
+  - 美国 033_3@141
+  - 美国 034_3@142
+  - 美国 035_3@143
+  - 美国 036_3@144
+  - 美国 037_3@145
+  - 美国 038_3@146
+  - 美国 039_3@147
+  - 美国 040_3@148
+  - 美国 041_3@149
+  - 美国 042_3@150
+  - 美国 043_3@151
+  - 美国 044_3@152
+  - 美国 045_3@153
+  - 美国 046_3@154
+  - 美国 047_3@155
+  - 美国 048_3@156
+  - 美国 049_3@157
+  - 美国 050_3@158
+  - 美国 051_3@159
+  - 美国 052_3@160
+  - 美国 053_3@161
+  - 美国 054_3@162
+  - 美国 055_3@163
+  - 美国 056_3@164
+  - 美国 057_3@165
+  - 美国 058_3@166
+  - 美国 059_3@167
+  - 美国 060_3@168
+  - 美国 061_3@169
+  - 美国 062_3@170
+  - 美国 063_3@171
+  - 美国 065_3@173
+  - 美国 067_3@175
+  - 美国 068_3@176
+  - 美国 069_3@177
+  - 美国 071_3@179
+  - 美国 072_3@180
+  - 美国 073_3@181
+  - 美国 074_3@182
+  - 美国 075_3@183
+  - 美国 076_3@184
+  - 美国 077_3@185
+  - 美国 078_3@186
+  - 美国 079_3@187
+  - 美国 080_3@188
+  - 美国 081_3@189
+  - 美国 082_3@190
+  - 美国 083_3@191
+  - 美国 084_3@192
+  - 美国 085_3@193
+  - 美国 086_3@194
+  - 美国 087_3@195
+  - 美国 088_3@196
+  - 美国 089_3@197
+  - 美国 090_3@198
+  - 美国 091_3@199
+  - 美国 092_3@200
+  - 美国 093_3@201
+  - 美国 094_3@202
+  - 美国 095_3@203
+  - 美国 096_3@204
+  - 美国 097_3@205
+  - 美国 098_3@206
+  - 美国 099_3@207
+  - 美国 100_3@208
+  - 英国 001_3@209
+  - 英国 002_3@210
+  - 英国 003_3@211
+  - 英国 004_3@212
+  - 英国 005_3@213
+  - 英国 006_3@214
+  - 英国 007_3@215
+  - 英国 008_3@216
+  - 英属维尔京群岛 001_3@217
+  - 荷兰 001_3@218
+  - 荷兰 002_3@219
+  - 荷兰 003_3@220
+  - 荷兰 004_3@221
+  - 荷兰 005_3@222
+  - 荷兰 006_3@223
+  - 荷兰 007_3@224
+  - 荷兰 008_3@225
+  - 荷兰 009_3@226
+  - 荷兰 010_3@227
+  - 荷兰 011_3@228
+  - 荷兰 012_3@229
+  - 荷兰 015_3@232
+  - 越南 001_3@233
+  - 越南 002_3@234
+  - 韩国 001_3@235
+  - 韩国 002_3@236
+  - 韩国 003_3@237
+  - 韩国 004_3@238
+  - 韩国 005_3@239
+  - 韩国 006_3@240
+  - 韩国 007_3@241
+  - 韩国 008_3@242
+  - 韩国 009_3@243
+  - 韩国 010_3@244
+  - 韩国 011_3@245
+  - 韩国 012_3@246
+  - 韩国 013_3@247
+  - 韩国 014_3@248
+  - 香港 001_3@249
+  - 香港 002_3@250
+  - 香港 003_3@251
+  - 香港 005_3@253
+  - 香港 006_3@254
+  - 香港 007_3@255
+  - 香港 008_3@256
+  - 香港 009_3@257
+  - 香港 010_3@258
+  - 香港 011_3@259
+  - 香港 012_3@260
+  - 香港 013_3@261
+  - 香港 014_3@262
+  - 香港 015_3@263
+  - 香港 016_3@264
+  - 香港 017_3@265
+  - 香港 018_3@266
+  - 香港 019_3@267
+  - 香港 020_3@268
+  - 香港 021_3@269
+  - 香港 022_3@270
+  - 香港 023_3@271
+  - 香港 024_3@272
+  - 香港 025_3@273
+  - 香港 026_3@274
+  - 香港 027_3@275
+  - 香港 028_3@276
+  - 香港 030_3@278
+  - 香港 032_3@280
+  - 香港 033_3@281
+  - 香港 034_3@282
   - 英国(欢迎订阅Youtube破解资源君)_4@0
   - 印度(欢迎订阅Youtube破解资源君)_4@1
   - 印度(欢迎订阅Youtube破解资源君) 2_4@2
@@ -16556,7 +16449,6 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_1_6@16
   - 🇸🇬_SG_新加坡_2_6@17
   - 🇸🇬_SG_新加坡->🇯🇵_JP_日本_6@18
-  - 🇺🇸_US_美国_2_6@20
   - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_6@21
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
@@ -16705,6 +16597,7 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_2@34_8@106
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_3_2@35_8@107
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_4_2@36_8@108
+  - 🇺🇸_US_美国_8_2@38_8@110
   - 🇺🇸_US_美国_9_2@42_8@111
   - 🇻🇳_VN_越南_2@45_8@112
   - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_3@0_8@113
@@ -16778,7 +16671,6 @@ proxy-groups:
   - 🇺🇸_US_美国_15_5@32_8@187
   - 🇺🇸_US_美国_16_5@33_8@188
   - 🇺🇸_US_美国_17_5@34_8@189
-  - 🇺🇸_US_美国_18_5@35_8@190
   - 🇺🇸_US_美国->🇱🇹_LT_立陶宛_5@37_8@191
   - 🇺🇸_US_美国_1_6@0_8@192
   - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1_6@1_8@193
@@ -17316,280 +17208,274 @@ proxy-groups:
   - 🇺🇸 _US_美国 29_1@48
   - 伊朗 001_3@0
   - 伯利兹 001_3@1
-  - 伯利兹 002_3@2
-  - 俄罗斯 001_3@3
-  - 印度 002_3@5
-  - 印度 003_3@6
-  - 印度 004_3@7
-  - 哥斯达黎加 001_3@8
-  - 土耳其 001_3@9
-  - 塞浦路斯 001_3@10
-  - 新加坡 001_3@11
-  - 新加坡 002_3@12
-  - 新加坡 003_3@13
-  - 新加坡 004_3@14
-  - 新加坡 005_3@15
-  - 新加坡 006_3@16
-  - 新加坡 007_3@17
-  - 新加坡 008_3@18
-  - 新加坡 009_3@19
-  - 新加坡 010_3@20
-  - 新加坡 011_3@21
-  - 新加坡 012_3@22
-  - 新加坡 013_3@23
-  - 新加坡 014_3@24
-  - 新加坡 015_3@25
-  - 新加坡 016_3@26
-  - 新加坡 017_3@27
-  - 日本 001_3@28
-  - 日本 002_3@29
-  - 日本 003_3@30
-  - 日本 004_3@31
-  - 日本 005_3@32
-  - 日本 006_3@33
-  - 日本 007_3@34
-  - 日本 008_3@35
-  - 日本 009_3@36
-  - 日本 010_3@37
-  - 日本 011_3@38
-  - 日本 012_3@39
-  - 日本 013_3@40
-  - 日本 014_3@41
-  - 日本 015_3@42
-  - 日本 016_3@43
-  - 日本 017_3@44
-  - 日本 018_3@45
-  - 日本 019_3@46
-  - 日本 020_3@47
-  - 日本 021_3@48
-  - 日本 022_3@49
-  - 日本 023_3@50
-  - 日本 024_3@51
-  - 日本 025_3@52
-  - 日本 026_3@53
-  - 日本 027_3@54
-  - 日本 028_3@55
-  - 日本 029_3@56
-  - 日本 030_3@57
-  - 日本 031_3@58
-  - 日本 032_3@59
-  - 日本 033_3@60
-  - 日本 034_3@61
-  - 日本 035_3@62
-  - 日本 036_3@63
-  - 日本 037_3@64
-  - 日本 038_3@65
-  - 日本 039_3@66
-  - 日本 040_3@67
-  - 日本 041_3@68
-  - 日本 042_3@69
-  - 日本 043_3@70
-  - 日本 044_3@71
-  - 日本 045_3@72
-  - 日本 046_3@73
-  - 日本 047_3@74
-  - 日本 048_3@75
-  - 日本 049_3@76
-  - 日本 050_3@77
-  - 日本 051_3@78
-  - 日本 052_3@79
-  - 日本 053_3@80
-  - 日本 054_3@81
-  - 日本 055_3@82
-  - 日本 056_3@83
-  - 日本 057_3@84
-  - 日本 058_3@85
-  - 日本 059_3@86
-  - 日本 060_3@87
-  - 日本 061_3@88
-  - 日本 062_3@89
-  - 日本 063_3@90
-  - 日本 064_3@91
-  - 日本 065_3@92
-  - 法国 001_3@93
-  - 法国 003_3@95
-  - 法国 004_3@96
-  - 法国 005_3@97
-  - 波兰 001_3@98
-  - 波兰 002_3@99
-  - 波兰 003_3@100
-  - 澳大利亚 001_3@101
-  - 澳大利亚 002_3@102
-  - 澳大利亚 003_3@103
-  - 澳大利亚 004_3@104
-  - 澳大利亚 005_3@105
-  - 澳大利亚 006_3@106
-  - 澳大利亚 007_3@107
-  - 澳大利亚 008_3@108
-  - 澳大利亚 009_3@109
-  - 瑞士 001_3@110
-  - 美国 001_3@111
-  - 美国 004_3@114
-  - 美国 005_3@115
-  - 美国 006_3@116
-  - 美国 007_3@117
-  - 美国 008_3@118
-  - 美国 009_3@119
-  - 美国 010_3@120
-  - 美国 011_3@121
-  - 美国 012_3@122
-  - 美国 013_3@123
-  - 美国 014_3@124
-  - 美国 015_3@125
-  - 美国 016_3@126
-  - 美国 017_3@127
-  - 美国 018_3@128
-  - 美国 020_3@130
-  - 美国 021_3@131
-  - 美国 022_3@132
-  - 美国 023_3@133
-  - 美国 024_3@134
-  - 美国 025_3@135
-  - 美国 026_3@136
-  - 美国 027_3@137
-  - 美国 028_3@138
-  - 美国 029_3@139
-  - 美国 030_3@140
-  - 美国 031_3@141
-  - 美国 032_3@142
-  - 美国 033_3@143
-  - 美国 034_3@144
-  - 美国 035_3@145
-  - 美国 036_3@146
-  - 美国 037_3@147
-  - 美国 038_3@148
-  - 美国 039_3@149
-  - 美国 040_3@150
-  - 美国 041_3@151
-  - 美国 042_3@152
-  - 美国 043_3@153
-  - 美国 044_3@154
-  - 美国 045_3@155
-  - 美国 046_3@156
-  - 美国 047_3@157
-  - 美国 048_3@158
-  - 美国 049_3@159
-  - 美国 050_3@160
-  - 美国 051_3@161
-  - 美国 052_3@162
-  - 美国 053_3@163
-  - 美国 054_3@164
-  - 美国 055_3@165
-  - 美国 056_3@166
-  - 美国 057_3@167
-  - 美国 058_3@168
-  - 美国 059_3@169
-  - 美国 060_3@170
-  - 美国 061_3@171
-  - 美国 062_3@172
-  - 美国 063_3@173
-  - 美国 065_3@175
-  - 美国 067_3@177
-  - 美国 068_3@178
-  - 美国 069_3@179
-  - 美国 071_3@181
-  - 美国 072_3@182
-  - 美国 073_3@183
-  - 美国 075_3@185
-  - 美国 076_3@186
-  - 美国 077_3@187
-  - 美国 078_3@188
-  - 美国 079_3@189
-  - 美国 080_3@190
-  - 美国 081_3@191
-  - 美国 082_3@192
-  - 美国 083_3@193
-  - 美国 084_3@194
-  - 美国 085_3@195
-  - 美国 086_3@196
-  - 美国 087_3@197
-  - 美国 088_3@198
-  - 美国 089_3@199
-  - 美国 090_3@200
-  - 美国 091_3@201
-  - 美国 092_3@202
-  - 美国 093_3@203
-  - 美国 094_3@204
-  - 美国 095_3@205
-  - 美国 096_3@206
-  - 美国 097_3@207
-  - 美国 098_3@208
-  - 美国 099_3@209
-  - 美国 100_3@210
-  - 英国 001_3@211
-  - 英国 002_3@212
-  - 英国 003_3@213
-  - 英国 004_3@214
-  - 英国 005_3@215
-  - 英国 006_3@216
-  - 英国 007_3@217
-  - 英国 008_3@218
-  - 英国 009_3@219
-  - 英属维尔京群岛 001_3@220
-  - 荷兰 001_3@221
-  - 荷兰 002_3@222
-  - 荷兰 003_3@223
-  - 荷兰 004_3@224
-  - 荷兰 005_3@225
-  - 荷兰 006_3@226
-  - 荷兰 007_3@227
-  - 荷兰 008_3@228
-  - 荷兰 009_3@229
-  - 荷兰 010_3@230
-  - 荷兰 011_3@231
-  - 荷兰 012_3@232
-  - 荷兰 013_3@233
-  - 越南 001_3@234
-  - 越南 002_3@235
-  - 越南 003_3@236
-  - 韩国 001_3@237
-  - 韩国 002_3@238
-  - 韩国 003_3@239
-  - 韩国 004_3@240
-  - 韩国 005_3@241
-  - 韩国 006_3@242
-  - 韩国 007_3@243
-  - 韩国 008_3@244
-  - 韩国 009_3@245
-  - 韩国 010_3@246
-  - 韩国 011_3@247
-  - 韩国 012_3@248
-  - 韩国 013_3@249
-  - 韩国 014_3@250
-  - 韩国 015_3@251
-  - 香港 001_3@252
-  - 香港 002_3@253
-  - 香港 003_3@254
-  - 香港 005_3@256
-  - 香港 006_3@257
-  - 香港 007_3@258
-  - 香港 008_3@259
-  - 香港 009_3@260
-  - 香港 010_3@261
-  - 香港 011_3@262
-  - 香港 012_3@263
-  - 香港 013_3@264
-  - 香港 014_3@265
-  - 香港 015_3@266
-  - 香港 016_3@267
-  - 香港 017_3@268
-  - 香港 018_3@269
-  - 香港 019_3@270
-  - 香港 020_3@271
-  - 香港 021_3@272
-  - 香港 022_3@273
-  - 香港 023_3@274
-  - 香港 024_3@275
-  - 香港 025_3@276
-  - 香港 026_3@277
-  - 香港 027_3@278
-  - 香港 028_3@279
-  - 香港 030_3@281
-  - 香港 031_3@282
-  - 香港 032_3@283
-  - 香港 034_3@285
-  - 香港 035_3@286
-  - 香港 036_3@287
+  - 俄罗斯 001_3@2
+  - 印度 002_3@4
+  - 印度 003_3@5
+  - 印度 004_3@6
+  - 土耳其 001_3@7
+  - 新加坡 001_3@8
+  - 新加坡 002_3@9
+  - 新加坡 003_3@10
+  - 新加坡 004_3@11
+  - 新加坡 005_3@12
+  - 新加坡 006_3@13
+  - 新加坡 007_3@14
+  - 新加坡 008_3@15
+  - 新加坡 009_3@16
+  - 新加坡 010_3@17
+  - 新加坡 011_3@18
+  - 新加坡 012_3@19
+  - 新加坡 013_3@20
+  - 新加坡 014_3@21
+  - 新加坡 015_3@22
+  - 新加坡 016_3@23
+  - 日本 001_3@24
+  - 日本 002_3@25
+  - 日本 003_3@26
+  - 日本 004_3@27
+  - 日本 005_3@28
+  - 日本 006_3@29
+  - 日本 007_3@30
+  - 日本 008_3@31
+  - 日本 009_3@32
+  - 日本 010_3@33
+  - 日本 011_3@34
+  - 日本 012_3@35
+  - 日本 013_3@36
+  - 日本 014_3@37
+  - 日本 015_3@38
+  - 日本 016_3@39
+  - 日本 017_3@40
+  - 日本 018_3@41
+  - 日本 019_3@42
+  - 日本 020_3@43
+  - 日本 021_3@44
+  - 日本 022_3@45
+  - 日本 023_3@46
+  - 日本 024_3@47
+  - 日本 025_3@48
+  - 日本 026_3@49
+  - 日本 027_3@50
+  - 日本 028_3@51
+  - 日本 029_3@52
+  - 日本 030_3@53
+  - 日本 031_3@54
+  - 日本 032_3@55
+  - 日本 033_3@56
+  - 日本 034_3@57
+  - 日本 035_3@58
+  - 日本 036_3@59
+  - 日本 037_3@60
+  - 日本 038_3@61
+  - 日本 039_3@62
+  - 日本 040_3@63
+  - 日本 041_3@64
+  - 日本 042_3@65
+  - 日本 043_3@66
+  - 日本 044_3@67
+  - 日本 045_3@68
+  - 日本 046_3@69
+  - 日本 047_3@70
+  - 日本 048_3@71
+  - 日本 049_3@72
+  - 日本 050_3@73
+  - 日本 051_3@74
+  - 日本 052_3@75
+  - 日本 053_3@76
+  - 日本 054_3@77
+  - 日本 055_3@78
+  - 日本 056_3@79
+  - 日本 057_3@80
+  - 日本 058_3@81
+  - 日本 059_3@82
+  - 日本 060_3@83
+  - 日本 061_3@84
+  - 日本 062_3@85
+  - 日本 063_3@86
+  - 日本 064_3@87
+  - 日本 065_3@88
+  - 日本 066_3@89
+  - 日本 067_3@90
+  - 日本 068_3@91
+  - 法国 001_3@92
+  - 法国 002_3@93
+  - 法国 004_3@95
+  - 法国 005_3@96
+  - 波兰 001_3@97
+  - 波兰 002_3@98
+  - 波兰 003_3@99
+  - 澳大利亚 001_3@100
+  - 澳大利亚 002_3@101
+  - 澳大利亚 003_3@102
+  - 澳大利亚 004_3@103
+  - 澳大利亚 005_3@104
+  - 澳大利亚 006_3@105
+  - 澳大利亚 007_3@106
+  - 澳大利亚 008_3@107
+  - 瑞士 001_3@108
+  - 美国 001_3@109
+  - 美国 004_3@112
+  - 美国 005_3@113
+  - 美国 006_3@114
+  - 美国 007_3@115
+  - 美国 008_3@116
+  - 美国 009_3@117
+  - 美国 010_3@118
+  - 美国 011_3@119
+  - 美国 012_3@120
+  - 美国 013_3@121
+  - 美国 014_3@122
+  - 美国 015_3@123
+  - 美国 016_3@124
+  - 美国 017_3@125
+  - 美国 018_3@126
+  - 美国 020_3@128
+  - 美国 021_3@129
+  - 美国 022_3@130
+  - 美国 023_3@131
+  - 美国 024_3@132
+  - 美国 025_3@133
+  - 美国 026_3@134
+  - 美国 027_3@135
+  - 美国 028_3@136
+  - 美国 029_3@137
+  - 美国 030_3@138
+  - 美国 031_3@139
+  - 美国 032_3@140
+  - 美国 033_3@141
+  - 美国 034_3@142
+  - 美国 035_3@143
+  - 美国 036_3@144
+  - 美国 037_3@145
+  - 美国 038_3@146
+  - 美国 039_3@147
+  - 美国 040_3@148
+  - 美国 041_3@149
+  - 美国 042_3@150
+  - 美国 043_3@151
+  - 美国 044_3@152
+  - 美国 045_3@153
+  - 美国 046_3@154
+  - 美国 047_3@155
+  - 美国 048_3@156
+  - 美国 049_3@157
+  - 美国 050_3@158
+  - 美国 051_3@159
+  - 美国 052_3@160
+  - 美国 053_3@161
+  - 美国 054_3@162
+  - 美国 055_3@163
+  - 美国 056_3@164
+  - 美国 057_3@165
+  - 美国 058_3@166
+  - 美国 059_3@167
+  - 美国 060_3@168
+  - 美国 061_3@169
+  - 美国 062_3@170
+  - 美国 063_3@171
+  - 美国 065_3@173
+  - 美国 067_3@175
+  - 美国 068_3@176
+  - 美国 069_3@177
+  - 美国 071_3@179
+  - 美国 072_3@180
+  - 美国 073_3@181
+  - 美国 074_3@182
+  - 美国 075_3@183
+  - 美国 076_3@184
+  - 美国 077_3@185
+  - 美国 078_3@186
+  - 美国 079_3@187
+  - 美国 080_3@188
+  - 美国 081_3@189
+  - 美国 082_3@190
+  - 美国 083_3@191
+  - 美国 084_3@192
+  - 美国 085_3@193
+  - 美国 086_3@194
+  - 美国 087_3@195
+  - 美国 088_3@196
+  - 美国 089_3@197
+  - 美国 090_3@198
+  - 美国 091_3@199
+  - 美国 092_3@200
+  - 美国 093_3@201
+  - 美国 094_3@202
+  - 美国 095_3@203
+  - 美国 096_3@204
+  - 美国 097_3@205
+  - 美国 098_3@206
+  - 美国 099_3@207
+  - 美国 100_3@208
+  - 英国 001_3@209
+  - 英国 002_3@210
+  - 英国 003_3@211
+  - 英国 004_3@212
+  - 英国 005_3@213
+  - 英国 006_3@214
+  - 英国 007_3@215
+  - 英国 008_3@216
+  - 英属维尔京群岛 001_3@217
+  - 荷兰 001_3@218
+  - 荷兰 002_3@219
+  - 荷兰 003_3@220
+  - 荷兰 004_3@221
+  - 荷兰 005_3@222
+  - 荷兰 006_3@223
+  - 荷兰 007_3@224
+  - 荷兰 008_3@225
+  - 荷兰 009_3@226
+  - 荷兰 010_3@227
+  - 荷兰 011_3@228
+  - 荷兰 012_3@229
+  - 荷兰 015_3@232
+  - 越南 001_3@233
+  - 越南 002_3@234
+  - 韩国 001_3@235
+  - 韩国 002_3@236
+  - 韩国 003_3@237
+  - 韩国 004_3@238
+  - 韩国 005_3@239
+  - 韩国 006_3@240
+  - 韩国 007_3@241
+  - 韩国 008_3@242
+  - 韩国 009_3@243
+  - 韩国 010_3@244
+  - 韩国 011_3@245
+  - 韩国 012_3@246
+  - 韩国 013_3@247
+  - 韩国 014_3@248
+  - 香港 001_3@249
+  - 香港 002_3@250
+  - 香港 003_3@251
+  - 香港 005_3@253
+  - 香港 006_3@254
+  - 香港 007_3@255
+  - 香港 008_3@256
+  - 香港 009_3@257
+  - 香港 010_3@258
+  - 香港 011_3@259
+  - 香港 012_3@260
+  - 香港 013_3@261
+  - 香港 014_3@262
+  - 香港 015_3@263
+  - 香港 016_3@264
+  - 香港 017_3@265
+  - 香港 018_3@266
+  - 香港 019_3@267
+  - 香港 020_3@268
+  - 香港 021_3@269
+  - 香港 022_3@270
+  - 香港 023_3@271
+  - 香港 024_3@272
+  - 香港 025_3@273
+  - 香港 026_3@274
+  - 香港 027_3@275
+  - 香港 028_3@276
+  - 香港 030_3@278
+  - 香港 032_3@280
+  - 香港 033_3@281
+  - 香港 034_3@282
   - 英国(欢迎订阅Youtube破解资源君)_4@0
   - 印度(欢迎订阅Youtube破解资源君)_4@1
   - 印度(欢迎订阅Youtube破解资源君) 2_4@2
@@ -17659,7 +17545,6 @@ proxy-groups:
   - 🇸🇬_SG_新加坡_1_6@16
   - 🇸🇬_SG_新加坡_2_6@17
   - 🇸🇬_SG_新加坡->🇯🇵_JP_日本_6@18
-  - 🇺🇸_US_美国_2_6@20
   - 🇫🇷_FR_法国->🇦🇹_AT_奥地利_6@21
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
@@ -17808,6 +17693,7 @@ proxy-groups:
   - 🇯🇵_JP_日本_2_2@34_8@106
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_3_2@35_8@107
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_4_2@36_8@108
+  - 🇺🇸_US_美国_8_2@38_8@110
   - 🇺🇸_US_美国_9_2@42_8@111
   - 🇻🇳_VN_越南_2@45_8@112
   - 🇧🇿_BZ_伯利兹->🇫🇷_FR_法国_3@0_8@113
@@ -17881,7 +17767,6 @@ proxy-groups:
   - 🇺🇸_US_美国_15_5@32_8@187
   - 🇺🇸_US_美国_16_5@33_8@188
   - 🇺🇸_US_美国_17_5@34_8@189
-  - 🇺🇸_US_美国_18_5@35_8@190
   - 🇺🇸_US_美国->🇱🇹_LT_立陶宛_5@37_8@191
   - 🇺🇸_US_美国_1_6@0_8@192
   - 🇧🇿_BZ_伯利兹->🇺🇸_US_美国_1_6@1_8@193
