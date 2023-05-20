@@ -4082,64 +4082,51 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳中国-上海-上海-ss-saduioqwd.fufucat.xyz:51814_7@2
-  password: 7c138cac-2ab8-4aec-9079-811e48478f21
-  port: 51814
-  server: saduioqwd.fufucat.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:44277_7@3
-  password: 7c138cac-2ab8-4aec-9079-811e48478f21
-  port: 44277
-  server: sz.oracleyyds.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳中国-上海-上海-ss-180.163.91.48:33061_7@5
-  password: 7c138cac-2ab8-4aec-9079-811e48478f21
-  port: 33061
-  server: 180.163.91.48
+- cipher: aes-256-cfb
+  name: 🇯🇵日本-东京都-东京-ss-54.178.201.232:443_7@3
+  password: amazonskr05
+  port: 443
+  server: 54.178.201.232
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸美国-加利福尼亚-0-ss-167.160.91.118:13355_7@6
-  password: dongtaiwang.com
-  port: 13355
-  server: 167.160.91.118
+  name: 🇩🇪德国-黑森-0-ss-145.239.1.100:7306_7@5
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 145.239.1.100
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:41666_7@7
-  password: 1ec408d0-17f9-4fcc-9e52-ea8c3e646b45
-  port: 41666
-  server: sz.oracleyyds.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳中国-上海-上海-ss-139.226.136.165:26950_7@9
-  password: 7c138cac-2ab8-4aec-9079-811e48478f21
-  port: 26950
-  server: 139.226.136.165
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇳中国-广东-广州-ss-gz.oracleyyds.com:27628_7@10
-  password: 1ec408d0-17f9-4fcc-9e52-ea8c3e646b45
-  port: 27628
-  server: gz.oracleyyds.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇳中国-江苏-镇江-ss2-js2.76po.com:43471_7@14
-  password: 1ec408d0-17f9-4fcc-9e52-ea8c3e646b45
-  port: 43471
-  server: js2.76po.com
-  type: ss
-- alterId: 0
+- alterId: 4
   cipher: auto
-  name: 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80_7@22
+  name: 🇺🇸美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443_7@8
   network: ws
-  port: 80
-  server: 138.2.71.111
+  port: 443
+  server: us2.01dj.sbs
+  tls: true
   type: vmess
   udp: false
-  uuid: b2947942-701b-4de2-91cd-f6810d5d03bc
-  ws-path: /
+  uuid: 4dc3b73e-9c0a-477c-8a29-843849e9194e
+  ws-path: /sometimesnaive
+- alterId: 4
+  cipher: auto
+  name: 🇺🇸美国-加利福尼亚-0-v2ray-v2ray3.webgfw.top:2083_7@9
+  network: ws
+  port: 2083
+  server: v2ray3.webgfw.top
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 4cc72565-0d05-41e6-bc34-72aba9da544f
+  ws-path: /X9piqfat/
+- alterId: 4
+  cipher: auto
+  name: 🇺🇸美国-加利福尼亚-0-v2ray-us1.01dj.sbs:443_7@10
+  network: ws
+  port: 443
+  server: us1.01dj.sbs
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 4dc3b73e-9c0a-477c-8a29-843849e9194e
+  ws-path: /sometimesnaive
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1_0@0_8@0
@@ -10846,15 +10833,11 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇨🇳中国-上海-上海-ss-saduioqwd.fufucat.xyz:51814_7@2
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:44277_7@3
-  - 🇨🇳中国-上海-上海-ss-180.163.91.48:33061_7@5
-  - 🇺🇸美国-加利福尼亚-0-ss-167.160.91.118:13355_7@6
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:41666_7@7
-  - 🇨🇳中国-上海-上海-ss-139.226.136.165:26950_7@9
-  - 🇨🇳中国-广东-广州-ss-gz.oracleyyds.com:27628_7@10
-  - 🇨🇳中国-江苏-镇江-ss2-js2.76po.com:43471_7@14
-  - 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80_7@22
+  - 🇯🇵日本-东京都-东京-ss-54.178.201.232:443_7@3
+  - 🇩🇪德国-黑森-0-ss-145.239.1.100:7306_7@5
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443_7@8
+  - 🇺🇸美国-加利福尼亚-0-v2ray-v2ray3.webgfw.top:2083_7@9
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us1.01dj.sbs:443_7@10
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -11885,15 +11868,11 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇨🇳中国-上海-上海-ss-saduioqwd.fufucat.xyz:51814_7@2
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:44277_7@3
-  - 🇨🇳中国-上海-上海-ss-180.163.91.48:33061_7@5
-  - 🇺🇸美国-加利福尼亚-0-ss-167.160.91.118:13355_7@6
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:41666_7@7
-  - 🇨🇳中国-上海-上海-ss-139.226.136.165:26950_7@9
-  - 🇨🇳中国-广东-广州-ss-gz.oracleyyds.com:27628_7@10
-  - 🇨🇳中国-江苏-镇江-ss2-js2.76po.com:43471_7@14
-  - 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80_7@22
+  - 🇯🇵日本-东京都-东京-ss-54.178.201.232:443_7@3
+  - 🇩🇪德国-黑森-0-ss-145.239.1.100:7306_7@5
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443_7@8
+  - 🇺🇸美国-加利福尼亚-0-v2ray-v2ray3.webgfw.top:2083_7@9
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us1.01dj.sbs:443_7@10
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -12928,15 +12907,11 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇨🇳中国-上海-上海-ss-saduioqwd.fufucat.xyz:51814_7@2
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:44277_7@3
-  - 🇨🇳中国-上海-上海-ss-180.163.91.48:33061_7@5
-  - 🇺🇸美国-加利福尼亚-0-ss-167.160.91.118:13355_7@6
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:41666_7@7
-  - 🇨🇳中国-上海-上海-ss-139.226.136.165:26950_7@9
-  - 🇨🇳中国-广东-广州-ss-gz.oracleyyds.com:27628_7@10
-  - 🇨🇳中国-江苏-镇江-ss2-js2.76po.com:43471_7@14
-  - 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80_7@22
+  - 🇯🇵日本-东京都-东京-ss-54.178.201.232:443_7@3
+  - 🇩🇪德国-黑森-0-ss-145.239.1.100:7306_7@5
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443_7@8
+  - 🇺🇸美国-加利福尼亚-0-v2ray-v2ray3.webgfw.top:2083_7@9
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us1.01dj.sbs:443_7@10
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -13968,15 +13943,11 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇨🇳中国-上海-上海-ss-saduioqwd.fufucat.xyz:51814_7@2
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:44277_7@3
-  - 🇨🇳中国-上海-上海-ss-180.163.91.48:33061_7@5
-  - 🇺🇸美国-加利福尼亚-0-ss-167.160.91.118:13355_7@6
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:41666_7@7
-  - 🇨🇳中国-上海-上海-ss-139.226.136.165:26950_7@9
-  - 🇨🇳中国-广东-广州-ss-gz.oracleyyds.com:27628_7@10
-  - 🇨🇳中国-江苏-镇江-ss2-js2.76po.com:43471_7@14
-  - 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80_7@22
+  - 🇯🇵日本-东京都-东京-ss-54.178.201.232:443_7@3
+  - 🇩🇪德国-黑森-0-ss-145.239.1.100:7306_7@5
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443_7@8
+  - 🇺🇸美国-加利福尼亚-0-v2ray-v2ray3.webgfw.top:2083_7@9
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us1.01dj.sbs:443_7@10
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -15008,15 +14979,11 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇨🇳中国-上海-上海-ss-saduioqwd.fufucat.xyz:51814_7@2
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:44277_7@3
-  - 🇨🇳中国-上海-上海-ss-180.163.91.48:33061_7@5
-  - 🇺🇸美国-加利福尼亚-0-ss-167.160.91.118:13355_7@6
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:41666_7@7
-  - 🇨🇳中国-上海-上海-ss-139.226.136.165:26950_7@9
-  - 🇨🇳中国-广东-广州-ss-gz.oracleyyds.com:27628_7@10
-  - 🇨🇳中国-江苏-镇江-ss2-js2.76po.com:43471_7@14
-  - 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80_7@22
+  - 🇯🇵日本-东京都-东京-ss-54.178.201.232:443_7@3
+  - 🇩🇪德国-黑森-0-ss-145.239.1.100:7306_7@5
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443_7@8
+  - 🇺🇸美国-加利福尼亚-0-v2ray-v2ray3.webgfw.top:2083_7@9
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us1.01dj.sbs:443_7@10
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -16048,15 +16015,11 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇨🇳中国-上海-上海-ss-saduioqwd.fufucat.xyz:51814_7@2
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:44277_7@3
-  - 🇨🇳中国-上海-上海-ss-180.163.91.48:33061_7@5
-  - 🇺🇸美国-加利福尼亚-0-ss-167.160.91.118:13355_7@6
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:41666_7@7
-  - 🇨🇳中国-上海-上海-ss-139.226.136.165:26950_7@9
-  - 🇨🇳中国-广东-广州-ss-gz.oracleyyds.com:27628_7@10
-  - 🇨🇳中国-江苏-镇江-ss2-js2.76po.com:43471_7@14
-  - 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80_7@22
+  - 🇯🇵日本-东京都-东京-ss-54.178.201.232:443_7@3
+  - 🇩🇪德国-黑森-0-ss-145.239.1.100:7306_7@5
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443_7@8
+  - 🇺🇸美国-加利福尼亚-0-v2ray-v2ray3.webgfw.top:2083_7@9
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us1.01dj.sbs:443_7@10
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -17105,15 +17068,11 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇨🇳中国-上海-上海-ss-saduioqwd.fufucat.xyz:51814_7@2
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:44277_7@3
-  - 🇨🇳中国-上海-上海-ss-180.163.91.48:33061_7@5
-  - 🇺🇸美国-加利福尼亚-0-ss-167.160.91.118:13355_7@6
-  - 🇨🇳中国-海南-海口-ss-sz.oracleyyds.com:41666_7@7
-  - 🇨🇳中国-上海-上海-ss-139.226.136.165:26950_7@9
-  - 🇨🇳中国-广东-广州-ss-gz.oracleyyds.com:27628_7@10
-  - 🇨🇳中国-江苏-镇江-ss2-js2.76po.com:43471_7@14
-  - 🇺🇸美国-加利福尼亚-0-v2ray-138.2.71.111:80_7@22
+  - 🇯🇵日本-东京都-东京-ss-54.178.201.232:443_7@3
+  - 🇩🇪德国-黑森-0-ss-145.239.1.100:7306_7@5
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us2.01dj.sbs:443_7@8
+  - 🇺🇸美国-加利福尼亚-0-v2ray-v2ray3.webgfw.top:2083_7@9
+  - 🇺🇸美国-加利福尼亚-0-v2ray-us1.01dj.sbs:443_7@10
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
