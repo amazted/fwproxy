@@ -4613,80 +4613,72 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-128-gcm
+  name: 🇨🇳中国-海南-海口-ss-lmau.51unicorn.top:19924_7@0
+  password: 8e493724-782c-4cf9-a332-89943175d7fa
+  port: 19924
+  server: lmau.51unicorn.top
+  type: ss
 - cipher: aes-256-gcm
-  name: 🇫🇷法国-巴黎-0-ss-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000_7@0
+  name: 🇷🇺俄罗斯-莫斯科-莫斯科-ss-46.17.43.192:20011_7@2
+  password: dongtaiwang.com
+  port: 20011
+  server: 46.17.43.192
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇳中国-广东-广州-ss-iepljp.51unicorn.top:21002_7@3
+  password: 8e493724-782c-4cf9-a332-89943175d7fa
+  port: 21002
+  server: iepljp.51unicorn.top
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧英国-伦敦-伦敦-ss2-ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444_7@4
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷法国-0-0-ss2-149.202.82.172:5500_7@5
   password: KixLvKzwjekG00rm
-  port: 8000
-  server: ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  port: 5500
+  server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:8882_7@1
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 193.108.118.36
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷韩国-0-0-ss-125.141.31.98:17754_7@3
-  password: qwerREWQ@@
-  port: 17754
-  server: 125.141.31.98
+  name: 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376_7@6
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 158.51.121.154
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7002_7@6
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 172.99.190.87
+  name: 🇨🇳中国-广东-江门-ss2-mplstw.51unicorn.top:21006_7@9
+  password: 8e493724-782c-4cf9-a332-89943175d7fa
+  port: 21006
+  server: mplstw.51unicorn.top
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇨🇳中国-海南-海口-ss2-lmca.51unicorn.top:19920_7@10
+  password: 8e493724-782c-4cf9-a332-89943175d7fa
+  port: 19920
+  server: lmca.51unicorn.top
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881_7@8
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 172.99.190.87
+  name: 🇺🇸美国-0-0-ss2-134.195.196.149:8090_7@12
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.149
   type: ss
-- alterId: 4
-  cipher: auto
-  name: 🇳🇱荷兰-0-0-v2ray-45.131.248.140:50068_7@11
-  network: ws
-  port: 50068
-  server: 45.131.248.140
-  tls: false
-  type: vmess
-  udp: false
-  uuid: 557e532e-de4a-4b3e-9fb2-5d355ccb5da9
-  ws-path: /
-- alterId: 4
-  cipher: auto
-  name: 🇳🇱荷兰-0-0-v2ray-8x69c3-8080.csb.app:443_7@12
-  network: ws
-  port: 443
-  server: 8x69c3-8080.csb.app
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 42bedd62-b62d-4681-a6b2-c9f3669a8454
-  ws-path: /vmabcd
-- alterId: 4
-  cipher: auto
-  name: 🇳🇱荷兰-0-0-v2ray-ming2.kiwireich.com:443_7@13
-  network: ws
-  port: 443
-  server: ming2.kiwireich.com
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-  ws-path: /ray
-- alterId: 4
-  cipher: auto
-  name: 🇳🇱荷兰-0-0-v2ray-new8.huvicloud.com:443_7@14
-  network: ws
-  port: 443
-  server: new8.huvicloud.com
-  tls: true
-  type: vmess
-  udp: false
-  uuid: a11ca760-9ef9-4a63-95c9-4c5c32d56251
-  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳中国-北京-北京-ss2-free.themars.top:32103_7@14
+  password: b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2
+  port: 32103
+  server: free.themars.top
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸美国-0-0-ss2-134.195.196.149:5003_7@15
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.196.149
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1_0@0_8@0
@@ -8484,6 +8476,20 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
+  network: ws
+  port: 443
+  server: ming2.kiwireich.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  ws-opts:
+    headers:
+      host: ming2.kiwireich.com
+    path: /ray
+- alterId: 0
+  cipher: auto
   name: 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   network: ws
   port: 80
@@ -10769,355 +10775,9 @@ proxies:
   uuid: cb7001c7-e495-41ac-b942-f25f60523414
   ws-opts:
     path: /clientarea
-- cipher: aes-128-gcm
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】84_9@0
-  password: 8e493724-782c-4cf9-a332-89943175d7fa
-  port: 19920
-  server: lmca.51unicorn.top
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】16_9@1
-  password: 8e493724-782c-4cf9-a332-89943175d7fa
-  port: 19916
-  server: lmvn.51unicorn.top
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】153_9@2
-  password: 8e493724-782c-4cf9-a332-89943175d7fa
-  port: 21006
-  server: mplstw.51unicorn.top
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@3
-  port: 53403
-  server: 137.175.1.11
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】11_9@5
-  network: ws
-  port: 2095
-  server: 104.25.197.67
-  tls: false
-  type: vmess
-  uuid: 43f71098-601d-459b-91f2-7e85a9ac6042
-  ws-opts:
-    headers:
-      Host: x2.ylks01.eu.org
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】38_9@7
-  network: ws
-  port: 2083
-  server: 104.19.204.47
-  tls: true
-  type: vmess
-  uuid: 39304f36-8a9c-4692-9b31-d2997532f567
-  ws-opts:
-    headers:
-      Host: x2.ylks01.eu.org
-    path: /qwer00
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@9
-  port: 46902
-  server: 198.2.204.253
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@10
-  network: ws
-  port: 2052
-  server: 104.20.55.60
-  tls: false
-  type: vmess
-  uuid: 3f100fa9-a160-4a1c-c40d-e22070ac9785
-  ws-opts:
-    headers:
-      Host: x2.ylks01.eu.org
-    path: /qwer00
-- name: 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@11
-  password: a1956156-b1d6-468e-b22f-59765172b07d
-  port: 443
-  server: hinet.mjt001.com
-  sni: hinet.mjt001.com
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@12
-  port: 50002
-  server: 198.2.203.148
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@15
-  network: ws
-  port: 443
-  server: 172.66.46.15
-  tls: true
-  type: vmess
-  uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
-  ws-opts:
-    headers:
-      Host: z.zorro.tk
-    path: /ou
-- cipher: aes-256-gcm
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】52_9@17
-  password: 8e493724-782c-4cf9-a332-89943175d7fa
-  port: 21002
-  server: iepljp.51unicorn.top
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@19
-  port: 50004
-  server: 137.175.41.200
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】57_9@22
-  network: ws
-  port: 8080
-  server: 198.41.197.56
-  tls: false
-  type: vmess
-  uuid: c5c9844d-050e-44f1-cb6d-ec5166772631
-  ws-opts:
-    headers:
-      Host: x2.ylks01.eu.org
-    path: /qwer00
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@25
-  port: 55502
-  server: 142.0.132.92
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@28
-  network: ws
-  port: 443
-  server: cdnjs.com
-  tls: true
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  ws-opts:
-    headers:
-      Host: Lille.kotick.site
-    path: /speedtest
-- cipher: aes-128-gcm
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】131_9@30
-  password: 8e493724-782c-4cf9-a332-89943175d7fa
-  port: 19924
-  server: lmau.51unicorn.top
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@31
-  network: ws
-  port: 443
-  server: 0kxedm1x8q8lksmj05.xingbayun.buzz
-  tls: false
-  type: vmess
-  uuid: 89d679fb-e2fb-42ff-b830-38e5ae86065c
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /zh-cn
-- alterId: 64
-  cipher: auto
-  name: 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@34
-  port: 54902
-  server: 54.38.154.182
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】156_9@35
-  network: ws
-  port: 2083
-  server: 104.20.217.49
-  tls: true
-  type: vmess
-  uuid: 39304f36-8a9c-4692-9b31-d2997532f567
-  ws-opts:
-    headers:
-      Host: x2.ylks01.eu.org
-    path: /qwer00
-- alterId: 0
-  cipher: auto
-  name: 哥斯达黎加【付费推荐：tt.vg/vip】119_9@36
-  network: ws
-  port: 8080
-  server: 190.93.245.111
-  tls: false
-  type: vmess
-  uuid: c5c9844d-050e-44f1-cb6d-ec5166772631
-  ws-opts:
-    headers:
-      Host: x2.ylks01.eu.org
-    path: /qwer00
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@37
-  network: ws
-  port: 443
-  server: 192.203.230.1
-  tls: true
-  type: vmess
-  uuid: dddd0b29-1576-4003-9990-d7cea34264db
-  ws-opts:
-    headers:
-      Host: dedi2.1808.cf
-    path: /835757
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@38
-  network: ws
-  port: 443
-  server: 192.203.230.3
-  tls: true
-  type: vmess
-  uuid: dddd0b29-1576-4003-9990-d7cea34264db
-  ws-opts:
-    headers:
-      Host: dedi2.1808.cf
-    path: /835757
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】9_9@40
-  network: ws
-  port: 2052
-  server: 104.24.202.231
-  tls: false
-  type: vmess
-  uuid: 3f100fa9-a160-4a1c-c40d-e22070ac9785
-  ws-opts:
-    headers:
-      Host: x2.ylks01.eu.org
-    path: /qwer00
-- alterId: 0
-  cipher: auto
-  name: 伊朗【付费推荐：tt.vg/vip】15_9@47
-  port: 2087
-  server: turkey.abraak.site
-  tls: false
-  type: vmess
-  uuid: 21025839-c140-4c67-8f4c-9a413ca8de3f
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@48
-  network: ws
-  port: 443
-  server: 0kxedm1x8q8lksmj07.xingbayun.buzz
-  tls: false
-  type: vmess
-  uuid: 89d679fb-e2fb-42ff-b830-38e5ae86065c
-  ws-opts:
-    headers:
-      Host: 0kxedm1x8q8lksmj07.xingbayun.buzz
-    path: /zh-cn
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@49
-  port: 54002
-  server: 142.4.110.124
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@50
-  port: 51992
-  server: 198.2.218.186
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@51
-  port: 51302
-  server: 192.74.234.82
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@54
-  network: ws
-  port: 443
-  server: 172.66.43.240
-  tls: true
-  type: vmess
-  uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
-  ws-opts:
-    headers:
-      Host: z.zorro.tk
-    path: /ou
-- alterId: 64
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】33_9@55
-  port: 55512
-  server: 140.99.59.253
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: 🇷🇺 俄罗斯联邦【付费推荐：tt.vg/vip】72_9@58
-  password: dongtaiwang.com
-  port: 20011
-  server: 46.17.43.192
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@60
-  network: ws
-  port: 23626
-  server: 26.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
-  ws-opts:
-    headers:
-      Host: 26.v2-ray.cyou
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@61
-  port: 41632
-  server: 45.153.203.83
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@64
-  network: ws
-  port: 80
-  server: tech.noaries.de
-  tls: false
-  type: vmess
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  ws-opts:
-    headers:
-      Host: nl.sharecentrepro.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@65
+  name: 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@0
   network: ws
   port: 30009
   server: 218.150.68.18
@@ -11130,88 +10790,218 @@ proxies:
     path: /835757
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】87_9@66
+  name: 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@2
   network: ws
-  port: 2052
-  server: datacenter.cu.01.biqibao.site
+  port: 443
+  server: 0kxedm1x8q8lksmj07.xingbayun.buzz
   tls: false
   type: vmess
-  uuid: c36d4223-1804-494a-a453-d4f77f10c830
+  uuid: 89d679fb-e2fb-42ff-b830-38e5ae86065c
   ws-opts:
     headers:
-      Host: detacenter.01.biqibao.site
-    path: /public
-- name: 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@68
+      Host: 0kxedm1x8q8lksmj07.xingbayun.buzz
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@4
+  port: 46902
+  server: 198.2.204.253
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@5
   password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
   port: 443
   server: 163.123.192.60
   sni: 18-140-66-207.nhost.00cdn.com
   type: trojan
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇸🇬 新加坡【付费推荐：tt.vg/vip】63_9@71
+  name: 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@6
   network: ws
-  port: 80
-  server: cdncf.scyu.app
+  port: 23626
+  server: 26.v2-ray.cyou
   tls: false
   type: vmess
-  uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
+  uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
   ws-opts:
     headers:
-      Host: ssrsub.v01.ssrsub.com
-    path: /api/v3/download.getFile
-- name: 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@72
-  password: 2dddb8e6-927a-4294-97ea-10a016e24aba
-  port: 443
-  server: de.stablize.top
-  type: trojan
-- name: 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@75
-  password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink
-  port: 443
-  server: kaizen-tw-4.mielink-dns2.com
-  sni: paydiu.com
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@76
-  port: 51004
-  server: ieplhk.lanyunshi.top
-  tls: false
-  type: vmess
-  uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@77
-  port: 20001
-  server: iepl2.airtcp.vip
-  tls: false
-  type: vmess
-  uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@79
-  port: 51002
-  server: iepl2.airtcp.vip
-  tls: false
-  type: vmess
-  uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df
+      Host: 26.v2-ray.cyou
+    path: /
 - alterId: 64
   cipher: auto
-  name: 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@80
+  name: 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@7
+  port: 41632
+  server: 45.153.203.83
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@10
+  port: 51992
+  server: 198.2.218.186
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@11
+  network: ws
+  port: 443
+  server: 172.66.43.240
+  tls: true
+  type: vmess
+  uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
+  ws-opts:
+    headers:
+      Host: z.zorro.tk
+    path: /ou
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@12
+  network: ws
+  port: 443
+  server: 172.66.46.15
+  tls: true
+  type: vmess
+  uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016
+  ws-opts:
+    headers:
+      Host: z.zorro.tk
+    path: /ou
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@13
+  network: ws
+  port: 443
+  server: cdnjs.com
+  tls: true
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  ws-opts:
+    headers:
+      Host: Lille.kotick.site
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@15
+  network: ws
+  port: 443
+  server: 192.203.230.3
+  tls: true
+  type: vmess
+  uuid: dddd0b29-1576-4003-9990-d7cea34264db
+  ws-opts:
+    headers:
+      Host: dedi2.1808.cf
+    path: /835757
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@19
+  port: 53403
+  server: 137.175.1.11
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@21
+  network: ws
+  port: 2052
+  server: 104.20.55.60
+  tls: false
+  type: vmess
+  uuid: 3f100fa9-a160-4a1c-c40d-e22070ac9785
+  ws-opts:
+    headers:
+      Host: x2.ylks01.eu.org
+    path: /qwer00
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@22
+  network: ws
+  port: 80
+  server: tech.noaries.de
+  tls: false
+  type: vmess
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  ws-opts:
+    headers:
+      Host: nl.sharecentrepro.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@23
+  network: ws
+  port: 443
+  server: 192.203.230.1
+  tls: true
+  type: vmess
+  uuid: dddd0b29-1576-4003-9990-d7cea34264db
+  ws-opts:
+    headers:
+      Host: dedi2.1808.cf
+    path: /835757
+- alterId: 0
+  cipher: auto
+  name: 伊朗【付费推荐：tt.vg/vip】15_9@24
+  port: 2087
+  server: turkey.abraak.site
+  tls: false
+  type: vmess
+  uuid: 21025839-c140-4c67-8f4c-9a413ca8de3f
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@28
+  port: 55502
+  server: 142.0.132.92
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@29
+  port: 50004
+  server: 137.175.41.200
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@31
   port: 58002
   server: 61.220.198.100
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@83
-  password: 0afcc41c-8a1a-4229-82d9-c483b48d5389
-  port: 10259
-  server: ahcm.v-too.cloud
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@84
+  name: 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@41
+  network: ws
+  port: 443
+  server: 0kxedm1x8q8lksmj05.xingbayun.buzz
+  tls: false
+  type: vmess
+  uuid: 89d679fb-e2fb-42ff-b830-38e5ae86065c
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /zh-cn
+- name: 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@45
+  password: a1956156-b1d6-468e-b22f-59765172b07d
+  port: 443
+  server: hinet.mjt001.com
+  sni: hinet.mjt001.com
+  type: trojan
+- name: 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@48
+  password: 2dddb8e6-927a-4294-97ea-10a016e24aba
+  port: 443
+  server: de.stablize.top
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@50
   network: ws
   port: 80
   server: 104.21.53.35
@@ -11222,9 +11012,47 @@ proxies:
     headers:
       Host: buyvm1.yxjnode.com
     path: /yxzbp
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@52
+  password: 0afcc41c-8a1a-4229-82d9-c483b48d5389
+  port: 10259
+  server: ahcm.v-too.cloud
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@53
+  port: 54002
+  server: 142.4.110.124
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@85
+  name: 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@55
+  port: 20001
+  server: iepl2.airtcp.vip
+  tls: false
+  type: vmess
+  uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df
+- alterId: 64
+  cipher: auto
+  name: 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@56
+  port: 54902
+  server: 54.38.154.182
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@57
+  port: 51004
+  server: ieplhk.lanyunshi.top
+  tls: false
+  type: vmess
+  uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@58
   network: ws
   port: 30866
   server: v6.heduian.online
@@ -11235,6 +11063,36 @@ proxies:
     headers:
       Host: v6.heduian.online
     path: /oooo
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@59
+  port: 51302
+  server: 192.74.234.82
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@61
+  password: 0d4926a0-9881-3609-b6ee-4716da84e59emielink
+  port: 443
+  server: kaizen-tw-4.mielink-dns2.com
+  sni: paydiu.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@62
+  port: 51002
+  server: iepl2.airtcp.vip
+  tls: false
+  type: vmess
+  uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df
+- alterId: 64
+  cipher: auto
+  name: 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@64
+  port: 50002
+  server: 198.2.203.148
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -11666,15 +11524,17 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇫🇷法国-巴黎-0-ss-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000_7@0
-  - 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:8882_7@1
-  - 🇰🇷韩国-0-0-ss-125.141.31.98:17754_7@3
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7002_7@6
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881_7@8
-  - 🇳🇱荷兰-0-0-v2ray-45.131.248.140:50068_7@11
-  - 🇳🇱荷兰-0-0-v2ray-8x69c3-8080.csb.app:443_7@12
-  - 🇳🇱荷兰-0-0-v2ray-ming2.kiwireich.com:443_7@13
-  - 🇳🇱荷兰-0-0-v2ray-new8.huvicloud.com:443_7@14
+  - 🇨🇳中国-海南-海口-ss-lmau.51unicorn.top:19924_7@0
+  - 🇷🇺俄罗斯-莫斯科-莫斯科-ss-46.17.43.192:20011_7@2
+  - 🇨🇳中国-广东-广州-ss-iepljp.51unicorn.top:21002_7@3
+  - 🇬🇧英国-伦敦-伦敦-ss2-ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444_7@4
+  - 🇫🇷法国-0-0-ss2-149.202.82.172:5500_7@5
+  - 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376_7@6
+  - 🇨🇳中国-广东-江门-ss2-mplstw.51unicorn.top:21006_7@9
+  - 🇨🇳中国-海南-海口-ss2-lmca.51unicorn.top:19920_7@10
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:8090_7@12
+  - 🇨🇳中国-北京-北京-ss2-free.themars.top:32103_7@14
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:5003_7@15
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -12066,6 +11926,7 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -12286,54 +12147,39 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】84_9@0
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】16_9@1
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】153_9@2
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@3
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】11_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】38_9@7
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@9
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@10
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@11
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@12
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】52_9@17
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@19
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】57_9@22
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@25
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@28
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】131_9@30
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@31
-  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@34
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】156_9@35
-  - 哥斯达黎加【付费推荐：tt.vg/vip】119_9@36
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@37
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@38
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】9_9@40
-  - 伊朗【付费推荐：tt.vg/vip】15_9@47
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@48
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@49
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@50
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@51
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@54
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】33_9@55
-  - 🇷🇺 俄罗斯联邦【付费推荐：tt.vg/vip】72_9@58
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@60
-  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@61
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@64
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@65
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】87_9@66
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@68
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】63_9@71
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@72
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@75
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@76
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@77
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@79
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@80
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@83
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@84
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@85
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@0
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@2
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@4
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@5
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@6
+  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@7
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@10
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@11
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@12
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@13
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@15
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@19
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@21
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@22
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@23
+  - 伊朗【付费推荐：tt.vg/vip】15_9@24
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@28
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@29
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@31
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@41
+  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@45
+  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@48
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@50
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@52
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@53
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@55
+  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@56
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@57
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@58
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@59
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@61
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@62
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@64
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -12764,15 +12610,17 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇫🇷法国-巴黎-0-ss-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000_7@0
-  - 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:8882_7@1
-  - 🇰🇷韩国-0-0-ss-125.141.31.98:17754_7@3
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7002_7@6
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881_7@8
-  - 🇳🇱荷兰-0-0-v2ray-45.131.248.140:50068_7@11
-  - 🇳🇱荷兰-0-0-v2ray-8x69c3-8080.csb.app:443_7@12
-  - 🇳🇱荷兰-0-0-v2ray-ming2.kiwireich.com:443_7@13
-  - 🇳🇱荷兰-0-0-v2ray-new8.huvicloud.com:443_7@14
+  - 🇨🇳中国-海南-海口-ss-lmau.51unicorn.top:19924_7@0
+  - 🇷🇺俄罗斯-莫斯科-莫斯科-ss-46.17.43.192:20011_7@2
+  - 🇨🇳中国-广东-广州-ss-iepljp.51unicorn.top:21002_7@3
+  - 🇬🇧英国-伦敦-伦敦-ss2-ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444_7@4
+  - 🇫🇷法国-0-0-ss2-149.202.82.172:5500_7@5
+  - 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376_7@6
+  - 🇨🇳中国-广东-江门-ss2-mplstw.51unicorn.top:21006_7@9
+  - 🇨🇳中国-海南-海口-ss2-lmca.51unicorn.top:19920_7@10
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:8090_7@12
+  - 🇨🇳中国-北京-北京-ss2-free.themars.top:32103_7@14
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:5003_7@15
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -13164,6 +13012,7 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -13384,54 +13233,39 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】84_9@0
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】16_9@1
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】153_9@2
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@3
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】11_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】38_9@7
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@9
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@10
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@11
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@12
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】52_9@17
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@19
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】57_9@22
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@25
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@28
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】131_9@30
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@31
-  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@34
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】156_9@35
-  - 哥斯达黎加【付费推荐：tt.vg/vip】119_9@36
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@37
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@38
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】9_9@40
-  - 伊朗【付费推荐：tt.vg/vip】15_9@47
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@48
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@49
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@50
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@51
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@54
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】33_9@55
-  - 🇷🇺 俄罗斯联邦【付费推荐：tt.vg/vip】72_9@58
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@60
-  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@61
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@64
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@65
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】87_9@66
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@68
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】63_9@71
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@72
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@75
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@76
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@77
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@79
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@80
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@83
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@84
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@85
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@0
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@2
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@4
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@5
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@6
+  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@7
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@10
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@11
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@12
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@13
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@15
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@19
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@21
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@22
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@23
+  - 伊朗【付费推荐：tt.vg/vip】15_9@24
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@28
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@29
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@31
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@41
+  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@45
+  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@48
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@50
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@52
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@53
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@55
+  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@56
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@57
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@58
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@59
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@61
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@62
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@64
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -13866,15 +13700,17 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇫🇷法国-巴黎-0-ss-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000_7@0
-  - 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:8882_7@1
-  - 🇰🇷韩国-0-0-ss-125.141.31.98:17754_7@3
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7002_7@6
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881_7@8
-  - 🇳🇱荷兰-0-0-v2ray-45.131.248.140:50068_7@11
-  - 🇳🇱荷兰-0-0-v2ray-8x69c3-8080.csb.app:443_7@12
-  - 🇳🇱荷兰-0-0-v2ray-ming2.kiwireich.com:443_7@13
-  - 🇳🇱荷兰-0-0-v2ray-new8.huvicloud.com:443_7@14
+  - 🇨🇳中国-海南-海口-ss-lmau.51unicorn.top:19924_7@0
+  - 🇷🇺俄罗斯-莫斯科-莫斯科-ss-46.17.43.192:20011_7@2
+  - 🇨🇳中国-广东-广州-ss-iepljp.51unicorn.top:21002_7@3
+  - 🇬🇧英国-伦敦-伦敦-ss2-ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444_7@4
+  - 🇫🇷法国-0-0-ss2-149.202.82.172:5500_7@5
+  - 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376_7@6
+  - 🇨🇳中国-广东-江门-ss2-mplstw.51unicorn.top:21006_7@9
+  - 🇨🇳中国-海南-海口-ss2-lmca.51unicorn.top:19920_7@10
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:8090_7@12
+  - 🇨🇳中国-北京-北京-ss2-free.themars.top:32103_7@14
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:5003_7@15
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -14266,6 +14102,7 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -14486,54 +14323,39 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】84_9@0
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】16_9@1
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】153_9@2
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@3
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】11_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】38_9@7
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@9
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@10
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@11
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@12
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】52_9@17
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@19
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】57_9@22
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@25
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@28
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】131_9@30
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@31
-  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@34
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】156_9@35
-  - 哥斯达黎加【付费推荐：tt.vg/vip】119_9@36
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@37
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@38
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】9_9@40
-  - 伊朗【付费推荐：tt.vg/vip】15_9@47
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@48
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@49
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@50
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@51
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@54
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】33_9@55
-  - 🇷🇺 俄罗斯联邦【付费推荐：tt.vg/vip】72_9@58
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@60
-  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@61
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@64
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@65
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】87_9@66
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@68
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】63_9@71
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@72
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@75
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@76
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@77
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@79
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@80
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@83
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@84
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@85
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@0
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@2
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@4
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@5
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@6
+  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@7
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@10
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@11
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@12
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@13
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@15
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@19
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@21
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@22
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@23
+  - 伊朗【付费推荐：tt.vg/vip】15_9@24
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@28
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@29
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@31
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@41
+  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@45
+  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@48
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@50
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@52
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@53
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@55
+  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@56
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@57
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@58
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@59
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@61
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@62
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@64
   type: select
 - name: 📲 电报信息
   proxies:
@@ -14965,15 +14787,17 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇫🇷法国-巴黎-0-ss-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000_7@0
-  - 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:8882_7@1
-  - 🇰🇷韩国-0-0-ss-125.141.31.98:17754_7@3
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7002_7@6
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881_7@8
-  - 🇳🇱荷兰-0-0-v2ray-45.131.248.140:50068_7@11
-  - 🇳🇱荷兰-0-0-v2ray-8x69c3-8080.csb.app:443_7@12
-  - 🇳🇱荷兰-0-0-v2ray-ming2.kiwireich.com:443_7@13
-  - 🇳🇱荷兰-0-0-v2ray-new8.huvicloud.com:443_7@14
+  - 🇨🇳中国-海南-海口-ss-lmau.51unicorn.top:19924_7@0
+  - 🇷🇺俄罗斯-莫斯科-莫斯科-ss-46.17.43.192:20011_7@2
+  - 🇨🇳中国-广东-广州-ss-iepljp.51unicorn.top:21002_7@3
+  - 🇬🇧英国-伦敦-伦敦-ss2-ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444_7@4
+  - 🇫🇷法国-0-0-ss2-149.202.82.172:5500_7@5
+  - 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376_7@6
+  - 🇨🇳中国-广东-江门-ss2-mplstw.51unicorn.top:21006_7@9
+  - 🇨🇳中国-海南-海口-ss2-lmca.51unicorn.top:19920_7@10
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:8090_7@12
+  - 🇨🇳中国-北京-北京-ss2-free.themars.top:32103_7@14
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:5003_7@15
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -15365,6 +15189,7 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -15585,54 +15410,39 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】84_9@0
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】16_9@1
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】153_9@2
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@3
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】11_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】38_9@7
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@9
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@10
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@11
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@12
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】52_9@17
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@19
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】57_9@22
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@25
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@28
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】131_9@30
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@31
-  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@34
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】156_9@35
-  - 哥斯达黎加【付费推荐：tt.vg/vip】119_9@36
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@37
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@38
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】9_9@40
-  - 伊朗【付费推荐：tt.vg/vip】15_9@47
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@48
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@49
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@50
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@51
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@54
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】33_9@55
-  - 🇷🇺 俄罗斯联邦【付费推荐：tt.vg/vip】72_9@58
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@60
-  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@61
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@64
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@65
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】87_9@66
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@68
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】63_9@71
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@72
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@75
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@76
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@77
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@79
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@80
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@83
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@84
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@85
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@0
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@2
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@4
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@5
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@6
+  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@7
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@10
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@11
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@12
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@13
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@15
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@19
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@21
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@22
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@23
+  - 伊朗【付费推荐：tt.vg/vip】15_9@24
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@28
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@29
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@31
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@41
+  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@45
+  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@48
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@50
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@52
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@53
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@55
+  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@56
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@57
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@58
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@59
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@61
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@62
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@64
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -16064,15 +15874,17 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇫🇷法国-巴黎-0-ss-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000_7@0
-  - 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:8882_7@1
-  - 🇰🇷韩国-0-0-ss-125.141.31.98:17754_7@3
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7002_7@6
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881_7@8
-  - 🇳🇱荷兰-0-0-v2ray-45.131.248.140:50068_7@11
-  - 🇳🇱荷兰-0-0-v2ray-8x69c3-8080.csb.app:443_7@12
-  - 🇳🇱荷兰-0-0-v2ray-ming2.kiwireich.com:443_7@13
-  - 🇳🇱荷兰-0-0-v2ray-new8.huvicloud.com:443_7@14
+  - 🇨🇳中国-海南-海口-ss-lmau.51unicorn.top:19924_7@0
+  - 🇷🇺俄罗斯-莫斯科-莫斯科-ss-46.17.43.192:20011_7@2
+  - 🇨🇳中国-广东-广州-ss-iepljp.51unicorn.top:21002_7@3
+  - 🇬🇧英国-伦敦-伦敦-ss2-ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444_7@4
+  - 🇫🇷法国-0-0-ss2-149.202.82.172:5500_7@5
+  - 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376_7@6
+  - 🇨🇳中国-广东-江门-ss2-mplstw.51unicorn.top:21006_7@9
+  - 🇨🇳中国-海南-海口-ss2-lmca.51unicorn.top:19920_7@10
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:8090_7@12
+  - 🇨🇳中国-北京-北京-ss2-free.themars.top:32103_7@14
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:5003_7@15
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -16464,6 +16276,7 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -16684,54 +16497,39 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】84_9@0
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】16_9@1
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】153_9@2
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@3
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】11_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】38_9@7
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@9
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@10
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@11
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@12
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】52_9@17
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@19
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】57_9@22
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@25
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@28
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】131_9@30
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@31
-  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@34
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】156_9@35
-  - 哥斯达黎加【付费推荐：tt.vg/vip】119_9@36
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@37
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@38
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】9_9@40
-  - 伊朗【付费推荐：tt.vg/vip】15_9@47
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@48
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@49
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@50
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@51
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@54
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】33_9@55
-  - 🇷🇺 俄罗斯联邦【付费推荐：tt.vg/vip】72_9@58
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@60
-  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@61
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@64
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@65
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】87_9@66
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@68
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】63_9@71
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@72
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@75
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@76
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@77
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@79
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@80
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@83
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@84
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@85
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@0
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@2
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@4
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@5
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@6
+  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@7
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@10
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@11
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@12
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@13
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@15
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@19
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@21
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@22
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@23
+  - 伊朗【付费推荐：tt.vg/vip】15_9@24
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@28
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@29
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@31
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@41
+  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@45
+  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@48
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@50
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@52
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@53
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@55
+  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@56
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@57
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@58
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@59
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@61
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@62
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@64
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -17163,15 +16961,17 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇫🇷法国-巴黎-0-ss-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000_7@0
-  - 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:8882_7@1
-  - 🇰🇷韩国-0-0-ss-125.141.31.98:17754_7@3
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7002_7@6
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881_7@8
-  - 🇳🇱荷兰-0-0-v2ray-45.131.248.140:50068_7@11
-  - 🇳🇱荷兰-0-0-v2ray-8x69c3-8080.csb.app:443_7@12
-  - 🇳🇱荷兰-0-0-v2ray-ming2.kiwireich.com:443_7@13
-  - 🇳🇱荷兰-0-0-v2ray-new8.huvicloud.com:443_7@14
+  - 🇨🇳中国-海南-海口-ss-lmau.51unicorn.top:19924_7@0
+  - 🇷🇺俄罗斯-莫斯科-莫斯科-ss-46.17.43.192:20011_7@2
+  - 🇨🇳中国-广东-广州-ss-iepljp.51unicorn.top:21002_7@3
+  - 🇬🇧英国-伦敦-伦敦-ss2-ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444_7@4
+  - 🇫🇷法国-0-0-ss2-149.202.82.172:5500_7@5
+  - 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376_7@6
+  - 🇨🇳中国-广东-江门-ss2-mplstw.51unicorn.top:21006_7@9
+  - 🇨🇳中国-海南-海口-ss2-lmca.51unicorn.top:19920_7@10
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:8090_7@12
+  - 🇨🇳中国-北京-北京-ss2-free.themars.top:32103_7@14
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:5003_7@15
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -17563,6 +17363,7 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -17783,54 +17584,39 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】84_9@0
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】16_9@1
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】153_9@2
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@3
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】11_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】38_9@7
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@9
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@10
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@11
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@12
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】52_9@17
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@19
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】57_9@22
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@25
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@28
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】131_9@30
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@31
-  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@34
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】156_9@35
-  - 哥斯达黎加【付费推荐：tt.vg/vip】119_9@36
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@37
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@38
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】9_9@40
-  - 伊朗【付费推荐：tt.vg/vip】15_9@47
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@48
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@49
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@50
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@51
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@54
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】33_9@55
-  - 🇷🇺 俄罗斯联邦【付费推荐：tt.vg/vip】72_9@58
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@60
-  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@61
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@64
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@65
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】87_9@66
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@68
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】63_9@71
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@72
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@75
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@76
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@77
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@79
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@80
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@83
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@84
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@85
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@0
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@2
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@4
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@5
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@6
+  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@7
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@10
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@11
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@12
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@13
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@15
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@19
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@21
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@22
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@23
+  - 伊朗【付费推荐：tt.vg/vip】15_9@24
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@28
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@29
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@31
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@41
+  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@45
+  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@48
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@50
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@52
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@53
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@55
+  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@56
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@57
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@58
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@59
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@61
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@62
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@64
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -18279,15 +18065,17 @@ proxy-groups:
   - 🇸🇬_SG_新加坡->🇦🇪_AE_阿联酋_6@22
   - 🇸🇬_SG_新加坡_3_6@23
   - 🇸🇬_SG_新加坡_4_6@24
-  - 🇫🇷法国-巴黎-0-ss-ak1660.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:8000_7@0
-  - 🇩🇪德国-法兰克福-法兰克福-ss-193.108.118.36:8882_7@1
-  - 🇰🇷韩国-0-0-ss-125.141.31.98:17754_7@3
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:7002_7@6
-  - 🇺🇸美国-康涅狄格-0-ss2-172.99.190.87:8881_7@8
-  - 🇳🇱荷兰-0-0-v2ray-45.131.248.140:50068_7@11
-  - 🇳🇱荷兰-0-0-v2ray-8x69c3-8080.csb.app:443_7@12
-  - 🇳🇱荷兰-0-0-v2ray-ming2.kiwireich.com:443_7@13
-  - 🇳🇱荷兰-0-0-v2ray-new8.huvicloud.com:443_7@14
+  - 🇨🇳中国-海南-海口-ss-lmau.51unicorn.top:19924_7@0
+  - 🇷🇺俄罗斯-莫斯科-莫斯科-ss-46.17.43.192:20011_7@2
+  - 🇨🇳中国-广东-广州-ss-iepljp.51unicorn.top:21002_7@3
+  - 🇬🇧英国-伦敦-伦敦-ss2-ak1749.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:4444_7@4
+  - 🇫🇷法国-0-0-ss2-149.202.82.172:5500_7@5
+  - 🇨🇦加拿大-魁北克-蒙特利尔-ss2-158.51.121.154:2376_7@6
+  - 🇨🇳中国-广东-江门-ss2-mplstw.51unicorn.top:21006_7@9
+  - 🇨🇳中国-海南-海口-ss2-lmca.51unicorn.top:19920_7@10
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:8090_7@12
+  - 🇨🇳中国-北京-北京-ss2-free.themars.top:32103_7@14
+  - 🇺🇸美国-0-0-ss2-134.195.196.149:5003_7@15
   - 🇺🇸_US_美国_1_0@0_8@0
   - 🇹🇼_TW_台湾->🇺🇸_US_美国_1_0@1_8@1
   - 🇨🇦_CA_加拿大_1_0@2_8@2
@@ -18679,6 +18467,7 @@ proxy-groups:
   - 🇨🇳_CN_中国->🇭🇰_HK_香港_15@25_8@407
   - 🇺🇸_US_美国_8_15@26_8@408
   - 🇨🇳_CN_中国_3_15@27_8@409
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_15@28_8@410
   - 🇮🇩_ID_印度尼西亚_2_15@30_8@411
   - 🇯🇵_JP_日本_3_15@34_8@412
   - 🇹🇼_TW_台湾_2_15@35_8@413
@@ -18899,54 +18688,39 @@ proxy-groups:
   - 🇺🇸_US_美国_15_24@40_8@630
   - 🇺🇸_US_美国_16_24@41_8@631
   - 🇨🇦_CA_加拿大_3_24@42_8@632
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】84_9@0
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】16_9@1
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】153_9@2
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@3
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】11_9@5
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】38_9@7
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@9
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@10
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@11
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@12
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@15
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】52_9@17
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@19
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】57_9@22
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@25
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@28
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】131_9@30
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@31
-  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@34
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】156_9@35
-  - 哥斯达黎加【付费推荐：tt.vg/vip】119_9@36
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@37
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@38
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】9_9@40
-  - 伊朗【付费推荐：tt.vg/vip】15_9@47
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@48
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@49
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@50
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@51
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@54
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】33_9@55
-  - 🇷🇺 俄罗斯联邦【付费推荐：tt.vg/vip】72_9@58
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@60
-  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@61
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@64
-  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@65
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】87_9@66
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@68
-  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】63_9@71
-  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@72
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@75
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@76
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@77
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@79
-  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@80
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@83
-  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@84
-  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@85
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】78_9@0
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】24_9@2
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】49_9@4
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】113_9@5
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】144_9@6
+  - 🇳🇱 荷兰【付费推荐：tt.vg/vip】149_9@7
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】59_9@10
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】2_9@11
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】21_9@12
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】60_9@13
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】158_9@15
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】62_9@19
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】55_9@21
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】50_9@22
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】99_9@23
+  - 伊朗【付费推荐：tt.vg/vip】15_9@24
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】146_9@28
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】86_9@29
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】64_9@31
+  - 🇰🇷 韩国【付费推荐：tt.vg/vip】30_9@41
+  - 🇸🇬 新加坡【付费推荐：tt.vg/vip】91_9@45
+  - 🇯🇵 日本【付费推荐：tt.vg/vip】26_9@48
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】136_9@50
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】75_9@52
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】54_9@53
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】124_9@55
+  - 🇩🇪 德国【付费推荐：tt.vg/vip】96_9@56
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】69_9@57
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】126_9@58
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】97_9@59
+  - 🇨🇳 台湾【付费推荐：tt.vg/vip】51_9@61
+  - 🇨🇳 中国【付费推荐：tt.vg/vip】128_9@62
+  - 🇺🇲 美国【付费推荐：tt.vg/vip】123_9@64
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
