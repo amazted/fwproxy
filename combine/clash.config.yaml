@@ -2717,20 +2717,6 @@ proxies:
   cipher: auto
   name: 美国 007_3@52
   network: ws
-  port: 80
-  server: 143.198.94.243
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
-  ws-opts:
-    headers:
-      Host: 143.198.94.243
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 美国 008_3@53
-  network: ws
   port: 8080
   server: lion.narcod.shop
   skip-cert-verify: false
@@ -2741,6 +2727,20 @@ proxies:
     headers:
       Host: lion.narcod.shop
     path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 008_3@53
+  network: ws
+  port: 80
+  server: 143.198.94.243
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 89ba7768-a83a-4c01-8012-8fdf0847d2ae
+  ws-opts:
+    headers:
+      Host: 143.198.94.243
+    path: /v2ray
 - alterId: 0
   cipher: auto
   name: 美国 009_3@54
